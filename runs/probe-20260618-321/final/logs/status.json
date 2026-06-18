@@ -1,0 +1,15 @@
+{
+  "agent_status": 0,
+  "baseline_status": 0,
+  "budgets": {
+    "agent": 180,
+    "baseline": 240,
+    "finalization_reserve": 120,
+    "total": 420
+  },
+  "elapsed_seconds": 222.036,
+  "final_size": 1848,
+  "runtime_secret_names_loaded": [],
+  "started": 1781783167,
+  "success": true
+}

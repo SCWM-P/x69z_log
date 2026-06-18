@@ -1,0 +1,6 @@
+[started] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-7", "ok": true, "remote": "gitlab"}, {"branch": "probe-20260618-7", "ok": true, "remote": "github"}]}
+[baseline-ready] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-90", "ok": true, "remote": "gitlab"}, {"branch": "probe-20260618-90", "ok": true, "remote": "github"}]}
+[agent-finished] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-264", "ok": true, "remote": "gitlab"}, {"branch": "probe-20260618-264", "ok": true, "remote": "github"}]}
