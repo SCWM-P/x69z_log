@@ -1,0 +1,19 @@
+{
+  "budget_seconds": 180,
+  "candidate": "/work/v122/agent/candidate/result.zip",
+  "candidate_exists": true,
+  "elapsed_seconds": 101.691,
+  "provider": "daseinai",
+  "provider_attempts": [
+    {
+      "elapsed_ms": 335,
+      "error": "",
+      "provider": "daseinai",
+      "status": 200
+    }
+  ],
+  "returncode": 0,
+  "rows_per_target": 5,
+  "started": 1781783270,
+  "x69z_node_limit": 3
+}

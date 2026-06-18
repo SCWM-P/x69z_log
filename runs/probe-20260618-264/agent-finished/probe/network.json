@@ -1,0 +1,56 @@
+[
+  {
+    "elapsed_ms": 12042,
+    "error": "URLError: <urlopen error timed out>",
+    "status": 0,
+    "url": "https://api.openai.com/v1/models"
+  },
+  {
+    "elapsed_ms": 774,
+    "error": "",
+    "status": 200,
+    "url": "https://www.litellm.org/health/liveliness"
+  },
+  {
+    "elapsed_ms": 426,
+    "error": "",
+    "status": 200,
+    "url": "https://www.daseinai.xyz"
+  },
+  {
+    "elapsed_ms": 374,
+    "error": "",
+    "status": 200,
+    "url": "https://open.bigmodel.cn"
+  },
+  {
+    "elapsed_ms": 116,
+    "error": "",
+    "status": 200,
+    "url": "https://www.baidu.com"
+  },
+  {
+    "elapsed_ms": 230,
+    "error": "",
+    "status": 200,
+    "url": "https://www.qq.com"
+  },
+  {
+    "elapsed_ms": 368,
+    "error": "",
+    "status": 200,
+    "url": "https://gitee.com"
+  },
+  {
+    "elapsed_ms": 12032,
+    "error": "URLError: <urlopen error timed out>",
+    "status": 0,
+    "url": "https://github.com"
+  },
+  {
+    "elapsed_ms": 12435,
+    "error": "URLError: <urlopen error timed out>",
+    "status": 0,
+    "url": "https://gitlab.com"
+  }
+]
