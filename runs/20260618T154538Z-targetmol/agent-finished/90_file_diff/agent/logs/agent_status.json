@@ -1,0 +1,23 @@
+{
+  "budget_seconds": 12600,
+  "candidate": "/work/targetmol/run/agent/candidate/result.zip",
+  "candidate_exists": true,
+  "completed_at": "2026-06-18T15:51:10Z",
+  "elapsed_seconds": 145.056,
+  "pi_soft_time_minutes": 210,
+  "provider": "daseinai",
+  "provider_attempts": [
+    {
+      "elapsed_ms": 7337,
+      "error": "",
+      "provider": "daseinai",
+      "status": 200
+    }
+  ],
+  "returncode": 0,
+  "rows_per_target": 5,
+  "started_at": "2026-06-18T15:48:44Z",
+  "ts": "2026-06-18T15:48:44Z",
+  "x69z_node_limit": "unbounded",
+  "x69z_reference_dir": "/mnt/x69z-reference"
+}
