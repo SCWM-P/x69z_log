@@ -1,0 +1,11 @@
+{
+  "command": [
+    "bash",
+    "-lc",
+    "sleep 0.2 & child=$!; wait \"$child\"; echo child-ok"
+  ],
+  "elapsed_ms": 208,
+  "status": 0,
+  "stderr": "",
+  "stdout": "child-ok\n"
+}

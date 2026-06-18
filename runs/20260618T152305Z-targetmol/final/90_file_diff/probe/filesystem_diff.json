@@ -1,0 +1,21 @@
+{
+  "added_paths": [
+    "/.dockerenv",
+    "/etc/mtab",
+    "/root/.ssh",
+    "/root/.ssh/known_hosts",
+    "/root/.ssh/known_hosts.old",
+    "/run/secrets",
+    "/run/secrets/targetmol_github_ssh_key",
+    "/saisdata",
+    "/saisresult",
+    "/tmp/x69z_target_molecule_scratch",
+    "/tmp/x69z_target_molecule_scratch/run-60-1781796202772",
+    "/tmp/x69z_target_molecule_scratch/run-60-1781796202772/result1.csv"
+  ],
+  "baseline_count": 4210,
+  "current_count": 4222,
+  "find_status": 0,
+  "removed_paths": [],
+  "truncated": false
+}
