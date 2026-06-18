@@ -1,0 +1,2 @@
+[started] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-7", "ok": true, "remote": "gitlab"}, {"branch": "probe-20260618-7", "ok": true, "remote": "github"}]}
