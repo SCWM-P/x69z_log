@@ -1,10 +1,20 @@
 {
   "budgets": {
-    "agent": 180,
-    "baseline": 240,
-    "finalization_reserve": 120,
-    "total": 420
+    "agent": 9000,
+    "baseline": 1500,
+    "finalization_reserve": 900,
+    "total": 10800
   },
-  "runtime_secret_names_loaded": [],
-  "started": 1781783167
+  "log_branch": "probe-20260618-7",
+  "runtime_secret_names_loaded": [
+    "OPENAI_API_KEY",
+    "ANTHROPIC_AUTH_TOKEN",
+    "DASEINAI_API_KEY",
+    "GITLAB_PERSONAL_TOKEN",
+    "V122_GITLAB_REPOSITORY",
+    "V122_GITHUB_REPOSITORY",
+    "V122_GITHUB_SSH_KEY_PATH",
+    "V122_GITHUB_SSH_PRIVATE_KEY"
+  ],
+  "started": 1781785609
 }
