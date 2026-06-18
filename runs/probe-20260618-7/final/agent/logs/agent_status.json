@@ -1,0 +1,19 @@
+{
+  "budget_seconds": 9000,
+  "candidate": "/work/v122/agent/candidate/result.zip",
+  "candidate_exists": false,
+  "elapsed_seconds": 3.4,
+  "provider": "litellm",
+  "provider_attempts": [
+    {
+      "elapsed_ms": 2560,
+      "error": "",
+      "provider": "litellm",
+      "status": 200
+    }
+  ],
+  "returncode": 1,
+  "rows_per_target": 5,
+  "started": 1781785830,
+  "x69z_node_limit": 3
+}
