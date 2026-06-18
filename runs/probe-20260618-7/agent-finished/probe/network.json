@@ -1,0 +1,56 @@
+[
+  {
+    "elapsed_ms": 12047,
+    "error": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "status": 0,
+    "url": "https://api.openai.com/v1/models"
+  },
+  {
+    "elapsed_ms": 2217,
+    "error": "",
+    "status": 200,
+    "url": "https://www.litellm.org/health/liveliness"
+  },
+  {
+    "elapsed_ms": 1818,
+    "error": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "status": 0,
+    "url": "https://www.daseinai.xyz"
+  },
+  {
+    "elapsed_ms": 185,
+    "error": "",
+    "status": 200,
+    "url": "https://open.bigmodel.cn"
+  },
+  {
+    "elapsed_ms": 98,
+    "error": "",
+    "status": 200,
+    "url": "https://www.baidu.com"
+  },
+  {
+    "elapsed_ms": 138,
+    "error": "",
+    "status": 200,
+    "url": "https://www.qq.com"
+  },
+  {
+    "elapsed_ms": 279,
+    "error": "",
+    "status": 200,
+    "url": "https://gitee.com"
+  },
+  {
+    "elapsed_ms": 670,
+    "error": "",
+    "status": 200,
+    "url": "https://github.com"
+  },
+  {
+    "elapsed_ms": 12727,
+    "error": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "status": 0,
+    "url": "https://gitlab.com"
+  }
+]
