@@ -1,0 +1,27 @@
+[
+  {
+    "configured": true,
+    "elapsed_ms": 15017,
+    "error": "URLError: <urlopen error timed out>",
+    "name": "openai_models",
+    "status": 0
+  },
+  {
+    "configured": true,
+    "elapsed_ms": 643,
+    "error": "",
+    "name": "litellm_models",
+    "status": 200
+  },
+  {
+    "configured": true,
+    "elapsed_ms": 323,
+    "error": "",
+    "name": "daseinai_models",
+    "status": 200
+  },
+  {
+    "configured": false,
+    "name": "glm_models"
+  }
+]

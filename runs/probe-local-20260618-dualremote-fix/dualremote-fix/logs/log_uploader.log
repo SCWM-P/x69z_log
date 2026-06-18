@@ -1,0 +1,8 @@
+[started] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-7", "ok": true, "remote": "gitlab"}, {"error": "CalledProcessError: Command '['git', 'clone', '--depth', '1', 'git@github.com:SCWM-P/x69z_log.git', '/tmp/v122-git-upload-tfc_443w/repo']' returned non-zero exit status 128.", "ok": false, "remote": "github"}]}
+[baseline-ready] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-74", "ok": true, "remote": "gitlab"}, {"error": "CalledProcessError: Command '['git', 'clone', '--depth', '1', 'git@github.com:SCWM-P/x69z_log.git', '/tmp/v122-git-upload-63u22unc/repo']' returned non-zero exit status 128.", "ok": false, "remote": "github"}]}
+[agent-finished] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-214", "ok": true, "remote": "gitlab"}, {"error": "CalledProcessError: Command '['git', 'clone', '--depth', '1', 'git@github.com:SCWM-P/x69z_log.git', '/tmp/v122-git-upload-b8ap9_co/repo']' returned non-zero exit status 128.", "ok": false, "remote": "github"}]}
+[final] returncode=0
+{"event": "log_upload_complete", "results": [{"branch": "probe-20260618-254", "ok": true, "remote": "gitlab"}, {"error": "CalledProcessError: Command '['git', 'clone', '--depth', '1', 'git@github.com:SCWM-P/x69z_log.git', '/tmp/v122-git-upload-d0_74v3c/repo']' returned non-zero exit status 128.", "ok": false, "remote": "github"}]}
