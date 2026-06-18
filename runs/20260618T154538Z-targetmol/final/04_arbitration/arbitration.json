@@ -1,0 +1,32 @@
+{
+  "agent": "/work/targetmol/run/agent/candidate/result.zip",
+  "baseline": "/work/targetmol/run/baseline/result.zip",
+  "decision": "hybrid",
+  "targets": {
+    "result1.csv": [
+      {
+        "accepted_replacements": 0,
+        "baseline_selected": 5,
+        "final_count": 5,
+        "maximum": 5
+      }
+    ],
+    "result2.csv": [
+      {
+        "accepted_replacements": 0,
+        "baseline_selected": 5,
+        "final_count": 5,
+        "maximum": 5
+      }
+    ],
+    "result3.csv": [
+      {
+        "accepted_replacements": 0,
+        "baseline_selected": 5,
+        "final_count": 5,
+        "maximum": 5
+      }
+    ]
+  },
+  "ts": "2026-06-18T15:51:30Z"
+}
