@@ -1,0 +1,20 @@
+model = "gpt-5.5"
+model_provider = "daseinai"
+model_reasoning_effort = "medium"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[model_providers.daseinai]
+name = "daseinai"
+base_url = "https://www.daseinai.xyz"
+wire_api = "responses"
+env_key = "DASEINAI_API_KEY"
+requires_openai_auth = false
+
+[mcp_servers.x69z]
+command = "/opt/conda/bin/auto-research"
+args = ["serve-mcp", "--root", "/work/targetmol/run/agent/project/.x69z", "--actor-role", "PI", "--actor-id", "pi_codex", "--approval-mode", "session-wide", "--usage"]
+startup_timeout_sec = 30
+
+[projects."/work/targetmol/run/agent/project"]
+trust_level = "trusted"
