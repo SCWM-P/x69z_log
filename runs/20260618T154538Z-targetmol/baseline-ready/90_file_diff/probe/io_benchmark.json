@@ -1,0 +1,14 @@
+{
+  "command": [
+    "dd",
+    "if=/dev/zero",
+    "of=/work/targetmol/run/probe/io-benchmark.bin",
+    "bs=1M",
+    "count=32",
+    "conv=fsync"
+  ],
+  "elapsed_ms": 240,
+  "status": 0,
+  "stderr": "32+0 records in\n32+0 records out\n33554432 bytes (34 MB, 32 MiB) copied, 0.236021 s, 142 MB/s\n",
+  "stdout": ""
+}

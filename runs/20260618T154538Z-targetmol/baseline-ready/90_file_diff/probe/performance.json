@@ -1,0 +1,17 @@
+{
+  "cpu_elapsed_ms": 130,
+  "cpu_sha256_iterations": 4096,
+  "gpu": {
+    "command": [
+      "/opt/conda/bin/python",
+      "-c",
+      "import json,time; r={'available':False}; \ntry:\n import cupy as cp\n t=time.monotonic(); a=cp.arange(1000000,dtype=cp.float32); v=float(cp.sum(a).get()); r={'available':True,'elapsed_ms':round((time.monotonic()-t)*1000),'sum':v}\nexcept Exception as e:\n r={'available':False,'error':type(e).__name__+': '+str(e)[:300]}\nprint(json.dumps(r))"
+    ],
+    "elapsed_ms": 447,
+    "status": 0,
+    "stderr": "",
+    "stdout": "{\"available\": false, \"error\": \"CUDARuntimeError: cudaErrorInsufficientDriver: CUDA driver version is insufficient for CUDA runtime version\"}\n"
+  },
+  "memory_bytes": 134217728,
+  "memory_touch_elapsed_ms": 87
+}
