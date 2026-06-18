@@ -1,0 +1,10 @@
+{
+  "budgets": {
+    "agent": 180,
+    "baseline": 240,
+    "finalization_reserve": 120,
+    "total": 420
+  },
+  "runtime_secret_names_loaded": [],
+  "started": 1781783167
+}
