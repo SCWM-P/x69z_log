@@ -1,0 +1,7 @@
+{
+  "agent": "/work/targetmol/run/agent/candidate/result.zip",
+  "baseline": "/work/targetmol/run/baseline/result.zip",
+  "decision": "baseline",
+  "targets": {},
+  "ts": "2026-06-19T07:49:14Z"
+}
