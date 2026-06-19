@@ -1,0 +1,1 @@
+{"authenticated_api_configured": 3, "authenticated_api_ok": 2, "child_process_ok": true, "event": "probe_complete", "filesystem_added": 14, "gpu_probe_ok": false, "io_benchmark_ok": true, "network_ok": 6, "network_total": 9, "targets": 3, "ts": "2026-06-19T07:56:40Z"}
