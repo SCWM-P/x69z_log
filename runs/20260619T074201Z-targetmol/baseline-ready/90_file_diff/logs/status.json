@@ -1,0 +1,15 @@
+{
+  "baseline_status": 0,
+  "budgets": {
+    "agent": 13500,
+    "baseline": 240,
+    "finalization_reserve": 120,
+    "total": 13740
+  },
+  "completed_at": null,
+  "run_id": "20260619T074201Z-targetmol",
+  "runtime_secret_names_loaded": [],
+  "started_at": "2026-06-19T07:42:01Z",
+  "success": false,
+  "updated_at": "2026-06-19T07:43:29Z"
+}
