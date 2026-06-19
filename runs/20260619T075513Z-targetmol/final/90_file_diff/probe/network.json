@@ -1,0 +1,56 @@
+[
+  {
+    "elapsed_ms": 22297,
+    "error": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "status": 0,
+    "url": "https://api.openai.com/v1/models"
+  },
+  {
+    "elapsed_ms": 10018,
+    "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "status": 0,
+    "url": "https://www.litellm.org/health/liveliness"
+  },
+  {
+    "elapsed_ms": 532,
+    "error": "",
+    "status": 200,
+    "url": "https://www.daseinai.xyz"
+  },
+  {
+    "elapsed_ms": 226,
+    "error": "",
+    "status": 200,
+    "url": "https://open.bigmodel.cn"
+  },
+  {
+    "elapsed_ms": 165,
+    "error": "",
+    "status": 200,
+    "url": "https://www.baidu.com"
+  },
+  {
+    "elapsed_ms": 152,
+    "error": "",
+    "status": 200,
+    "url": "https://www.qq.com"
+  },
+  {
+    "elapsed_ms": 5338,
+    "error": "",
+    "status": 200,
+    "url": "https://gitee.com"
+  },
+  {
+    "elapsed_ms": 344,
+    "error": "",
+    "status": 200,
+    "url": "https://github.com"
+  },
+  {
+    "elapsed_ms": 11522,
+    "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
+    "status": 0,
+    "url": "https://gitlab.com"
+  }
+]

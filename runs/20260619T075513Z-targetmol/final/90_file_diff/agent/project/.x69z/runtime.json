@@ -1,0 +1,11 @@
+{
+  "archive_dir": "evolution_archive",
+  "artifact_dir": "artifacts",
+  "exchange_dir": "agent_exchange",
+  "lab_policy_file": "lab_policy.json",
+  "recruitment_dir": "recruitment",
+  "research_dir": "research_tree",
+  "runtime": "x69z-auto-research",
+  "schema_version": "0.1",
+  "usage_dir": "usage"
+}

@@ -1,0 +1,52 @@
+{
+  "agent": "/work/targetmol/run/agent/candidate/result.zip",
+  "baseline": "/work/targetmol/run/baseline/result.zip",
+  "decision": "hybrid",
+  "targets": {
+    "result1.csv": [
+      {
+        "accepted_for_ranking": false,
+        "error": "ValueError: , line 27, in main\n    status = AllChem.EmbedMolecule(embedded, AllChem.ETKDGv3(), randomSeed=0xC0FFEE)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nBoost.Python.ArgumentError: Python argument types in\n    rdkit.Chem.rdDistGeom.EmbedMolecule(Mol, EmbedParameters)\ndid not match C++ signature:\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, RDKit::DGeomHelpers::EmbedParameters {lvalue} params)\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, unsigned int maxAttempts=0, int randomSeed=-1, bool clearConfs=True, bool useRandomCoords=False, double boxSizeMult=2.0, bool randNegEig=True, unsigned int numZeroFail=1, boost::python::dict {lvalue} coordMap={}, double forceTol=0.001, bool ignoreSmoothingFailures=False, bool enforceChirality=True, bool useExpTorsionAnglePrefs=True, bool useBasicKnowledge=True, bool printExpTorsionAngles=False, bool useSmallRingTorsions=False, bool useMacrocycleTorsions=True, unsigned int ETversion=2, bool useMacrocycle14c",
+        "smiles": "O=C(Nc1cc(-c2cc3[nH]c4ccccc4c3cc2F)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1"
+      },
+      {
+        "accepted_for_ranking": false,
+        "error": "ValueError: , line 27, in main\n    status = AllChem.EmbedMolecule(embedded, AllChem.ETKDGv3(), randomSeed=0xC0FFEE)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nBoost.Python.ArgumentError: Python argument types in\n    rdkit.Chem.rdDistGeom.EmbedMolecule(Mol, EmbedParameters)\ndid not match C++ signature:\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, RDKit::DGeomHelpers::EmbedParameters {lvalue} params)\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, unsigned int maxAttempts=0, int randomSeed=-1, bool clearConfs=True, bool useRandomCoords=False, double boxSizeMult=2.0, bool randNegEig=True, unsigned int numZeroFail=1, boost::python::dict {lvalue} coordMap={}, double forceTol=0.001, bool ignoreSmoothingFailures=False, bool enforceChirality=True, bool useExpTorsionAnglePrefs=True, bool useBasicKnowledge=True, bool printExpTorsionAngles=False, bool useSmallRingTorsions=False, bool useMacrocycleTorsions=True, unsigned int ETversion=2, bool useMacrocycle14c",
+        "smiles": "O=C(Nc1cc(-c2ccc3c([nH]c4ccccc43)c2F)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1"
+      },
+      {
+        "accepted_replacements": 0,
+        "baseline_selected": 5,
+        "final_count": 5,
+        "maximum": 5
+      }
+    ],
+    "result2.csv": [
+      {
+        "accepted_replacements": 0,
+        "baseline_selected": 5,
+        "final_count": 5,
+        "maximum": 5
+      }
+    ],
+    "result3.csv": [
+      {
+        "accepted_for_ranking": false,
+        "error": "ValueError: , line 27, in main\n    status = AllChem.EmbedMolecule(embedded, AllChem.ETKDGv3(), randomSeed=0xC0FFEE)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nBoost.Python.ArgumentError: Python argument types in\n    rdkit.Chem.rdDistGeom.EmbedMolecule(Mol, EmbedParameters)\ndid not match C++ signature:\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, RDKit::DGeomHelpers::EmbedParameters {lvalue} params)\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, unsigned int maxAttempts=0, int randomSeed=-1, bool clearConfs=True, bool useRandomCoords=False, double boxSizeMult=2.0, bool randNegEig=True, unsigned int numZeroFail=1, boost::python::dict {lvalue} coordMap={}, double forceTol=0.001, bool ignoreSmoothingFailures=False, bool enforceChirality=True, bool useExpTorsionAnglePrefs=True, bool useBasicKnowledge=True, bool printExpTorsionAngles=False, bool useSmallRingTorsions=False, bool useMacrocycleTorsions=True, unsigned int ETversion=2, bool useMacrocycle14c",
+        "smiles": "O=C(Nc1cc(-c2cc3[nH]c4ccccc4c3cc2F)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1"
+      },
+      {
+        "accepted_for_ranking": false,
+        "error": "ValueError: , line 27, in main\n    status = AllChem.EmbedMolecule(embedded, AllChem.ETKDGv3(), randomSeed=0xC0FFEE)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nBoost.Python.ArgumentError: Python argument types in\n    rdkit.Chem.rdDistGeom.EmbedMolecule(Mol, EmbedParameters)\ndid not match C++ signature:\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, RDKit::DGeomHelpers::EmbedParameters {lvalue} params)\n    EmbedMolecule(RDKit::ROMol {lvalue} mol, unsigned int maxAttempts=0, int randomSeed=-1, bool clearConfs=True, bool useRandomCoords=False, double boxSizeMult=2.0, bool randNegEig=True, unsigned int numZeroFail=1, boost::python::dict {lvalue} coordMap={}, double forceTol=0.001, bool ignoreSmoothingFailures=False, bool enforceChirality=True, bool useExpTorsionAnglePrefs=True, bool useBasicKnowledge=True, bool printExpTorsionAngles=False, bool useSmallRingTorsions=False, bool useMacrocycleTorsions=True, unsigned int ETversion=2, bool useMacrocycle14c",
+        "smiles": "O=C(Nc1cc(-c2cc(F)c3c(c2)[nH]c2ccccc23)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1"
+      },
+      {
+        "accepted_replacements": 0,
+        "baseline_selected": 5,
+        "final_count": 5,
+        "maximum": 5
+      }
+    ]
+  },
+  "ts": "2026-06-19T08:02:07Z"
+}
