@@ -1,0 +1,21 @@
+{
+  "added_paths": [
+    "/.dockerenv",
+    "/etc/mtab",
+    "/mnt/x69z-reference",
+    "/root/.ssh",
+    "/root/.ssh/known_hosts",
+    "/root/.ssh/known_hosts.old",
+    "/run/secrets",
+    "/run/secrets/targetmol_github_ssh_key",
+    "/saisdata",
+    "/saisresult",
+    "/tmp/x69z_target_molecule_scratch",
+    "/tmp/x69z_target_molecule_scratch/run-59-1782023382189"
+  ],
+  "baseline_count": 4227,
+  "current_count": 4239,
+  "find_status": 0,
+  "removed_paths": [],
+  "truncated": false
+}
