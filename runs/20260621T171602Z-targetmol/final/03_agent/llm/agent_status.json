@@ -1,0 +1,26 @@
+{
+  "baseline_visibility": "hidden_from_agent_project_used_only_by_outer_fallback",
+  "budget_seconds": 90,
+  "candidate": "/work/targetmol/run/agent/candidate/result.zip",
+  "candidate_exists": true,
+  "candidate_salvage_reason": "no valid non-baseline zip found after Codex exit",
+  "candidate_salvaged_from": "/work/targetmol/run/baseline/result.zip",
+  "completed_at": "2026-06-21T17:18:45Z",
+  "elapsed_seconds": 90.083,
+  "pi_soft_time_minutes": 5,
+  "provider": "daseinai",
+  "provider_attempts": [
+    {
+      "elapsed_ms": 1170,
+      "error": "",
+      "provider": "daseinai",
+      "status": 200
+    }
+  ],
+  "rows_per_target": 1,
+  "started_at": "2026-06-21T17:17:14Z",
+  "timeout": true,
+  "ts": "2026-06-21T17:17:14Z",
+  "x69z_node_limit": 3,
+  "x69z_reference_dir": "/mnt/x69z-reference"
+}
