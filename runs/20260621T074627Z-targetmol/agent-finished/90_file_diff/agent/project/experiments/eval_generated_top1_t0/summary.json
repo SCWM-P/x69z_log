@@ -1,0 +1,43 @@
+{
+  "elapsed_seconds": 0.733,
+  "failure_count": 0,
+  "label": "generated_top1_t0",
+  "molecule_count": 3,
+  "official_weighted_proxy_score_mean": 71.1974,
+  "official_weighted_proxy_score_min": 71.145,
+  "ok_count": 3,
+  "outputs": {
+    "failures_jsonl": "experiments/eval_generated_top1_t0/failures.jsonl",
+    "metrics_jsonl": "experiments/eval_generated_top1_t0/metrics.jsonl",
+    "per_molecule_csv": "experiments/eval_generated_top1_t0/per_molecule.csv"
+  },
+  "pdb_dir": "/saisdata/37",
+  "proxy_score_mean": 69.2527,
+  "proxy_score_min": 68.7617,
+  "result_zip": "experiments/candidates/generated_top1.zip",
+  "slowest": [
+    {
+      "prep_ms": null,
+      "row": 1,
+      "smiles": "O=C(Nc1cc(-c2cc3[nH]c4ccccc4c3cc2F)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+      "target": "result1.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": null,
+      "row": 1,
+      "smiles": "O=C(Nc1cc(-c2cc3[nH]c4ccccc4c3cc2F)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+      "target": "result2.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": null,
+      "row": 1,
+      "smiles": "O=C(Nc1cc(-c2ccc3c(c2)[nH]c2ccccc23)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+      "target": "result3.csv",
+      "vina_ms": null
+    }
+  ],
+  "tier": 0,
+  "ts": "2026-06-21T08:02:56Z"
+}

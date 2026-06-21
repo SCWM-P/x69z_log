@@ -1,0 +1,63 @@
+{
+  "agent_status": 0,
+  "baseline_impl": "targetmol_v2",
+  "baseline_offline_eval": null,
+  "baseline_search_pool_per_target": 96,
+  "baseline_status": 0,
+  "budgets": {
+    "agent": 9000,
+    "baseline": 1500,
+    "finalization_reserve": 900,
+    "total": 10800
+  },
+  "completed_at": null,
+  "input_targets": {
+    "copied_bytes": 729003,
+    "copied_metadata_bytes": 0,
+    "count": 3,
+    "discovered_file_count": 3,
+    "discovered_pdb_count": 3,
+    "input_dir": "/saisdata",
+    "metadata_count": 0,
+    "metadata_files": [],
+    "targets": [
+      {
+        "copied_path": "input_targets/raw/37/target1.pdb",
+        "relative_path": "37/target1.pdb",
+        "sha256": "5bf7f5f59c497974d761eb8fadbbd6351edadb4fe442a21f3e1470b28c115fe2",
+        "size": 195454
+      },
+      {
+        "copied_path": "input_targets/raw/37/target2.pdb",
+        "relative_path": "37/target2.pdb",
+        "sha256": "200f137801aebdfeeb49f25895a234eb2913c62d05d84665d96743823dd643bc",
+        "size": 160138
+      },
+      {
+        "copied_path": "input_targets/raw/37/target3.pdb",
+        "relative_path": "37/target3.pdb",
+        "sha256": "ede6a192bd7661f7c71cdd42ea2f9c6d735674c65a7966603da91e64363b67a1",
+        "size": 373411
+      }
+    ],
+    "truncated": false
+  },
+  "max_replacements_per_target": 1,
+  "rows_per_target": 1,
+  "run_id": "20260621T074627Z-targetmol",
+  "runtime_secret_names_loaded": [
+    "OPENAI_API_KEY",
+    "ANTHROPIC_AUTH_TOKEN",
+    "DASEINAI_API_KEY",
+    "NVIDIA_DIFFDOCK_KEY",
+    "KEY_NAME",
+    "GITLAB_PERSONAL_TOKEN",
+    "TARGETMOL_GITLAB_REPOSITORY",
+    "TARGETMOL_GITHUB_REPOSITORY",
+    "TARGETMOL_GITHUB_SSH_KEY_PATH",
+    "TARGETMOL_GITHUB_SSH_PRIVATE_KEY"
+  ],
+  "started_at": "2026-06-21T07:46:27Z",
+  "success": false,
+  "updated_at": "2026-06-21T08:09:49Z"
+}
