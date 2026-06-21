@@ -1,0 +1,143 @@
+[
+  {
+    "target": "target1",
+    "seq_len": 151,
+    "hit_count": 151,
+    "top_hits": [
+      {
+        "identifier": "4HW2_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "4HW3_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "4HW4_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "4ZBF_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "4ZBI_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "5W89_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "5FDO_1",
+        "score": 0.9333333333333333
+      },
+      {
+        "identifier": "5W8F_1",
+        "score": 0.9333333333333333
+      },
+      {
+        "identifier": "2KBW_1",
+        "score": 0.9
+      },
+      {
+        "identifier": "2PQK_1",
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "target": "target2",
+    "seq_len": 257,
+    "hit_count": 21,
+    "top_hits": [
+      {
+        "identifier": "3ZON_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "4OLI_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "4WOV_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "5C01_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "5C03_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "5TKD_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "6NSL_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "6NZE_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "6NZF_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "6NZH_1",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "target": "target3",
+    "seq_len": 292,
+    "hit_count": 10,
+    "top_hits": [
+      {
+        "identifier": "7XZ5_5",
+        "score": 1.0
+      },
+      {
+        "identifier": "7XZ6_5",
+        "score": 1.0
+      },
+      {
+        "identifier": "8VHF_5",
+        "score": 1.0
+      },
+      {
+        "identifier": "8ZR5_5",
+        "score": 1.0
+      },
+      {
+        "identifier": "8ZRK_5",
+        "score": 1.0
+      },
+      {
+        "identifier": "9L79_1",
+        "score": 1.0
+      },
+      {
+        "identifier": "9L80_5",
+        "score": 1.0
+      },
+      {
+        "identifier": "7WCM_5",
+        "score": 0.0
+      },
+      {
+        "identifier": "7WCN_5",
+        "score": 0.0
+      },
+      {
+        "identifier": "9XJW_5",
+        "score": 0.0
+      }
+    ]
+  }
+]

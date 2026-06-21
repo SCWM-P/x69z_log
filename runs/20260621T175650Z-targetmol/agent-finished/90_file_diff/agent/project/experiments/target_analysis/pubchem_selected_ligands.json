@@ -1,0 +1,41 @@
+[
+  {
+    "canonical_smiles": null,
+    "comp_id": "5X2",
+    "inchi_key": "SMGRUAFEHILHHU-UHFFFAOYSA-N",
+    "isomeric_smiles": null,
+    "mw": "497.0",
+    "name": "3-[3-(4-chloranyl-3,5-dimethyl-phenoxy)propyl]-~{N}-(phenylsulfonyl)-1~{H}-indole-2-carboxamide",
+    "pubchem_cid": 90083030,
+    "rcsb_smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3[nH]c2C(=O)NS(=O)(=O)c4ccccc4",
+    "tpsa": 96.6,
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/90083030",
+    "xlogp": 6.4
+  },
+  {
+    "canonical_smiles": null,
+    "comp_id": "KZJ",
+    "inchi_key": "LMOIQLXOGZDGRD-UHFFFAOYSA-N",
+    "isomeric_smiles": null,
+    "mw": "440.5",
+    "name": "6-{[1-(4-cyanophenyl)-2-oxo-1,2-dihydropyridin-3-yl]amino}-N-cyclopropyl-8-(methylamino)imidazo[1,2-b]pyridazine-3-carboxamide",
+    "pubchem_cid": 118139924,
+    "rcsb_smiles": "CNc1cc(nn2c1ncc2C(=O)NC3CC3)NC4=CC=CN(C4=O)c5ccc(cc5)C#N",
+    "tpsa": 127,
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/118139924",
+    "xlogp": 2.3
+  },
+  {
+    "canonical_smiles": null,
+    "comp_id": "A1D8Y",
+    "inchi_key": "AYJRTVVIBJSSKN-UHFFFAOYSA-N",
+    "isomeric_smiles": null,
+    "mw": "456.6",
+    "name": "GSK-1292263",
+    "pubchem_cid": 24996872,
+    "rcsb_smiles": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+    "tpsa": 107,
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24996872",
+    "xlogp": 4
+  }
+]
