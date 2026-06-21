@@ -1,0 +1,69 @@
+# targetMOL targetmol log checkpoint: final
+
+This checkpoint separates first-class logs from a restorable file snapshot.
+The `90_file_diff/` tree preserves original relative paths under `/work/targetmol/run`
+for text files selected by suffix.
+
+## Directory guide
+
+- `00_status/`: supervisor state, fatal errors, and remote upload status.
+- `01_environment/`: container, network, API, GPU, IO, and filesystem probes.
+- `02_baseline/`: v107 baseline generation log.
+- `03_agent/llm/`: Codex/LLM conversation JSONL and stderr.
+- `03_agent/x69z/`: x69z runtime metadata, PI nodes, and tool usage logs.
+- `04_arbitration/`: final baseline/hybrid decision and audit.
+- `05_offline_eval/`: local evaluator-proxy summaries for baseline and final outputs.
+- `90_file_diff/`: recursive text-file snapshot preserving original `/work/targetmol/run` relative paths.
+
+## Files copied
+
+- `00_status/log_uploader.log`
+- `00_status/status.json`
+- `01_environment/authenticated_api.json`
+- `01_environment/child_process.json`
+- `01_environment/environment.json`
+- `01_environment/filesystem_diff.json`
+- `01_environment/io_benchmark.json`
+- `01_environment/network.json`
+- `01_environment/performance.json`
+- `01_environment/probe_summary.log`
+- `02_baseline/baseline.log`
+- `04_arbitration/arbiter.stderr.log`
+- `04_arbitration/arbiter.stdout.log`
+- `04_arbitration/arbitration.json`
+- `05_offline_eval/baseline/offline_eval.stderr.log`
+- `05_offline_eval/baseline/per_molecule.csv`
+- `05_offline_eval/baseline/summary.json`
+- `05_offline_eval/baseline/summary.md`
+- `05_offline_eval/final/offline_eval.stderr.log`
+- `05_offline_eval/final/per_molecule.csv`
+- `05_offline_eval/final/summary.json`
+- `05_offline_eval/final/summary.md`
+- `90_file_diff/logs/arbiter.stderr.log`
+- `90_file_diff/logs/arbiter.stdout.log`
+- `90_file_diff/logs/arbitration.json`
+- `90_file_diff/logs/baseline.log`
+- `90_file_diff/logs/log_uploader.log`
+- `90_file_diff/logs/probe.log`
+- `90_file_diff/logs/status.json`
+- `90_file_diff/offline_eval/baseline/failures.jsonl`
+- `90_file_diff/offline_eval/baseline/metrics.jsonl`
+- `90_file_diff/offline_eval/baseline/offline_eval.stderr.log`
+- `90_file_diff/offline_eval/baseline/offline_eval.stdout.log`
+- `90_file_diff/offline_eval/baseline/per_molecule.csv`
+- `90_file_diff/offline_eval/baseline/summary.json`
+- `90_file_diff/offline_eval/baseline/summary.md`
+- `90_file_diff/offline_eval/final/failures.jsonl`
+- `90_file_diff/offline_eval/final/metrics.jsonl`
+- `90_file_diff/offline_eval/final/offline_eval.stderr.log`
+- `90_file_diff/offline_eval/final/offline_eval.stdout.log`
+- `90_file_diff/offline_eval/final/per_molecule.csv`
+- `90_file_diff/offline_eval/final/summary.json`
+- `90_file_diff/offline_eval/final/summary.md`
+- `90_file_diff/probe/authenticated_api.json`
+- `90_file_diff/probe/child_process.json`
+- `90_file_diff/probe/environment.json`
+- `90_file_diff/probe/filesystem_diff.json`
+- `90_file_diff/probe/io_benchmark.json`
+- `90_file_diff/probe/network.json`
+- `90_file_diff/probe/performance.json`
