@@ -1,0 +1,17 @@
+{
+  "checkpoint": "started",
+  "copied_files": [
+    "00_status/status.json",
+    "90_file_diff/logs/status.json"
+  ],
+  "excluded_by_design": [
+    "agent/project/baseline_result.zip",
+    "agent/candidate/result.zip",
+    "baseline/result.zip",
+    "final-result.zip",
+    "probe/*.bin",
+    "*.pdb"
+  ],
+  "file_diff_root": "90_file_diff",
+  "schema": "targetmol-logv3"
+}
