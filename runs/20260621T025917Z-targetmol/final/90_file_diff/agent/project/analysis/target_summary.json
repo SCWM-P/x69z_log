@@ -1,0 +1,219 @@
+[
+  {
+    "atom_count": 4458,
+    "chain_count": 2,
+    "composition": {
+      "aromatic_ratio": 0.146,
+      "hydrophobic_ratio": 0.427,
+      "negative_ratio": 0.1423,
+      "polar_ratio": 0.5182,
+      "positive_ratio": 0.1314
+    },
+    "dominant_residues": [
+      [
+        "GLU",
+        54
+      ],
+      [
+        "LEU",
+        50
+      ],
+      [
+        "LYS",
+        38
+      ],
+      [
+        "ALA",
+        38
+      ],
+      [
+        "VAL",
+        36
+      ],
+      [
+        "TYR",
+        32
+      ],
+      [
+        "THR",
+        30
+      ],
+      [
+        "GLY",
+        30
+      ]
+    ],
+    "extent_rounded": [
+      55.6,
+      90.12,
+      91.46
+    ],
+    "file": "target1.pdb",
+    "nonwater_het_atom_count": 74,
+    "nonwater_het_residue_counts": [
+      [
+        "STI",
+        74
+      ]
+    ],
+    "pocket": {
+      "box": [
+        24.54,
+        30.0,
+        30.0
+      ],
+      "confidence": 1.0,
+      "ligand_anchored": true
+    },
+    "residue_count": 548,
+    "sha256_16": "577386b4b8bc58a5",
+    "span": 79.06,
+    "water_or_ion_het_atom_count": 178
+  },
+  {
+    "atom_count": 1962,
+    "chain_count": 1,
+    "composition": {
+      "aromatic_ratio": 0.1134,
+      "hydrophobic_ratio": 0.4939,
+      "negative_ratio": 0.1134,
+      "polar_ratio": 0.4656,
+      "positive_ratio": 0.1417
+    },
+    "dominant_residues": [
+      [
+        "LEU",
+        48
+      ],
+      [
+        "SER",
+        16
+      ],
+      [
+        "ALA",
+        15
+      ],
+      [
+        "MET",
+        15
+      ],
+      [
+        "GLU",
+        15
+      ],
+      [
+        "ASP",
+        13
+      ],
+      [
+        "VAL",
+        13
+      ],
+      [
+        "HIS",
+        13
+      ]
+    ],
+    "extent_rounded": [
+      46.96,
+      54.66,
+      55.22
+    ],
+    "file": "target2.pdb",
+    "nonwater_het_atom_count": 29,
+    "nonwater_het_residue_counts": [
+      [
+        "OHT",
+        29
+      ]
+    ],
+    "pocket": {
+      "box": [
+        24.45,
+        20.76,
+        24.69
+      ],
+      "confidence": 1.0,
+      "ligand_anchored": true
+    },
+    "residue_count": 247,
+    "sha256_16": "9810b43b6956ef1d",
+    "span": 52.28,
+    "water_or_ion_het_atom_count": 79
+  },
+  {
+    "atom_count": 1826,
+    "chain_count": 2,
+    "composition": {
+      "aromatic_ratio": 0.0612,
+      "hydrophobic_ratio": 0.4796,
+      "negative_ratio": 0.0816,
+      "polar_ratio": 0.3878,
+      "positive_ratio": 0.1122
+    },
+    "dominant_residues": [
+      [
+        "GLY",
+        26
+      ],
+      [
+        "LEU",
+        24
+      ],
+      [
+        "ILE",
+        24
+      ],
+      [
+        "THR",
+        16
+      ],
+      [
+        "VAL",
+        14
+      ],
+      [
+        "PRO",
+        12
+      ],
+      [
+        "GLN",
+        12
+      ],
+      [
+        "LYS",
+        12
+      ]
+    ],
+    "extent_rounded": [
+      42.6,
+      39.92,
+      54.23
+    ],
+    "file": "target3.pdb",
+    "nonwater_het_atom_count": 64,
+    "nonwater_het_residue_counts": [
+      [
+        "XK2",
+        46
+      ],
+      [
+        "CSO",
+        18
+      ]
+    ],
+    "pocket": {
+      "box": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "confidence": 1.0,
+      "ligand_anchored": true
+    },
+    "residue_count": 196,
+    "sha256_16": "c8d3f238d3269a66",
+    "span": 45.59,
+    "water_or_ion_het_atom_count": 0
+  }
+]

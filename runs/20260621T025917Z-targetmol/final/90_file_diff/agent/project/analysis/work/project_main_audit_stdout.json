@@ -1,0 +1,77 @@
+{
+  "result1.csv": {
+    "logp_range": [
+      8.843,
+      9.108
+    ],
+    "mw_range": [
+      560.426,
+      579.256
+    ],
+    "ok_rows": 5,
+    "risk_flag_counts": {},
+    "route_len_range": [
+      221,
+      245
+    ],
+    "rows": 5,
+    "sa_range": [
+      2.4265,
+      2.7931
+    ],
+    "tpsa_range": [
+      55.13,
+      57.78
+    ]
+  },
+  "result2.csv": {
+    "logp_range": [
+      8.843,
+      9.108
+    ],
+    "mw_range": [
+      560.426,
+      579.256
+    ],
+    "ok_rows": 5,
+    "risk_flag_counts": {},
+    "route_len_range": [
+      221,
+      245
+    ],
+    "rows": 5,
+    "sa_range": [
+      2.4265,
+      2.7931
+    ],
+    "tpsa_range": [
+      55.13,
+      57.78
+    ]
+  },
+  "result3.csv": {
+    "logp_range": [
+      8.843,
+      9.108
+    ],
+    "mw_range": [
+      560.426,
+      579.256
+    ],
+    "ok_rows": 5,
+    "risk_flag_counts": {},
+    "route_len_range": [
+      221,
+      245
+    ],
+    "rows": 5,
+    "sa_range": [
+      2.4265,
+      2.7931
+    ],
+    "tpsa_range": [
+      55.13,
+      57.78
+    ]
+  }
+}

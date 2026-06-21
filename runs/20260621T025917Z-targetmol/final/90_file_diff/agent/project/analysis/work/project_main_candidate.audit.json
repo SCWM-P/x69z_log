@@ -1,0 +1,444 @@
+{
+  "aggregate": {
+    "result1.csv": {
+      "logp_range": [
+        8.843,
+        9.108
+      ],
+      "mw_range": [
+        560.426,
+        579.256
+      ],
+      "ok_rows": 5,
+      "risk_flag_counts": {},
+      "route_len_range": [
+        221,
+        245
+      ],
+      "rows": 5,
+      "sa_range": [
+        2.4265,
+        2.7931
+      ],
+      "tpsa_range": [
+        55.13,
+        57.78
+      ]
+    },
+    "result2.csv": {
+      "logp_range": [
+        8.843,
+        9.108
+      ],
+      "mw_range": [
+        560.426,
+        579.256
+      ],
+      "ok_rows": 5,
+      "risk_flag_counts": {},
+      "route_len_range": [
+        221,
+        245
+      ],
+      "rows": 5,
+      "sa_range": [
+        2.4265,
+        2.7931
+      ],
+      "tpsa_range": [
+        55.13,
+        57.78
+      ]
+    },
+    "result3.csv": {
+      "logp_range": [
+        8.843,
+        9.108
+      ],
+      "mw_range": [
+        560.426,
+        579.256
+      ],
+      "ok_rows": 5,
+      "risk_flag_counts": {},
+      "route_len_range": [
+        221,
+        245
+      ],
+      "rows": 5,
+      "sa_range": [
+        2.4265,
+        2.7931
+      ],
+      "tpsa_range": [
+        55.13,
+        57.78
+      ]
+    }
+  },
+  "log_len": 1619,
+  "member_order_ok": true,
+  "members": [
+    "result1.csv",
+    "result2.csv",
+    "result3.csv",
+    "result.log"
+  ],
+  "risk_flag_counts": {},
+  "route_issue_counts": {},
+  "rows": {
+    "result1.csv": [
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 39,
+        "logp": 8.982,
+        "mw": 578.416,
+        "qed": 0.22,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 44,
+          "route_len": 237,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 1,
+        "sa": 2.5594,
+        "smiles_sha16": "ef88eded99cb0d05",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 39,
+        "logp": 8.982,
+        "mw": 578.416,
+        "qed": 0.22,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 46,
+          "route_len": 245,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 2,
+        "sa": 2.585,
+        "smiles_sha16": "6cffe8d24ef6bbea",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 38,
+        "logp": 8.843,
+        "mw": 560.426,
+        "qed": 0.2269,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 45,
+          "route_len": 241,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 3,
+        "sa": 2.4318,
+        "smiles_sha16": "f5a01c298f08aa15",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 38,
+        "logp": 9.108,
+        "mw": 561.41,
+        "qed": 0.2342,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 40,
+          "route_len": 221,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 4,
+        "sa": 2.4265,
+        "smiles_sha16": "9c0f2333a04fbe46",
+        "tpsa": 55.13
+      },
+      {
+        "aromatic_rings": 6,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 36,
+        "logp": 8.997,
+        "mw": 579.256,
+        "qed": 0.22,
+        "rings": 6,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 43,
+          "route_len": 233,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 5,
+        "sa": 2.7931,
+        "smiles_sha16": "815b6874e1aa9176",
+        "tpsa": 57.78
+      }
+    ],
+    "result2.csv": [
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 39,
+        "logp": 8.982,
+        "mw": 578.416,
+        "qed": 0.22,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 44,
+          "route_len": 237,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 1,
+        "sa": 2.5594,
+        "smiles_sha16": "ef88eded99cb0d05",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 39,
+        "logp": 8.982,
+        "mw": 578.416,
+        "qed": 0.22,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 46,
+          "route_len": 245,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 2,
+        "sa": 2.585,
+        "smiles_sha16": "6cffe8d24ef6bbea",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 38,
+        "logp": 8.843,
+        "mw": 560.426,
+        "qed": 0.2269,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 45,
+          "route_len": 241,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 3,
+        "sa": 2.4318,
+        "smiles_sha16": "f5a01c298f08aa15",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 38,
+        "logp": 9.108,
+        "mw": 561.41,
+        "qed": 0.2342,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 40,
+          "route_len": 221,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 4,
+        "sa": 2.4265,
+        "smiles_sha16": "9c0f2333a04fbe46",
+        "tpsa": 55.13
+      },
+      {
+        "aromatic_rings": 6,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 36,
+        "logp": 8.997,
+        "mw": 579.256,
+        "qed": 0.22,
+        "rings": 6,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 43,
+          "route_len": 233,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 5,
+        "sa": 2.7931,
+        "smiles_sha16": "815b6874e1aa9176",
+        "tpsa": 57.78
+      }
+    ],
+    "result3.csv": [
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 39,
+        "logp": 8.982,
+        "mw": 578.416,
+        "qed": 0.22,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 44,
+          "route_len": 237,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 1,
+        "sa": 2.5594,
+        "smiles_sha16": "ef88eded99cb0d05",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 39,
+        "logp": 8.982,
+        "mw": 578.416,
+        "qed": 0.22,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 46,
+          "route_len": 245,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 2,
+        "sa": 2.585,
+        "smiles_sha16": "6cffe8d24ef6bbea",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 38,
+        "logp": 8.843,
+        "mw": 560.426,
+        "qed": 0.2269,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 45,
+          "route_len": 241,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 3,
+        "sa": 2.4318,
+        "smiles_sha16": "f5a01c298f08aa15",
+        "tpsa": 57.78
+      },
+      {
+        "aromatic_rings": 7,
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 38,
+        "logp": 9.108,
+        "mw": 561.41,
+        "qed": 0.2342,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 40,
+          "route_len": 221,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 4,
+        "sa": 2.4265,
+        "smiles_sha16": "9c0f2333a04fbe46",
+        "tpsa": 55.13
+      },
+      {
+        "aromatic_rings": 6,
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 36,
+        "logp": 8.997,
+        "mw": 579.256,
+        "qed": 0.22,
+        "rings": 6,
+        "risk_flags": [],
+        "rotors": 3,
+        "route": {
+          "reactant_count": 4,
+          "reactant_len_max": 43,
+          "route_len": 233,
+          "step_count": 2
+        },
+        "route_issues": [],
+        "row": 5,
+        "sa": 2.7931,
+        "smiles_sha16": "815b6874e1aa9176",
+        "tpsa": 57.78
+      }
+    ]
+  },
+  "zip": "analysis/work/project_main_candidate.zip",
+  "zip_sha256_16": "db5a722e45c260cd"
+}
