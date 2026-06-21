@@ -1,0 +1,33 @@
+[
+  {
+    "configured": true,
+    "endpoint": "https://health.api.nvidia.com/v1/molecular-docking/diffdock/generate",
+    "mode": "optional_research_service_not_called_by_probe",
+    "name": "nvidia_diffdock"
+  },
+  {
+    "configured": true,
+    "elapsed_ms": 15030,
+    "error": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "name": "openai_models",
+    "status": 0
+  },
+  {
+    "configured": true,
+    "elapsed_ms": 3747,
+    "error": "",
+    "name": "litellm_models",
+    "status": 200
+  },
+  {
+    "configured": true,
+    "elapsed_ms": 2277,
+    "error": "",
+    "name": "daseinai_models",
+    "status": 200
+  },
+  {
+    "configured": false,
+    "name": "glm_models"
+  }
+]
