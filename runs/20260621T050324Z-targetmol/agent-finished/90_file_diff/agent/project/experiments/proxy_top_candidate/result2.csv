@@ -1,0 +1,2 @@
+mol_smiles,route
+O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1,"Nc1cc(Br)nc2cc(Cl)ccc12.OB(O)c1ccc2ncccc2c1>>Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12,Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12.O=C(Cl)c1ccc2cc(Br)ccc2c1>>O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1"

@@ -1,0 +1,4 @@
+target,row,ok,proxy_score,affinity,mw,logp,tpsa,qed,sa,rings,rotors,heavy_atoms,risk_flags,route_issues,error,smiles
+result1.csv,1,True,71.5636,,561.4100000000002,9.108299999999996,55.13,0.23417835817397725,2.426538877489733,7,3,38,,,,O=C(Nc1cc(-c2ccc3oc4ccccc4c3c2)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1
+result2.csv,1,True,71.0011,,552.0080000000003,9.277879999999996,65.78,0.2224628825522651,2.621828158683506,7,3,41,,,,N#Cc1ccc(-c2nc3cc(Cl)ccc3c(NC(=O)c3ccc4ccc5ccc6ccccc6c5c4c3)c2F)cc1
+result3.csv,1,True,71.196,,553.0170000000002,8.995799999999997,60.45,0.1754098618525905,2.5354520930379216,8,3,41,,,,O=C(Nc1cc(-c2ccc3c(c2)OCO3)nc2cc(Cl)ccc12)c1ccc2c(ccc3cc4ccccc4cc32)c1

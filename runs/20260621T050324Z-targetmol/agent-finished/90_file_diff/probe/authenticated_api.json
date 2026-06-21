@@ -1,0 +1,27 @@
+[
+  {
+    "configured": true,
+    "elapsed_ms": 595,
+    "error": "HTTP Error 401: Unauthorized",
+    "name": "openai_models",
+    "status": 401
+  },
+  {
+    "configured": true,
+    "elapsed_ms": 670,
+    "error": "",
+    "name": "litellm_models",
+    "status": 200
+  },
+  {
+    "configured": true,
+    "elapsed_ms": 507,
+    "error": "",
+    "name": "daseinai_models",
+    "status": 200
+  },
+  {
+    "configured": false,
+    "name": "glm_models"
+  }
+]
