@@ -1,0 +1,6 @@
+Reading additional input from stdin...
+2026-06-21T06:57:00.432907Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /work/targetmol/run/agent/project/scripts/fetch_public_target_summaries.py:
+                    "method",
+                    "nonpolymer_entity_1",
+                    "entry_url",
+                )

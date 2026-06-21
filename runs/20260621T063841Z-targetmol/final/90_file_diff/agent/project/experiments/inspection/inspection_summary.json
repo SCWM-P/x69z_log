@@ -1,0 +1,428 @@
+{
+  "baseline": {
+    "log_head": [
+      "[Agent] Task 2 semifinal targeted molecule design run",
+      "[Agent] timestamp=1782024076",
+      "[Agent] input_dir=/saisdata",
+      "[Agent] output_dir=/work/targetmol/run/baseline",
+      "[Plan] Parsed target PDB descriptors and residue composition."
+    ],
+    "members": [
+      "result1.csv",
+      "result2.csv",
+      "result3.csv",
+      "result.log"
+    ],
+    "rows": [
+      {
+        "aromatic_rings": 7,
+        "canonical": "O=C(Nc1cc(-c2ccc3oc4ccccc4c3c2)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+        "final_product_matches": true,
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 38,
+        "logp": 9.1083,
+        "mw": 561.41,
+        "qed": 0.2342,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route_issues": [],
+        "route_len": 221,
+        "route_reactants": 4,
+        "route_steps": 2,
+        "row": 1,
+        "sa": 2.4265,
+        "smiles": "O=C(Nc1cc(-c2ccc3oc4ccccc4c3c2)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+        "target": "result1.csv",
+        "tpsa": 55.13
+      },
+      {
+        "aromatic_rings": 7,
+        "canonical": "N#Cc1ccc(-c2nc3cc(Cl)ccc3c(NC(=O)c3ccc4ccc5ccc6ccccc6c5c4c3)c2F)cc1",
+        "final_product_matches": true,
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 41,
+        "logp": 9.2779,
+        "mw": 552.008,
+        "qed": 0.2225,
+        "rings": 7,
+        "risk_flags": [],
+        "rotors": 3,
+        "route_issues": [],
+        "route_len": 223,
+        "route_reactants": 4,
+        "route_steps": 2,
+        "row": 1,
+        "sa": 2.6218,
+        "smiles": "N#Cc1ccc(-c2nc3cc(Cl)ccc3c(NC(=O)c3ccc4ccc5ccc6ccccc6c5c4c3)c2F)cc1",
+        "target": "result2.csv",
+        "tpsa": 65.78
+      },
+      {
+        "aromatic_rings": 7,
+        "canonical": "O=C(Nc1cc(-c2ccc3c(c2)OCO3)nc2cc(Cl)ccc12)c1ccc2c(ccc3cc4ccccc4cc32)c1",
+        "final_product_matches": true,
+        "hba": 4,
+        "hbd": 1,
+        "heavy_atoms": 41,
+        "logp": 8.9958,
+        "mw": 553.017,
+        "qed": 0.1754,
+        "rings": 8,
+        "risk_flags": [],
+        "rotors": 3,
+        "route_issues": [],
+        "route_len": 229,
+        "route_reactants": 4,
+        "route_steps": 2,
+        "row": 1,
+        "sa": 2.5355,
+        "smiles": "O=C(Nc1cc(-c2ccc3c(c2)OCO3)nc2cc(Cl)ccc12)c1ccc2c(ccc3cc4ccccc4cc32)c1",
+        "target": "result3.csv",
+        "tpsa": 60.45
+      }
+    ],
+    "zip": "baseline_result.zip"
+  },
+  "manifest": [
+    {
+      "known_ligand": "STI-571",
+      "notes": "ABL kinase ligand-bound public structure for kinase-pocket smoke testing",
+      "pdb_id": "1IEP",
+      "protein_class": "kinase",
+      "source_url": "https://files.rcsb.org/download/1IEP.pdb",
+      "target_file": "target1.pdb"
+    },
+    {
+      "known_ligand": "4-hydroxytamoxifen",
+      "notes": "Estrogen receptor alpha ligand-binding domain public structure",
+      "pdb_id": "3ERT",
+      "protein_class": "nuclear_receptor",
+      "source_url": "https://files.rcsb.org/download/3ERT.pdb",
+      "target_file": "target2.pdb"
+    },
+    {
+      "known_ligand": "cyclic_urea_inhibitor",
+      "notes": "HIV-1 protease inhibitor complex public structure",
+      "pdb_id": "1HVR",
+      "protein_class": "protease",
+      "source_url": "https://files.rcsb.org/download/1HVR.pdb",
+      "target_file": "target3.pdb"
+    }
+  ],
+  "targets": [
+    {
+      "aromatic_ratio": 0.146,
+      "atom_count": 4458,
+      "chain_count": 2,
+      "file": "target1.pdb",
+      "hydrophobic_ratio": 0.427,
+      "ligand_geometry_summary": {
+        "CL": {
+          "atom_count": 6,
+          "box_span": [
+            14.342,
+            62.62,
+            67.595
+          ]
+        },
+        "STI": {
+          "atom_count": 74,
+          "box_span": [
+            10.537,
+            56.818,
+            56.42
+          ]
+        }
+      },
+      "nonwater_hetatm_element_counts": {
+        "C": 58,
+        "CL": 6,
+        "N": 14,
+        "O": 2
+      },
+      "nonwater_hetatm_residue_counts": {
+        "CL": 6,
+        "STI": 74
+      },
+      "polar_ratio": 0.5182,
+      "record_counts": {
+        "ATOM": 4458,
+        "AUTHOR": 1,
+        "CISPEP": 2,
+        "COMPND": 7,
+        "CONECT": 74,
+        "CRYST1": 1,
+        "DBREF": 2,
+        "END": 1,
+        "EXPDTA": 1,
+        "FORMUL": 3,
+        "HEADER": 1,
+        "HELIX": 33,
+        "HET": 8,
+        "HETATM": 252,
+        "HETNAM": 3,
+        "HETSYN": 1,
+        "JRNL": 8,
+        "KEYWDS": 1,
+        "MASTER": 1,
+        "ORIGX1": 1,
+        "ORIGX2": 1,
+        "ORIGX3": 1,
+        "REMARK": 393,
+        "REVDAT": 4,
+        "SCALE1": 1,
+        "SCALE2": 1,
+        "SCALE3": 1,
+        "SEQADV": 12,
+        "SEQRES": 46,
+        "SHEET": 18,
+        "SITE": 16,
+        "SOURCE": 9,
+        "TER": 2,
+        "TITLE": 1
+      },
+      "residue_composition_top": [
+        [
+          "GLU",
+          486
+        ],
+        [
+          "LEU",
+          400
+        ],
+        [
+          "TYR",
+          384
+        ],
+        [
+          "LYS",
+          342
+        ],
+        [
+          "VAL",
+          252
+        ],
+        [
+          "ARG",
+          242
+        ],
+        [
+          "PHE",
+          242
+        ],
+        [
+          "THR",
+          210
+        ]
+      ],
+      "residue_count": 548
+    },
+    {
+      "aromatic_ratio": 0.1134,
+      "atom_count": 1962,
+      "chain_count": 1,
+      "file": "target2.pdb",
+      "hydrophobic_ratio": 0.4939,
+      "ligand_geometry_summary": {
+        "OHT": {
+          "atom_count": 29,
+          "box_span": [
+            10.448,
+            6.756,
+            10.687
+          ]
+        }
+      },
+      "nonwater_hetatm_element_counts": {
+        "C": 26,
+        "N": 1,
+        "O": 2
+      },
+      "nonwater_hetatm_residue_counts": {
+        "OHT": 29
+      },
+      "polar_ratio": 0.4656,
+      "record_counts": {
+        "ATOM": 1962,
+        "AUTHOR": 2,
+        "COMPND": 6,
+        "CONECT": 29,
+        "CRYST1": 1,
+        "DBREF": 1,
+        "END": 1,
+        "EXPDTA": 1,
+        "FORMUL": 2,
+        "HEADER": 1,
+        "HELIX": 11,
+        "HET": 1,
+        "HETATM": 108,
+        "HETNAM": 1,
+        "JRNL": 9,
+        "KEYWDS": 1,
+        "MASTER": 1,
+        "ORIGX1": 1,
+        "ORIGX2": 1,
+        "ORIGX3": 1,
+        "REMARK": 315,
+        "REVDAT": 4,
+        "SCALE1": 1,
+        "SCALE2": 1,
+        "SCALE3": 1,
+        "SEQADV": 3,
+        "SEQRES": 21,
+        "SHEET": 2,
+        "SITE": 3,
+        "SOURCE": 10,
+        "SPRSDE": 1,
+        "TER": 1,
+        "TITLE": 2
+      },
+      "residue_composition_top": [
+        [
+          "LEU",
+          378
+        ],
+        [
+          "HIS",
+          140
+        ],
+        [
+          "GLU",
+          135
+        ],
+        [
+          "MET",
+          125
+        ],
+        [
+          "ARG",
+          115
+        ],
+        [
+          "ASP",
+          104
+        ],
+        [
+          "SER",
+          100
+        ],
+        [
+          "ILE",
+          96
+        ]
+      ],
+      "residue_count": 247
+    },
+    {
+      "aromatic_ratio": 0.0612,
+      "atom_count": 1826,
+      "chain_count": 2,
+      "file": "target3.pdb",
+      "hydrophobic_ratio": 0.4796,
+      "ligand_geometry_summary": {
+        "CSO": {
+          "atom_count": 18,
+          "box_span": [
+            24.64,
+            17.609,
+            18.993
+          ]
+        },
+        "XK2": {
+          "atom_count": 46,
+          "box_span": [
+            9.97,
+            7.46,
+            17.102
+          ]
+        }
+      },
+      "nonwater_hetatm_element_counts": {
+        "C": 47,
+        "H": 4,
+        "N": 4,
+        "O": 7,
+        "S": 2
+      },
+      "nonwater_hetatm_residue_counts": {
+        "CSO": 18,
+        "XK2": 46
+      },
+      "polar_ratio": 0.3878,
+      "record_counts": {
+        "ATOM": 1826,
+        "AUTHOR": 1,
+        "COMPND": 4,
+        "CONECT": 68,
+        "CRYST1": 1,
+        "DBREF": 2,
+        "END": 1,
+        "EXPDTA": 1,
+        "FORMUL": 2,
+        "HEADER": 1,
+        "HELIX": 2,
+        "HET": 3,
+        "HETATM": 64,
+        "HETNAM": 4,
+        "JRNL": 8,
+        "KEYWDS": 1,
+        "LINK": 4,
+        "MASTER": 1,
+        "MODRES": 2,
+        "ORIGX1": 1,
+        "ORIGX2": 1,
+        "ORIGX3": 1,
+        "REMARK": 290,
+        "REVDAT": 7,
+        "SCALE1": 1,
+        "SCALE2": 1,
+        "SCALE3": 1,
+        "SEQADV": 2,
+        "SEQRES": 16,
+        "SHEET": 20,
+        "SITE": 5,
+        "SOURCE": 5,
+        "TER": 2,
+        "TITLE": 2
+      },
+      "residue_composition_top": [
+        [
+          "LEU",
+          216
+        ],
+        [
+          "ILE",
+          216
+        ],
+        [
+          "LYS",
+          156
+        ],
+        [
+          "GLN",
+          144
+        ],
+        [
+          "THR",
+          144
+        ],
+        [
+          "ARG",
+          136
+        ],
+        [
+          "GLY",
+          130
+        ],
+        [
+          "VAL",
+          112
+        ]
+      ],
+      "residue_count": 196
+    }
+  ]
+}
