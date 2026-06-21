@@ -1,0 +1,43 @@
+{
+  "elapsed_seconds": 36.304,
+  "failure_count": 0,
+  "label": "known_ligands_t2",
+  "molecule_count": 3,
+  "official_weighted_proxy_score_mean": 80.7067,
+  "official_weighted_proxy_score_min": 78.5946,
+  "ok_count": 0,
+  "outputs": {
+    "failures_jsonl": "experiments/eval_known_ligands_t2/failures.jsonl",
+    "metrics_jsonl": "experiments/eval_known_ligands_t2/metrics.jsonl",
+    "per_molecule_csv": "experiments/eval_known_ligands_t2/per_molecule.csv"
+  },
+  "pdb_dir": "/saisdata/37",
+  "proxy_score_mean": 72.1679,
+  "proxy_score_min": 64.4753,
+  "result_zip": "experiments/candidates/known_ligand_controls.zip",
+  "slowest": [
+    {
+      "prep_ms": 99,
+      "row": 1,
+      "smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+      "target": "result1.csv",
+      "vina_ms": 12431
+    },
+    {
+      "prep_ms": 114,
+      "row": 1,
+      "smiles": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+      "target": "result2.csv",
+      "vina_ms": 12394
+    },
+    {
+      "prep_ms": 146,
+      "row": 1,
+      "smiles": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+      "target": "result3.csv",
+      "vina_ms": 9704
+    }
+  ],
+  "tier": 2,
+  "ts": "2026-06-21T08:01:42Z"
+}
