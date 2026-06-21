@@ -1,0 +1,27 @@
+{
+  "added_paths": [
+    "/.dockerenv",
+    "/etc/mtab",
+    "/mnt/x69z-reference",
+    "/root/.ssh",
+    "/root/.ssh/known_hosts",
+    "/root/.ssh/known_hosts.old",
+    "/run/secrets",
+    "/run/secrets/targetmol_github_ssh_key",
+    "/saisdata",
+    "/saisresult",
+    "/tmp/x69z_target_molecule_result",
+    "/tmp/x69z_target_molecule_scratch",
+    "/tmp/x69z_target_molecule_scratch/run-59-1782062190108",
+    "/tmp/x69z_target_molecule_scratch/run-59-1782062190108/result.log",
+    "/tmp/x69z_target_molecule_scratch/run-59-1782062190108/result1.csv",
+    "/tmp/x69z_target_molecule_scratch/run-59-1782062190108/result2.csv",
+    "/tmp/x69z_target_molecule_scratch/run-59-1782062190108/result3.csv",
+    "/tmp/x69z_target_molecule_scratch/run-59-1782062190108/stageb_specialist_runtime.json"
+  ],
+  "baseline_count": 4227,
+  "current_count": 4245,
+  "find_status": 0,
+  "removed_paths": [],
+  "truncated": false
+}
