@@ -1,0 +1,17 @@
+[
+  {
+    "chembl_error": "HTTPError: HTTP Error 500: Internal Server Error",
+    "comp_id": "5X2",
+    "inchi_key": "SMGRUAFEHILHHU-UHFFFAOYSA-N"
+  },
+  {
+    "chembl_error": "TimeoutError: The read operation timed out",
+    "comp_id": "KZJ",
+    "inchi_key": "LMOIQLXOGZDGRD-UHFFFAOYSA-N"
+  },
+  {
+    "chembl_error": "HTTPError: HTTP Error 500: Internal Server Error",
+    "comp_id": "A1D8Y",
+    "inchi_key": "AYJRTVVIBJSSKN-UHFFFAOYSA-N"
+  }
+]

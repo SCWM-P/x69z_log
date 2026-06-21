@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Mcl1_fragment_based_5X2",
+    "pubmed_ids": [],
+    "query": "Mcl-1 inhibitor indole carboxamide sulfonyl 5X2",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Mcl-1%20inhibitor%20indole%20carboxamide%20sulfonyl%205X2"
+  },
+  {
+    "label": "TYK2_JH2_KZJ",
+    "pubmed_ids": [],
+    "query": "TYK2 JH2 pseudokinase KZJ inhibitor",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=TYK2%20JH2%20pseudokinase%20KZJ%20inhibitor"
+  },
+  {
+    "label": "GPR119_GSK1292263",
+    "pubmed_ids": [
+      "26101059"
+    ],
+    "query": "GPR119 GSK-1292263 agonist",
+    "top_results": [
+      {
+        "journal": "European journal of pharmacology",
+        "pmid": "26101059",
+        "pubdate": "2015 Sep 5",
+        "title": "Sustained wash-resistant receptor activation responses of GPR119 agonists."
+      }
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=GPR119%20GSK-1292263%20agonist"
+  }
+]

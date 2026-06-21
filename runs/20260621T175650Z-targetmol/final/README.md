@@ -1,0 +1,141 @@
+# targetMOL targetmol log checkpoint: final
+
+This checkpoint separates first-class logs from a restorable file snapshot.
+The `90_file_diff/` tree preserves original relative paths under `/work/targetmol/run`
+for text files selected by suffix.
+
+## Directory guide
+
+- `00_status/`: supervisor state, fatal errors, and remote upload status.
+- `01_environment/`: container, network, API, GPU, IO, and filesystem probes.
+- `02_baseline/`: v107 baseline generation log.
+- `03_agent/llm/`: Codex/LLM conversation JSONL and stderr.
+- `03_agent/x69z/`: x69z runtime metadata, PI nodes, and tool usage logs.
+- `04_arbitration/`: final baseline/hybrid decision and audit.
+- `05_offline_eval/`: local evaluator-proxy summaries for baseline and final outputs.
+- `06_targets/`: manifest for raw PDB files copied from `/saisdata` for post-submit study.
+- `90_file_diff/`: recursive text-file snapshot preserving original `/work/targetmol/run` relative paths.
+
+## Files copied
+
+- `00_status/log_uploader.log`
+- `00_status/status.json`
+- `01_environment/authenticated_api.json`
+- `01_environment/child_process.json`
+- `01_environment/environment.json`
+- `01_environment/filesystem_diff.json`
+- `01_environment/io_benchmark.json`
+- `01_environment/network.json`
+- `01_environment/performance.json`
+- `01_environment/probe_summary.log`
+- `02_baseline/baseline.log`
+- `03_agent/agent_runner.log`
+- `03_agent/llm/agent_status.json`
+- `03_agent/llm/codex.jsonl`
+- `03_agent/llm/codex.stderr.log`
+- `03_agent/x69z/dashboard.log`
+- `03_agent/x69z/lab_policy.json`
+- `03_agent/x69z/research_tree/nodes.jsonl`
+- `03_agent/x69z/runtime.json`
+- `03_agent/x69z/x69z-init.log`
+- `04_arbitration/arbiter.stderr.log`
+- `04_arbitration/arbiter.stdout.log`
+- `04_arbitration/arbitration.json`
+- `05_offline_eval/baseline/offline_eval.stderr.log`
+- `05_offline_eval/baseline/per_molecule.csv`
+- `05_offline_eval/baseline/summary.json`
+- `05_offline_eval/baseline/summary.md`
+- `05_offline_eval/final/offline_eval.stderr.log`
+- `05_offline_eval/final/per_molecule.csv`
+- `05_offline_eval/final/summary.json`
+- `05_offline_eval/final/summary.md`
+- `06_targets/README.md`
+- `06_targets/manifest.json`
+- `90_file_diff/agent/codex-home/config.toml`
+- `90_file_diff/agent/codex-home/skills/.system/imagegen/LICENSE.txt`
+- `90_file_diff/agent/codex-home/skills/.system/imagegen/SKILL.md`
+- `90_file_diff/agent/codex-home/skills/.system/imagegen/references/cli.md`
+- `90_file_diff/agent/codex-home/skills/.system/imagegen/references/codex-network.md`
+- `90_file_diff/agent/codex-home/skills/.system/imagegen/references/image-api.md`
+- `90_file_diff/agent/codex-home/skills/.system/imagegen/references/prompting.md`
+- `90_file_diff/agent/codex-home/skills/.system/imagegen/references/sample-prompts.md`
+- `90_file_diff/agent/codex-home/skills/.system/openai-docs/LICENSE.txt`
+- `90_file_diff/agent/codex-home/skills/.system/openai-docs/SKILL.md`
+- `90_file_diff/agent/codex-home/skills/.system/openai-docs/references/latest-model.md`
+- `90_file_diff/agent/codex-home/skills/.system/openai-docs/references/prompting-guide.md`
+- `90_file_diff/agent/codex-home/skills/.system/openai-docs/references/upgrade-guide.md`
+- `90_file_diff/agent/codex-home/skills/.system/plugin-creator/SKILL.md`
+- `90_file_diff/agent/codex-home/skills/.system/plugin-creator/references/installing-and-updating.md`
+- `90_file_diff/agent/codex-home/skills/.system/plugin-creator/references/plugin-json-spec.md`
+- `90_file_diff/agent/codex-home/skills/.system/skill-creator/SKILL.md`
+- `90_file_diff/agent/codex-home/skills/.system/skill-creator/license.txt`
+- `90_file_diff/agent/codex-home/skills/.system/skill-creator/references/openai_yaml.md`
+- `90_file_diff/agent/codex-home/skills/.system/skill-installer/LICENSE.txt`
+- `90_file_diff/agent/codex-home/skills/.system/skill-installer/SKILL.md`
+- `90_file_diff/agent/logs/agent_status.json`
+- `90_file_diff/agent/logs/codex.jsonl`
+- `90_file_diff/agent/logs/codex.stderr.log`
+- `90_file_diff/agent/logs/dashboard.log`
+- `90_file_diff/agent/logs/x69z-init.log`
+- `90_file_diff/agent/project/.x69z/lab_policy.json`
+- `90_file_diff/agent/project/.x69z/research_tree/edges.jsonl`
+- `90_file_diff/agent/project/.x69z/research_tree/nodes.jsonl`
+- `90_file_diff/agent/project/.x69z/runtime.json`
+- `90_file_diff/agent/project/experiments/candidate_screen/initial_descriptor_screen.json`
+- `90_file_diff/agent/project/experiments/final_eval_tier1/failures.jsonl`
+- `90_file_diff/agent/project/experiments/final_eval_tier1/metrics.jsonl`
+- `90_file_diff/agent/project/experiments/final_eval_tier1/per_molecule.csv`
+- `90_file_diff/agent/project/experiments/final_eval_tier1/summary.json`
+- `90_file_diff/agent/project/experiments/final_eval_tier1/summary.md`
+- `90_file_diff/agent/project/experiments/final_eval_tier2/failures.jsonl`
+- `90_file_diff/agent/project/experiments/final_eval_tier2/metrics.jsonl`
+- `90_file_diff/agent/project/experiments/final_eval_tier2/per_molecule.csv`
+- `90_file_diff/agent/project/experiments/final_eval_tier2/summary.json`
+- `90_file_diff/agent/project/experiments/final_eval_tier2/summary.md`
+- `90_file_diff/agent/project/experiments/target_analysis/chembl_selected_ligands.json`
+- `90_file_diff/agent/project/experiments/target_analysis/local_structure_summary.json`
+- `90_file_diff/agent/project/experiments/target_analysis/pubchem_selected_ligands.json`
+- `90_file_diff/agent/project/experiments/target_analysis/pubmed_compact_survey.json`
+- `90_file_diff/agent/project/experiments/target_analysis/rcsb_ligand_descriptors.json`
+- `90_file_diff/agent/project/experiments/target_analysis/rcsb_public_compact_summary.json`
+- `90_file_diff/agent/project/experiments/target_analysis/rcsb_sequence_hits.json`
+- `90_file_diff/agent/project/input_targets/source_manifest.json`
+- `90_file_diff/agent/project/input_targets/target1.pdb`
+- `90_file_diff/agent/project/input_targets/target2.pdb`
+- `90_file_diff/agent/project/input_targets/target3.pdb`
+- `90_file_diff/input_targets/README.md`
+- `90_file_diff/input_targets/manifest.json`
+- `90_file_diff/input_targets/metadata/README.md`
+- `90_file_diff/input_targets/metadata/source_manifest.json`
+- `90_file_diff/input_targets/raw/target1.pdb`
+- `90_file_diff/input_targets/raw/target2.pdb`
+- `90_file_diff/input_targets/raw/target3.pdb`
+- `90_file_diff/logs/agent_runner.log`
+- `90_file_diff/logs/arbiter.stderr.log`
+- `90_file_diff/logs/arbiter.stdout.log`
+- `90_file_diff/logs/arbitration.json`
+- `90_file_diff/logs/baseline.log`
+- `90_file_diff/logs/log_uploader.log`
+- `90_file_diff/logs/probe.log`
+- `90_file_diff/logs/status.json`
+- `90_file_diff/offline_eval/baseline/failures.jsonl`
+- `90_file_diff/offline_eval/baseline/metrics.jsonl`
+- `90_file_diff/offline_eval/baseline/offline_eval.stderr.log`
+- `90_file_diff/offline_eval/baseline/offline_eval.stdout.log`
+- `90_file_diff/offline_eval/baseline/per_molecule.csv`
+- `90_file_diff/offline_eval/baseline/summary.json`
+- `90_file_diff/offline_eval/baseline/summary.md`
+- `90_file_diff/offline_eval/final/failures.jsonl`
+- `90_file_diff/offline_eval/final/metrics.jsonl`
+- `90_file_diff/offline_eval/final/offline_eval.stderr.log`
+- `90_file_diff/offline_eval/final/offline_eval.stdout.log`
+- `90_file_diff/offline_eval/final/per_molecule.csv`
+- `90_file_diff/offline_eval/final/summary.json`
+- `90_file_diff/offline_eval/final/summary.md`
+- `90_file_diff/probe/authenticated_api.json`
+- `90_file_diff/probe/child_process.json`
+- `90_file_diff/probe/environment.json`
+- `90_file_diff/probe/filesystem_diff.json`
+- `90_file_diff/probe/io_benchmark.json`
+- `90_file_diff/probe/network.json`
+- `90_file_diff/probe/performance.json`

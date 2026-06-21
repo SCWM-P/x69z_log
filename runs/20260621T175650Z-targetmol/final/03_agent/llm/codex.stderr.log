@@ -1,0 +1,38 @@
+Reading additional input from stdin...
+2026-06-21T18:03:11.590174Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'tmp=$(mktemp -d)
+key="$tmp/node-web-key"
+printf '"'%s\\n' secret > \""'$key"
+chmod 600 "$key"
+target="$tmp/live-target.json"
+link="$tmp/live-link.json"
+ln -s "$target" "$link"
+set +e
+GREENCTL_RELEASE_FINALIZE_PREFLIGHT=true '"\\
+GREENCTL_RELEASE_FINALIZE_STEPS='live' \\
+GREENCTL_RELEASE_FINALIZE_REPORT=\""'$tmp/report.md" '"\\
+GREENCTL_RELEASE_FINALIZE_MANIFEST=\""'$tmp/preflight.json" '"\\
+GREENCTL_RELEASE_FINALIZE_MANIFEST_MD=\""'$tmp/preflight.md" '"\\
+GREENCTL_RELEASE_FINALIZE_LOG=\""'$tmp/release.log" '"\\
+GREENCTL_LIVE_E2E_EVIDENCE=\""'$link" '"\\
+GREENCTL_NODE_URL='http://8.8.8.8:9090' \\
+GREENCTL_NODE_WEB_KEY_FILE=\""'$key" '"\\
+GREENCTL_PUBLIC_URL='https://greenctl.example.net' \\
+GREENCTL_PROMETHEUS_URL='https://prometheus.example.net' \\
+GREENCTL_DATABASE_DSN='postgres://greenctl@db.example.net:5432/greenctl?sslmode=require' \\
+GREENCTL_METRICS_TOKEN='release-finalize-selftest-metrics-token-123456' \\
+GREENCTL_JWT_SECRET='release-finalize-selftest-jwt-secret-123456789' \\
+GREENCTL_MASTER_KEY='00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff' \\
+GREENCTL_NODE_ALLOWED_CIDRS='8.8.8.8/32' \\
+LBY_USER='selftest-provider-user' \\
+LBY_KEY='selftest-provider-key-123456789' \\
+GREENCTL_LIVE_PLAN_CHANNEL='39' \\
+GREENCTL_LIVE_PLAN_CODE='nano_3_1' \\
+GREENCTL_LIVE_IMAGE_CODE='debian_11' \\
+GREENCTL_LIVE_REGION='ap-east-1' \\
+GREENCTL_LIVE_CONFIRM='charge-money-and-destroy-server' \\
+bash scripts/release-finalize.sh > \""'$tmp/out.log" 2>&1
+rc=$?
+cat "$tmp/out.log"
+printf '"'rc=%s\\n' \""'$rc"
+rm -rf "$tmp"
+exit 0'`: CreateProcess { message: "Rejected(\"Failed to create unified exec process: No such file or directory (os error 2)\")" }

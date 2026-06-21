@@ -1,0 +1,182 @@
+[
+  {
+    "comp_id": "19H",
+    "formula": "C20 H19 Cl2 N O3",
+    "formula_weight": 392.276,
+    "heavy_atoms": 26,
+    "inchi_key": "MCMWRWKXPXXZAS-UHFFFAOYSA-N",
+    "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+    "smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "19G",
+    "formula": "C20 H19 Cl O3 S",
+    "formula_weight": 374.881,
+    "heavy_atoms": 25,
+    "inchi_key": "GFWMYYSJLSUPMD-UHFFFAOYSA-N",
+    "name": "3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1-benzothiophene-2-carboxylic acid",
+    "smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3sc2C(=O)O",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "4M7",
+    "formula": "C25 H23 N O4 S",
+    "formula_weight": 433.519,
+    "heavy_atoms": 31,
+    "inchi_key": "RWBITVLVWMQUOJ-WJOKGBTCSA-N",
+    "name": "(1R)-7-[3-(naphthalen-1-yloxy)propyl]-3,4-dihydro-2H-[1,4]thiazepino[2,3,4-hi]indole-6-carboxylic acid 1-oxide",
+    "smiles": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCCS5=O",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "4M6",
+    "formula": "C25 H23 N O3",
+    "formula_weight": 385.455,
+    "heavy_atoms": 29,
+    "inchi_key": "XOMAOOTVWOCYAD-UHFFFAOYSA-N",
+    "name": "1-[3-(naphthalen-1-yloxy)propyl]-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinoline-2-carboxylic acid",
+    "smiles": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCC5",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "5X2",
+    "formula": "C26 H25 Cl N2 O4 S",
+    "formula_weight": 497.006,
+    "heavy_atoms": 34,
+    "inchi_key": "SMGRUAFEHILHHU-UHFFFAOYSA-N",
+    "name": "3-[3-(4-chloranyl-3,5-dimethyl-phenoxy)propyl]-~{N}-(phenylsulfonyl)-1~{H}-indole-2-carboxamide",
+    "smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3[nH]c2C(=O)NS(=O)(=O)c4ccccc4",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "IK1",
+    "formula": "C12 H11 N3 O2 S",
+    "formula_weight": 261.3,
+    "heavy_atoms": 18,
+    "inchi_key": "PSVUSJKZJQMCSP-UHFFFAOYSA-N",
+    "name": "5-PHENYL-2-UREIDOTHIOPHENE-3-CARBOXAMIDE",
+    "smiles": "c1ccc(cc1)c2cc(c(s2)NC(=O)N)C(=O)N",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "2TT",
+    "formula": "C16 H14 Cl N3 O2",
+    "formula_weight": 315.754,
+    "heavy_atoms": 22,
+    "inchi_key": "BZYFIAMMQPKLOE-UHFFFAOYSA-N",
+    "name": "2-chloro-N-{2-[(cyclopropylcarbonyl)amino]pyridin-4-yl}benzamide",
+    "smiles": "c1ccc(c(c1)C(=O)Nc2ccnc(c2)NC(=O)C3CC3)Cl",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "3SM",
+    "formula": "C19 H21 N7 O2",
+    "formula_weight": 379.416,
+    "heavy_atoms": 28,
+    "inchi_key": "ULTCRVJUAZCGPP-UHFFFAOYSA-N",
+    "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+    "smiles": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "7GL",
+    "formula": "C16 H18 N6 O",
+    "formula_weight": 310.354,
+    "heavy_atoms": 23,
+    "inchi_key": "SNVFFECYFQEWTL-UHFFFAOYSA-N",
+    "name": "6-[(3,5-dimethylphenyl)amino]-8-(methylamino)imidazo[1,2-b]pyridazine-3-carboxamide",
+    "smiles": "Cc1cc(cc(c1)Nc2cc(c3ncc(n3n2)C(=O)N)NC)C",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "KZJ",
+    "formula": "C23 H20 N8 O2",
+    "formula_weight": 440.457,
+    "heavy_atoms": 33,
+    "inchi_key": "LMOIQLXOGZDGRD-UHFFFAOYSA-N",
+    "name": "6-{[1-(4-cyanophenyl)-2-oxo-1,2-dihydropyridin-3-yl]amino}-N-cyclopropyl-8-(methylamino)imidazo[1,2-b]pyridazine-3-carboxamide",
+    "smiles": "CNc1cc(nn2c1ncc2C(=O)NC3CC3)NC4=CC=CN(C4=O)c5ccc(cc5)C#N",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "L8Y",
+    "formula": "C19 H17 F N6 O2",
+    "formula_weight": 380.376,
+    "heavy_atoms": 28,
+    "inchi_key": "FFYLSLMDLCQSRS-UHFFFAOYSA-N",
+    "name": "4-[(2-carbamoylphenyl)amino]-6-[(5-fluoropyridin-2-yl)amino]-N-methylpyridine-3-carboxamide",
+    "smiles": "CNC(=O)c1cnc(cc1Nc2ccccc2C(=O)N)Nc3ccc(cn3)F",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "8VP",
+    "formula": "C22 H24 N8 O S",
+    "formula_weight": 448.544,
+    "heavy_atoms": 32,
+    "inchi_key": "NFTMKHWBOINJGM-UHFFFAOYSA-N",
+    "name": "2-[1-(5-ethylpyrimidin-2-yl)piperidin-4-yl]-4-[[4-(1,2,3,4-tetrazol-1-yl)phenoxy]methyl]-1,3-thiazole",
+    "smiles": "CCc1cnc(nc1)N2CCC(CC2)c3nc(cs3)COc4ccc(cc4)n5cnnn5",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "A1D8M",
+    "formula": "C25 H26 F N3 O5",
+    "formula_weight": 467.489,
+    "heavy_atoms": 34,
+    "inchi_key": "LRXRIKVDAVVQCP-SPLOXXLWSA-N",
+    "name": "4-[5-[(1~{R})-1-(4-cyclopropylcarbonylphenoxy)propyl]-1,2,4-oxadiazol-3-yl]-2-fluoranyl-~{N}-[(2~{R})-1-oxidanylpropan-2-yl]benzamide",
+    "smiles": "CC[C@H](c1nc(no1)c2ccc(c(c2)F)C(=O)N[C@H](C)CO)Oc3ccc(cc3)C(=O)C4CC4",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "A1D8Y",
+    "formula": "C23 H28 N4 O4 S",
+    "formula_weight": 456.558,
+    "heavy_atoms": 32,
+    "inchi_key": "AYJRTVVIBJSSKN-UHFFFAOYSA-N",
+    "name": "GSK-1292263",
+    "smiles": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "8WL",
+    "formula": "C21 H24 F N7 O5 S",
+    "formula_weight": 505.523,
+    "heavy_atoms": 35,
+    "inchi_key": "DGBKNTVAKIFYNU-UHFFFAOYSA-N",
+    "name": "N-(2-fluoranyl-4-methylsulfonyl-phenyl)-5-nitro-6-[4-(3-propan-2-yl-1,2,4-oxadiazol-5-yl)piperidin-1-yl]pyrimidin-4-amine",
+    "smiles": "CC(C)c1nc(on1)C2CCN(CC2)c3c(c(ncn3)Nc4ccc(cc4F)S(=O)(=O)C)[N+](=O)[O-]",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "I7J",
+    "formula": "C21 H24 F N5 O5 S",
+    "formula_weight": 477.509,
+    "heavy_atoms": 33,
+    "inchi_key": "XTRUQJBVQBUKSQ-UHFFFAOYSA-N",
+    "name": "propan-2-yl 4-[1-(2-fluoranyl-4-methylsulfonyl-phenyl)pyrazolo[3,4-d]pyrimidin-4-yl]oxypiperidine-1-carboxylate",
+    "smiles": "CC(C)OC(=O)N1CCC(CC1)Oc2c3cnn(c3ncn2)c4ccc(cc4F)S(=O)(=O)C",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "DR7",
+    "formula": "C38 H52 N6 O7",
+    "formula_weight": 704.855,
+    "heavy_atoms": 51,
+    "inchi_key": "AXRYRYVKAWYZBR-GASGPIRDSA-N",
+    "name": "(3S,8S,9S,12S)-3,12-BIS(1,1-DIMETHYLETHYL)-8-HYDROXY-4,11-DIOXO-9-(PHENYLMETHYL)-6-[[4-(2-PYRIDINYL)PHENYL]METHYL]-2,5,\n6,10,13-PENTAAZATETRADECANEDIOIC ACID DIMETHYL ESTER",
+    "smiles": "CC(C)(C)[C@@H](C(=O)N[C@@H](Cc1ccccc1)[C@H](CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[C@H](C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+    "type": "non-polymer"
+  },
+  {
+    "comp_id": "LSC",
+    "formula": "C26 H53 N O7 P",
+    "formula_weight": 522.675,
+    "heavy_atoms": 35,
+    "inchi_key": "YAMUFBLWGFFICM-ZOGNMOHXSA-O",
+    "name": "(4R,7R,18E)-4,7-dihydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphaheptacos-18-en-1-aminium 4-oxide",
+    "smiles": "CCCCCCCC/C=C/CCCCCCCC(=O)OC[C@H](CO[P@](=O)(O)OCC[N+](C)(C)C)O",
+    "type": "non-polymer"
+  }
+]

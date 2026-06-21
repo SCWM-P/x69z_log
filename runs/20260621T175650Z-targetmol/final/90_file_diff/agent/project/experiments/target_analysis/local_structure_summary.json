@@ -1,0 +1,57 @@
+[
+  {
+    "target": "target1.pdb",
+    "records": {
+      "CRYST1": 1,
+      "ATOM": 1206,
+      "ANISOU": 1206,
+      "TER": 1,
+      "END": 1
+    },
+    "chains": {
+      "J": {
+        "residues": 151,
+        "atoms": 1206,
+        "unknown_aa": 0
+      }
+    },
+    "nonwater_het_records": 0,
+    "altloc_atoms": 0
+  },
+  {
+    "target": "target2.pdb",
+    "records": {
+      "CRYST1": 1,
+      "ATOM": 1976,
+      "TER": 1,
+      "END": 1
+    },
+    "chains": {
+      "A": {
+        "residues": 257,
+        "atoms": 1976,
+        "unknown_aa": 0
+      }
+    },
+    "nonwater_het_records": 0,
+    "altloc_atoms": 2
+  },
+  {
+    "target": "target3.pdb",
+    "records": {
+      "CRYST1": 1,
+      "ATOM": 4609,
+      "TER": 1,
+      "END": 1
+    },
+    "chains": {
+      "R": {
+        "residues": 292,
+        "atoms": 4609,
+        "unknown_aa": 0
+      }
+    },
+    "nonwater_het_records": 0,
+    "altloc_atoms": 0
+  }
+]

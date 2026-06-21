@@ -1,0 +1,742 @@
+[
+  {
+    "seq_len": 151,
+    "target": "target1",
+    "top_structures": [
+      {
+        "classification": "APOPTOSIS/INHIBITOR",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 3,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "19H",
+            "entity_id": "2",
+            "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid"
+          },
+          {
+            "comp_id": "PGE",
+            "entity_id": "3",
+            "name": "TRIETHYLENE GLYCOL"
+          },
+          {
+            "comp_id": "EDO",
+            "entity_id": "4",
+            "name": "1,2-ETHANEDIOL"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "4HW2",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.8,
+        "seq_search_score": 1.0,
+        "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design",
+        "uniprot": [
+          "Q07820"
+        ]
+      },
+      {
+        "classification": "APOPTOSIS/INHIBITOR",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "19G",
+            "entity_id": "2",
+            "name": "3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1-benzothiophene-2-carboxylic acid"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "4HW3",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.4,
+        "seq_search_score": 1.0,
+        "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design",
+        "uniprot": [
+          "Q07820"
+        ]
+      },
+      {
+        "classification": "APOPTOSIS",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 0,
+        "nonpolymer_ligands": [],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "4HW4",
+        "polymer_entity_count": 2,
+        "resolution_A": 1.53,
+        "seq_search_score": 1.0,
+        "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design",
+        "uniprot": [
+          "Q07820"
+        ]
+      },
+      {
+        "classification": "apoptosis/apoptosis inhibitor",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "4M7",
+            "entity_id": "2",
+            "name": "(1R)-7-[3-(naphthalen-1-yloxy)propyl]-3,4-dihydro-2H-[1,4]thiazepino[2,3,4-hi]indole-6-carboxylic acid 1-oxide"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "4ZBF",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.2,
+        "seq_search_score": 1.0,
+        "title": "Mcl-1 complexed with small molecules",
+        "uniprot": [
+          "Q07820"
+        ]
+      },
+      {
+        "classification": "apoptosis/apoptosis inhibitor",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "4M6",
+            "entity_id": "2",
+            "name": "1-[3-(naphthalen-1-yloxy)propyl]-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinoline-2-carboxylic acid"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "4ZBI",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.5,
+        "seq_search_score": 1.0,
+        "title": "Mcl-1 complexed with small molecules",
+        "uniprot": [
+          "Q07820"
+        ]
+      },
+      {
+        "classification": "PEPTIDE BINDING PROTEIN",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "ZN",
+            "entity_id": "3",
+            "name": "ZINC ION"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "5W89",
+        "polymer_entity_count": 2,
+        "resolution_A": 1.42,
+        "seq_search_score": 1.0,
+        "title": "Crystal structure of human Mcl-1 in complex with modified Bim BH3 peptide SAH-MS1-18",
+        "uniprot": [
+          "Q07820"
+        ]
+      },
+      {
+        "classification": "apoptosis/apoptosis inhibitor",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "5X2",
+            "entity_id": "2",
+            "name": "3-[3-(4-chloranyl-3,5-dimethyl-phenoxy)propyl]-~{N}-(phenylsulfonyl)-1~{H}-indole-2-carboxamide"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "5FDO",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.8,
+        "seq_search_score": 0.9333333333333333,
+        "title": "Mcl-1 complexed with small molecule inhibitor",
+        "uniprot": [
+          "Q07820"
+        ]
+      },
+      {
+        "classification": "PEPTIDE BINDING PROTEIN",
+        "ec": [],
+        "entity_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "ZN",
+            "entity_id": "3",
+            "name": "ZINC ION"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "5W8F",
+        "polymer_entity_count": 2,
+        "resolution_A": 1.85,
+        "seq_search_score": 0.9333333333333333,
+        "title": "Crystal structure of human Mcl-1 in complex with modified Bim BH3 peptide SAH-MS1-14",
+        "uniprot": [
+          "Q07820"
+        ]
+      }
+    ]
+  },
+  {
+    "seq_len": 257,
+    "target": "target2",
+    "top_structures": [
+      {
+        "classification": "TRANSFERASE",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2",
+          "2.7.11",
+          "2.7.11.1"
+        ],
+        "entity_description": "NON-RECEPTOR TYROSINE-PROTEIN KINASE TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "IK1",
+            "entity_id": "2",
+            "name": "5-PHENYL-2-UREIDOTHIOPHENE-3-CARBOXAMIDE"
+          }
+        ],
+        "organism": [
+          "HOMO SAPIENS"
+        ],
+        "pdb_id": "3ZON",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.15,
+        "seq_search_score": 1.0,
+        "title": "Human TYK2 pseudokinase domain bound to a kinase inhibitor",
+        "uniprot": [
+          "P29597"
+        ]
+      },
+      {
+        "classification": "TRANSFERASE",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2"
+        ],
+        "entity_description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "2TT",
+            "entity_id": "2",
+            "name": "2-chloro-N-{2-[(cyclopropylcarbonyl)amino]pyridin-4-yl}benzamide"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "4OLI",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.8,
+        "seq_search_score": 1.0,
+        "title": "The pseudokinase/kinase protein from JAK-family member TYK2",
+        "uniprot": [
+          "P29597"
+        ]
+      },
+      {
+        "classification": "TRANSFERASE/INHIBITOR",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2"
+        ],
+        "entity_description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 2,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "3SM",
+            "entity_id": "2",
+            "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide"
+          },
+          {
+            "comp_id": "SO4",
+            "entity_id": "3",
+            "name": "SULFATE ION"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "4WOV",
+        "polymer_entity_count": 1,
+        "resolution_A": 1.8,
+        "seq_search_score": 1.0,
+        "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH BMS-066 AKA 2-METHOXY-N-({6-[3-METHYL-7-(METHYLAMINO)-3,5,8,10-TETRAAZATRICYCLO[7.3.0.0, 6]DODECA-1(9),2(6),4,7,11-PENTAEN-11-YL]PYRIDIN-2-YL}METHY L)ACETAMIDE",
+        "uniprot": [
+          "P29597"
+        ]
+      },
+      {
+        "classification": "TRANSFERASE",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2"
+        ],
+        "entity_description": "NON-RECEPTOR TYROSINE-PROTEIN KINASE TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 3,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "UNL",
+            "entity_id": "2",
+            "name": "UNKNOWN LIGAND"
+          },
+          {
+            "comp_id": "EDO",
+            "entity_id": "3",
+            "name": "1,2-ETHANEDIOL"
+          },
+          {
+            "comp_id": "GOL",
+            "entity_id": "4",
+            "name": "GLYCEROL"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "5C01",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.15,
+        "seq_search_score": 1.0,
+        "title": "Crystal Structure of kinase",
+        "uniprot": [
+          "P29597"
+        ]
+      },
+      {
+        "classification": "TRANSFERASE",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2"
+        ],
+        "entity_description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 4,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "AGS",
+            "entity_id": "2",
+            "name": "PHOSPHOTHIOPHOSPHORIC ACID-ADENYLATE ESTER"
+          },
+          {
+            "comp_id": "MG",
+            "entity_id": "3",
+            "name": "MAGNESIUM ION"
+          },
+          {
+            "comp_id": "GOL",
+            "entity_id": "4",
+            "name": "GLYCEROL"
+          },
+          {
+            "comp_id": "EDO",
+            "entity_id": "5",
+            "name": "1,2-ETHANEDIOL"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "5C03",
+        "polymer_entity_count": 1,
+        "resolution_A": 1.9,
+        "seq_search_score": 1.0,
+        "title": "Crystal Structure of kinase",
+        "uniprot": [
+          "P29597"
+        ]
+      },
+      {
+        "classification": "TRANSFERASE",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2"
+        ],
+        "entity_description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 2,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "7GL",
+            "entity_id": "2",
+            "name": "6-[(3,5-dimethylphenyl)amino]-8-(methylamino)imidazo[1,2-b]pyridazine-3-carboxamide"
+          },
+          {
+            "comp_id": "SO4",
+            "entity_id": "3",
+            "name": "SULFATE ION"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "5TKD",
+        "polymer_entity_count": 1,
+        "resolution_A": 1.92,
+        "seq_search_score": 1.0,
+        "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH 6-[(3,5-DIMETHYLPHE NYL)AMINO]-8- (METHYLAMINO)IMIDAZO[1,2-B]PYRIDAZINE-3-CARBO XAMIDE",
+        "uniprot": [
+          "P29597"
+        ]
+      },
+      {
+        "classification": "TRANSFERASE",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2"
+        ],
+        "entity_description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 2,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "KZJ",
+            "entity_id": "2",
+            "name": "6-{[1-(4-cyanophenyl)-2-oxo-1,2-dihydropyridin-3-yl]amino}-N-cyclopropyl-8-(methylamino)imidazo[1,2-b]pyridazine-3-carboxamide"
+          },
+          {
+            "comp_id": "SO4",
+            "entity_id": "3",
+            "name": "SULFATE ION"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "6NSL",
+        "polymer_entity_count": 1,
+        "resolution_A": 2.15,
+        "seq_search_score": 1.0,
+        "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH Compound-6c AKA 6-((1-(4-CYANOPHENY L)-2-OXO-1,2-DIHYDRO-3-PYRIDINYL)AMINO)-N-CYCLOPROPYL-8-(M ETHYLAMINO)IMIDAZO[1,2-B]PYRIDAZINE-3-CARBOXAMIDE",
+        "uniprot": [
+          "P29597"
+        ]
+      },
+      {
+        "classification": "TRANSFERASE",
+        "ec": [
+          "2",
+          "2.7",
+          "2.7.10",
+          "2.7.10.2"
+        ],
+        "entity_description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity_id": "1",
+        "method": "X-RAY DIFFRACTION",
+        "nonpolymer_entity_count": 2,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "L8Y",
+            "entity_id": "2",
+            "name": "4-[(2-carbamoylphenyl)amino]-6-[(5-fluoropyridin-2-yl)amino]-N-methylpyridine-3-carboxamide"
+          },
+          {
+            "comp_id": "SO4",
+            "entity_id": "3",
+            "name": "SULFATE ION"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "6NZE",
+        "polymer_entity_count": 1,
+        "resolution_A": 1.96,
+        "seq_search_score": 1.0,
+        "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH Compound_5 AKA 4-[(2-CARBAMOYLPHEN YL)AMINO]-6-[(5-FLUOROPYRIDIN-2-YL)AMINO]-N-METHYLPYRIDINE -3-CARBOXAMIDE",
+        "uniprot": [
+          "P29597"
+        ]
+      }
+    ]
+  },
+  {
+    "seq_len": 292,
+    "target": "target3",
+    "top_structures": [
+      {
+        "classification": "MEMBRANE PROTEIN",
+        "ec": [],
+        "entity_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor",
+        "entity_id": "5",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "LSC",
+            "entity_id": "6",
+            "name": "(4R,7R,18E)-4,7-dihydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphaheptacos-18-en-1-aminium 4-oxide"
+          }
+        ],
+        "organism": [
+          "Escherichia coli",
+          "Homo sapiens"
+        ],
+        "pdb_id": "7XZ5",
+        "polymer_entity_count": 5,
+        "resolution_A": null,
+        "seq_search_score": 1.0,
+        "title": "GPR119-Gs-LPC complex",
+        "uniprot": [
+          "P0ABE7",
+          "Q8TDV5"
+        ]
+      },
+      {
+        "classification": "MEMBRANE PROTEIN",
+        "ec": [],
+        "entity_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor",
+        "entity_id": "5",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "I7J",
+            "entity_id": "6",
+            "name": "propan-2-yl 4-[1-(2-fluoranyl-4-methylsulfonyl-phenyl)pyrazolo[3,4-d]pyrimidin-4-yl]oxypiperidine-1-carboxylate"
+          }
+        ],
+        "organism": [
+          "Escherichia coli",
+          "Homo sapiens"
+        ],
+        "pdb_id": "7XZ6",
+        "polymer_entity_count": 5,
+        "resolution_A": null,
+        "seq_search_score": 1.0,
+        "title": "GPR119-Gs-APD668 complex",
+        "uniprot": [
+          "P0ABE7",
+          "Q8TDV5"
+        ]
+      },
+      {
+        "classification": "MEMBRANE PROTEIN/SIGNALING PROTEIN",
+        "ec": [],
+        "entity_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor,LgBiT",
+        "entity_id": "5",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "8VP",
+            "entity_id": "6",
+            "name": "2-[1-(5-ethylpyrimidin-2-yl)piperidin-4-yl]-4-[[4-(1,2,3,4-tetrazol-1-yl)phenoxy]methyl]-1,3-thiazole"
+          }
+        ],
+        "organism": [
+          "Escherichia coli",
+          "Homo sapiens",
+          "Oplophorus gracilirostris"
+        ],
+        "pdb_id": "8VHF",
+        "polymer_entity_count": 5,
+        "resolution_A": null,
+        "seq_search_score": 1.0,
+        "title": "Cryo-EM structure of GPR119-Gs-Nb35 complex with small molecule agonist MBX-2982",
+        "uniprot": [
+          "P0ABE7",
+          "Q8TDV5"
+        ]
+      },
+      {
+        "classification": "MEMBRANE PROTEIN",
+        "ec": [],
+        "entity_description": "Glucose-dependent insulinotropic receptor",
+        "entity_id": "5",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "A1D8M",
+            "entity_id": "6",
+            "name": "4-[5-[(1~{R})-1-(4-cyclopropylcarbonylphenoxy)propyl]-1,2,4-oxadiazol-3-yl]-2-fluoranyl-~{N}-[(2~{R})-1-oxidanylpropan-2-yl]benzamide"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "8ZR5",
+        "polymer_entity_count": 5,
+        "resolution_A": null,
+        "seq_search_score": 1.0,
+        "title": "Cryo-EM Structure of GPR119-Gs-Firuglipel complex",
+        "uniprot": [
+          "Q8TDV5"
+        ]
+      },
+      {
+        "classification": "MEMBRANE PROTEIN",
+        "ec": [],
+        "entity_description": "Glucose-dependent insulinotropic receptor",
+        "entity_id": "5",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "A1D8Y",
+            "entity_id": "6",
+            "name": "GSK-1292263"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "8ZRK",
+        "polymer_entity_count": 5,
+        "resolution_A": null,
+        "seq_search_score": 1.0,
+        "title": "Cryo-EM structure of GPR119-Gs Complex with small molecule agonist GSK-1292263",
+        "uniprot": [
+          "Q8TDV5"
+        ]
+      },
+      {
+        "classification": "MEMBRANE PROTEIN",
+        "ec": [],
+        "entity_description": "Glucose-dependent insulinotropic receptor",
+        "entity_id": "1",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "8WL",
+            "entity_id": "7",
+            "name": "N-(2-fluoranyl-4-methylsulfonyl-phenyl)-5-nitro-6-[4-(3-propan-2-yl-1,2,4-oxadiazol-5-yl)piperidin-1-yl]pyrimidin-4-amine"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "9L79",
+        "polymer_entity_count": 6,
+        "resolution_A": null,
+        "seq_search_score": 1.0,
+        "title": "Structure of GPR119-Gs complex bound to AR231453",
+        "uniprot": [
+          "Q8TDV5"
+        ]
+      },
+      {
+        "classification": "MEMBRANE PROTEIN",
+        "ec": [],
+        "entity_description": "Glucose-dependent insulinotropic receptor",
+        "entity_id": "5",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "DR7",
+            "entity_id": "7",
+            "name": "(3S,8S,9S,12S)-3,12-BIS(1,1-DIMETHYLETHYL)-8-HYDROXY-4,11-DIOXO-9-(PHENYLMETHYL)-6-[[4-(2-PYRIDINYL)PHENYL]METHYL]-2,5, 6,10,13-PENTAAZATETRADECANEDIOIC ACID DIMETHYL ESTER"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "9L80",
+        "polymer_entity_count": 6,
+        "resolution_A": null,
+        "seq_search_score": 1.0,
+        "title": "Structure of GPR119-Gs complex bound to an allosteric modulator",
+        "uniprot": [
+          "Q8TDV5"
+        ]
+      },
+      {
+        "classification": "SIGNALING PROTEIN",
+        "ec": [],
+        "entity_description": "Glucose-dependent insulinotropic receptor",
+        "entity_id": "5",
+        "method": "ELECTRON MICROSCOPY",
+        "nonpolymer_entity_count": 1,
+        "nonpolymer_ligands": [
+          {
+            "comp_id": "8VP",
+            "entity_id": "6",
+            "name": "2-[1-(5-ethylpyrimidin-2-yl)piperidin-4-yl]-4-[[4-(1,2,3,4-tetrazol-1-yl)phenoxy]methyl]-1,3-thiazole"
+          }
+        ],
+        "organism": [
+          "Homo sapiens"
+        ],
+        "pdb_id": "7WCM",
+        "polymer_entity_count": 5,
+        "resolution_A": null,
+        "seq_search_score": 0.0,
+        "title": "Cryo-EM structure of GPR119-Gs Complex with small molecule agonist MBX-2982",
+        "uniprot": [
+          "Q8TDV5"
+        ]
+      }
+    ]
+  }
+]
