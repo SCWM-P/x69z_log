@@ -1,0 +1,4 @@
+X69Z_EVENT {"enhancement_budget_seconds": 30.0, "event": "agent_start", "input_dir": "/saisdata", "molecules_per_target": 1, "output_dir": "/work/targetmol/run/baseline", "prefer_gpu_scorer": true, "resolved_target_dir": "/saisdata", "scratch_dir": "/tmp/x69z_target_molecule_scratch/run-59-1782062526955", "search_pool_per_target": 96, "target_exists": [true, true, true], "version": "targetmol-baseline-v4-stageb-specialist"}
+X69Z_EVENT {"event": "local_zip_valid", "path": "/tmp/x69z_target_molecule_result/result-59-1782062527552.zip", "size": 2522}
+X69Z_EVENT {"event": "result_zip_valid", "path": "/work/targetmol/run/baseline/result.zip", "size": 2522}
+X69Z_EVENT {"event": "stageb_specialist_result_written", "output": "/work/targetmol/run/baseline/result.zip"}
