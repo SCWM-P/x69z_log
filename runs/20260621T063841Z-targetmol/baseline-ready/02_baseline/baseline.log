@@ -1,0 +1,35 @@
+X69Z_EVENT {"enhancement_budget_seconds": 120.0, "event": "agent_start", "input_dir": "/saisdata", "molecules_per_target": 1, "output_dir": "/work/targetmol/run/baseline", "prefer_gpu_scorer": true, "resolved_target_dir": "/saisdata", "scratch_dir": "/tmp/x69z_target_molecule_scratch/run-59-1782023941410", "search_pool_per_target": 96, "target_exists": [true, true, true], "version": "targetmol-baseline-v3-leaderboard-singleton"}
+X69Z_EVENT {"event": "local_zip_valid", "path": "/tmp/x69z_target_molecule_result/result-59-1782024009127.zip", "size": 2881}
+X69Z_EVENT {"event": "result_zip_valid", "path": "/work/targetmol/run/baseline/result.zip", "size": 2881}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"error_type": "CUDARuntimeError", "event": "gpu_cupy_unavailable"}
+X69Z_EVENT {"error_type": "ModuleNotFoundError", "event": "gpu_torch_unavailable"}
+X69Z_EVENT {"event": "local_zip_valid", "path": "/tmp/x69z_target_molecule_result/result-59-1782024076750.zip", "size": 3407}
+X69Z_EVENT {"event": "result_zip_valid", "path": "/work/targetmol/run/baseline/result.zip", "size": 3407}
