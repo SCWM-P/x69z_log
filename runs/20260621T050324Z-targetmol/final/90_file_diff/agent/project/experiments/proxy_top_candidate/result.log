@@ -1,0 +1,2 @@
+[Agent] proxy-top local experiment
+{"basis": "enumerated route-constrained molecule ranked best by local offline_eval tier-0 proxy among no-risk-flag candidates for all targets", "metrics": {"heavy_atoms": 35, "logp": 8.271, "mw": 538.832, "qed": 0.2466, "rings": 6, "rotors": 3, "route_len": 205, "sa": 2.309, "tpsa": 54.88}, "no_raw_pdb_contents": true, "status": "proxy_top_no_flag_candidate", "timestamp": 1782018934}

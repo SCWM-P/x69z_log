@@ -1,0 +1,224 @@
+[
+  {
+    "history": [
+      {
+        "best_score": 1043.652,
+        "generation": 1,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 4,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1042.252,
+        "generation": 2,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 3,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1042.672,
+        "generation": 3,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 2,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1043.792,
+        "generation": 4,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 1,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "generation": "safe_recall",
+        "pool_size": 1924,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "balanced_size": 772,
+        "bounded_fill_size": 3289,
+        "generation": "diverse_evaluable_recall",
+        "pool_size": 1290,
+        "strategy": "v107_diverse_evaluable_evolution"
+      }
+    ],
+    "library": {
+      "acyl_pool": 12,
+      "amine_pool": 28,
+      "boronic_pool": 28,
+      "candidate_pool": 5870,
+      "runtime_mutated_reagents": 21
+    },
+    "pool": 5870,
+    "selected": {
+      "evaluator_friendly_relaxed": true,
+      "evaluator_friendly_strict": true,
+      "flat_score": 715.606,
+      "heavy_atoms": 39,
+      "logp": 8.982,
+      "mw": 578.416,
+      "qed": 0.22,
+      "rings": 7,
+      "rotors": 3,
+      "route_len": 237,
+      "sa": 2.559,
+      "smiles": "O=C(Nc1cc(-c2cc3[nH]c4ccccc4c3cc2F)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+      "smiles_len": 67,
+      "target_score": 926.143,
+      "tpsa": 57.78
+    },
+    "target": 1
+  },
+  {
+    "history": [
+      {
+        "best_score": 1055.927,
+        "generation": 1,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 4,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1056.767,
+        "generation": 2,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 3,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1055.927,
+        "generation": 3,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 2,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1055.927,
+        "generation": 4,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 1,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "generation": "safe_recall",
+        "pool_size": 1761,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "balanced_size": 609,
+        "bounded_fill_size": 3180,
+        "generation": "diverse_evaluable_recall",
+        "pool_size": 1286,
+        "strategy": "v107_diverse_evaluable_evolution"
+      }
+    ],
+    "library": {
+      "acyl_pool": 12,
+      "amine_pool": 28,
+      "boronic_pool": 28,
+      "candidate_pool": 5838,
+      "runtime_mutated_reagents": 21
+    },
+    "pool": 5838,
+    "selected": {
+      "evaluator_friendly_relaxed": true,
+      "evaluator_friendly_strict": true,
+      "flat_score": 730.508,
+      "heavy_atoms": 38,
+      "logp": 8.843,
+      "mw": 560.426,
+      "qed": 0.2269,
+      "rings": 7,
+      "rotors": 3,
+      "route_len": 241,
+      "sa": 2.432,
+      "smiles": "O=C(Nc1cc(-c2ccc3c(c2)[nH]c2ccccc23)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+      "smiles_len": 68,
+      "target_score": 935.808,
+      "tpsa": 57.78
+    },
+    "target": 2
+  },
+  {
+    "history": [
+      {
+        "best_score": 1057.867,
+        "generation": 1,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 4,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1058.637,
+        "generation": 2,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 3,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1057.167,
+        "generation": 3,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 2,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "best_score": 1057.587,
+        "generation": 4,
+        "mean_mw_top": 581.65,
+        "mean_reagent_depth_top": 0.0,
+        "pool_size": 1,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "generation": "safe_recall",
+        "pool_size": 1793,
+        "scorer_backend": "cpu_numpy"
+      },
+      {
+        "balanced_size": 648,
+        "bounded_fill_size": 3201,
+        "generation": "diverse_evaluable_recall",
+        "pool_size": 1265,
+        "strategy": "v107_diverse_evaluable_evolution"
+      }
+    ],
+    "library": {
+      "acyl_pool": 12,
+      "amine_pool": 28,
+      "boronic_pool": 28,
+      "candidate_pool": 5826,
+      "runtime_mutated_reagents": 21
+    },
+    "pool": 5826,
+    "selected": {
+      "evaluator_friendly_relaxed": true,
+      "evaluator_friendly_strict": true,
+      "flat_score": 726.469,
+      "heavy_atoms": 39,
+      "logp": 8.982,
+      "mw": 578.416,
+      "qed": 0.22,
+      "rings": 7,
+      "rotors": 3,
+      "route_len": 237,
+      "sa": 2.559,
+      "smiles": "O=C(Nc1cc(-c2cc3[nH]c4ccccc4c3cc2F)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+      "smiles_len": 67,
+      "target_score": 946.804,
+      "tpsa": 57.78
+    },
+    "target": 3
+  }
+]

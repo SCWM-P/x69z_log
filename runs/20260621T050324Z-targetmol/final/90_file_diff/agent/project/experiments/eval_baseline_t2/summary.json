@@ -1,0 +1,41 @@
+{
+  "elapsed_seconds": 35.405,
+  "failure_count": 0,
+  "label": "baseline_t2",
+  "molecule_count": 3,
+  "ok_count": 3,
+  "outputs": {
+    "failures_jsonl": "experiments/eval_baseline_t2/failures.jsonl",
+    "metrics_jsonl": "experiments/eval_baseline_t2/metrics.jsonl",
+    "per_molecule_csv": "experiments/eval_baseline_t2/per_molecule.csv"
+  },
+  "pdb_dir": "/saisdata",
+  "proxy_score_mean": 73.8286,
+  "proxy_score_min": 57.196,
+  "result_zip": "baseline_result.zip",
+  "slowest": [
+    {
+      "prep_ms": 107,
+      "row": 1,
+      "smiles": "N#Cc1ccc(-c2nc3cc(Cl)ccc3c(NC(=O)c3ccc4ccc5ccc6ccccc6c5c4c3)c2F)cc1",
+      "target": "result2.csv",
+      "vina_ms": 14396
+    },
+    {
+      "prep_ms": 111,
+      "row": 1,
+      "smiles": "O=C(Nc1cc(-c2ccc3c(c2)OCO3)nc2cc(Cl)ccc12)c1ccc2c(ccc3cc4ccccc4cc32)c1",
+      "target": "result3.csv",
+      "vina_ms": 11682
+    },
+    {
+      "prep_ms": 109,
+      "row": 1,
+      "smiles": "O=C(Nc1cc(-c2ccc3oc4ccccc4c3c2)nc2cc(F)ccc12)c1ccc2cc(Br)ccc2c1",
+      "target": "result1.csv",
+      "vina_ms": 7731
+    }
+  ],
+  "tier": 2,
+  "ts": "2026-06-21T05:16:34Z"
+}

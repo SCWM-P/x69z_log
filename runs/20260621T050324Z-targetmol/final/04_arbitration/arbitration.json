@@ -1,0 +1,95 @@
+{
+  "agent": "/work/targetmol/run/agent/candidate/result.zip",
+  "baseline": "/work/targetmol/run/baseline/result.zip",
+  "decision": "hybrid",
+  "targets": {
+    "result1.csv": [
+      {
+        "accepted_for_ranking": true,
+        "canonical": "O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1",
+        "elapsed_ms": 83,
+        "heavy_atoms": 35,
+        "logp": 8.271400000000002,
+        "mw": 538.8320000000001,
+        "offline_proxy_score": 74.0712,
+        "openbabel": {
+          "available": true,
+          "output_exists": true,
+          "status": 0,
+          "stderr": "1 molecule converted\n"
+        },
+        "qed": 0.24662590507884066,
+        "rings": 6,
+        "rotors": 3,
+        "sa": 2.3094792211603696,
+        "smiles": "O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1",
+        "tpsa": 54.88
+      },
+      {
+        "accepted_replacements": 1,
+        "baseline_selected": 1,
+        "final_count": 1,
+        "maximum": 1
+      }
+    ],
+    "result2.csv": [
+      {
+        "accepted_for_ranking": true,
+        "canonical": "O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1",
+        "elapsed_ms": 97,
+        "heavy_atoms": 35,
+        "logp": 8.271400000000002,
+        "mw": 538.8320000000001,
+        "offline_proxy_score": 74.0712,
+        "openbabel": {
+          "available": true,
+          "output_exists": true,
+          "status": 0,
+          "stderr": "1 molecule converted\n"
+        },
+        "qed": 0.24662590507884066,
+        "rings": 6,
+        "rotors": 3,
+        "sa": 2.3094792211603696,
+        "smiles": "O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1",
+        "tpsa": 54.88
+      },
+      {
+        "accepted_replacements": 1,
+        "baseline_selected": 1,
+        "final_count": 1,
+        "maximum": 1
+      }
+    ],
+    "result3.csv": [
+      {
+        "accepted_for_ranking": true,
+        "canonical": "O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1",
+        "elapsed_ms": 80,
+        "heavy_atoms": 35,
+        "logp": 8.271400000000002,
+        "mw": 538.8320000000001,
+        "offline_proxy_score": 74.0712,
+        "openbabel": {
+          "available": true,
+          "output_exists": true,
+          "status": 0,
+          "stderr": "1 molecule converted\n"
+        },
+        "qed": 0.24662590507884066,
+        "rings": 6,
+        "rotors": 3,
+        "sa": 2.3094792211603696,
+        "smiles": "O=C(Nc1cc(-c2ccc3ncccc3c2)nc2cc(Cl)ccc12)c1ccc2cc(Br)ccc2c1",
+        "tpsa": 54.88
+      },
+      {
+        "accepted_replacements": 1,
+        "baseline_selected": 1,
+        "final_count": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  "ts": "2026-06-21T05:20:53Z"
+}
