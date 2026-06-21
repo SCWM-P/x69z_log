@@ -1,0 +1,72 @@
+{
+  "agent_status": 0,
+  "baseline_impl": "targetmol_v2",
+  "baseline_offline_eval": {
+    "elapsed_seconds": 2.129,
+    "failure_count": 0,
+    "label": "baseline",
+    "molecule_count": 15,
+    "ok_count": 15,
+    "outputs": {
+      "failures_jsonl": "/work/targetmol/run/offline_eval/baseline/failures.jsonl",
+      "metrics_jsonl": "/work/targetmol/run/offline_eval/baseline/metrics.jsonl",
+      "per_molecule_csv": "/work/targetmol/run/offline_eval/baseline/per_molecule.csv"
+    },
+    "pdb_dir": "/saisdata",
+    "proxy_score_mean": 71.6708,
+    "proxy_score_min": 71.5233,
+    "result_zip": "/work/targetmol/run/baseline/result.zip",
+    "slowest": [
+      {
+        "prep_ms": 214,
+        "row": 1,
+        "smiles": "COc1ccc(-c2c[nH]c3c(Cl)c(F)c(NC(=O)c4ccc5c6ccccc6c6ccccc6c5c4)cc23)cc1",
+        "target": "result1.csv",
+        "vina_ms": null
+      },
+      {
+        "prep_ms": 106,
+        "row": 2,
+        "smiles": "COc1ccc(-c2c[nH]c3c(Cl)c(F)c(NC(=O)c4ccc5ccc6ccc7ccccc7c6c5c4)cc23)cc1",
+        "target": "result1.csv",
+        "vina_ms": null
+      },
+      {
+        "prep_ms": 105,
+        "row": 2,
+        "smiles": "COc1ccc(-c2c[nH]c3c(Cl)c(F)c(NC(=O)c4ccc5ccc6ccc7ccccc7c6c5c4)cc23)cc1",
+        "target": "result3.csv",
+        "vina_ms": null
+      },
+      {
+        "prep_ms": 104,
+        "row": 2,
+        "smiles": "COc1ccc(-c2c[nH]c3c(Cl)c(F)c(NC(=O)c4ccc5ccc6ccc7ccccc7c6c5c4)cc23)cc1",
+        "target": "result2.csv",
+        "vina_ms": null
+      },
+      {
+        "prep_ms": 100,
+        "row": 5,
+        "smiles": "N#Cc1ccc(-c2c[nH]c3c(Cl)c(F)c(NC(=O)c4ccc5c6ccccc6c6ccccc6c5c4)cc23)cc1",
+        "target": "result1.csv",
+        "vina_ms": null
+      }
+    ],
+    "tier": 1,
+    "ts": "2026-06-21T03:00:42Z"
+  },
+  "baseline_status": 0,
+  "budgets": {
+    "agent": 13500,
+    "baseline": 240,
+    "finalization_reserve": 120,
+    "total": 13740
+  },
+  "completed_at": null,
+  "run_id": "20260621T025917Z-targetmol",
+  "runtime_secret_names_loaded": [],
+  "started_at": "2026-06-21T02:59:17Z",
+  "success": false,
+  "updated_at": "2026-06-21T03:07:58Z"
+}
