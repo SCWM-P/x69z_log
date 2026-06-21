@@ -1,0 +1,6 @@
+X69Z_EVENT {"enhancement_budget_seconds": 30.0, "event": "agent_start", "input_dir": "/saisdata", "output_dir": "/work/targetmol/run/baseline", "prefer_gpu_scorer": true, "resolved_target_dir": "/saisdata", "scratch_dir": "/tmp/x69z_target_molecule_scratch/run-59-1782010775334", "target_exists": [true, true, true], "version": "targetmol-baseline-v2-v107-anchor"}
+X69Z_EVENT {"event": "local_zip_valid", "path": "/tmp/x69z_target_molecule_result/result-59-1782010840169.zip", "size": 2264}
+X69Z_EVENT {"event": "result_zip_valid", "path": "/work/targetmol/run/baseline/result.zip", "size": 2264}
+X69Z_EVENT {"error_type": "TimeoutError", "event": "target_enhancement_failed_keep_preflight"}
+X69Z_EVENT {"event": "local_zip_valid", "path": "/tmp/x69z_target_molecule_result/result-59-1782010840203.zip", "size": 1872}
+X69Z_EVENT {"event": "result_zip_valid", "path": "/work/targetmol/run/baseline/result.zip", "size": 1872}
