@@ -1,0 +1,170 @@
+{
+  "19G": {
+    "formula": "C20 H19 Cl O3 S",
+    "inchi_key": "GFWMYYSJLSUPMD-UHFFFAOYSA-N",
+    "name": "3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1-benzothiophene-2-carboxylic acid",
+    "smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3sc2C(=O)O",
+    "smiles_stereo": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3sc2C(=O)O",
+    "type": "non-polymer"
+  },
+  "19H": {
+    "formula": "C20 H19 Cl2 N O3",
+    "inchi_key": "MCMWRWKXPXXZAS-UHFFFAOYSA-N",
+    "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+    "smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+    "smiles_stereo": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+    "type": "non-polymer"
+  },
+  "2TT": {
+    "formula": "C16 H14 Cl N3 O2",
+    "inchi_key": "BZYFIAMMQPKLOE-UHFFFAOYSA-N",
+    "name": "2-chloro-N-{2-[(cyclopropylcarbonyl)amino]pyridin-4-yl}benzamide",
+    "smiles": "c1ccc(c(c1)C(=O)Nc2ccnc(c2)NC(=O)C3CC3)Cl",
+    "smiles_stereo": "c1ccc(c(c1)C(=O)Nc2ccnc(c2)NC(=O)C3CC3)Cl",
+    "type": "non-polymer"
+  },
+  "3SM": {
+    "formula": "C19 H21 N7 O2",
+    "inchi_key": "ULTCRVJUAZCGPP-UHFFFAOYSA-N",
+    "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+    "smiles": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+    "smiles_stereo": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+    "type": "non-polymer"
+  },
+  "4M6": {
+    "formula": "C25 H23 N O3",
+    "inchi_key": "XOMAOOTVWOCYAD-UHFFFAOYSA-N",
+    "name": "1-[3-(naphthalen-1-yloxy)propyl]-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinoline-2-carboxylic acid",
+    "smiles": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCC5",
+    "smiles_stereo": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCC5",
+    "type": "non-polymer"
+  },
+  "4M7": {
+    "formula": "C25 H23 N O4 S",
+    "inchi_key": "RWBITVLVWMQUOJ-WJOKGBTCSA-N",
+    "name": "(1R)-7-[3-(naphthalen-1-yloxy)propyl]-3,4-dihydro-2H-[1,4]thiazepino[2,3,4-hi]indole-6-carboxylic acid 1-oxide",
+    "smiles": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCCS5=O",
+    "smiles_stereo": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCCS5=O",
+    "type": "non-polymer"
+  },
+  "5X2": {
+    "formula": "C26 H25 Cl N2 O4 S",
+    "inchi_key": "SMGRUAFEHILHHU-UHFFFAOYSA-N",
+    "name": "3-[3-(4-chloranyl-3,5-dimethyl-phenoxy)propyl]-~{N}-(phenylsulfonyl)-1~{H}-indole-2-carboxamide",
+    "smiles": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3[nH]c2C(=O)NS(=O)(=O)c4ccccc4",
+    "smiles_stereo": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3[nH]c2C(=O)NS(=O)(=O)c4ccccc4",
+    "type": "non-polymer"
+  },
+  "7GL": {
+    "formula": "C16 H18 N6 O",
+    "inchi_key": "SNVFFECYFQEWTL-UHFFFAOYSA-N",
+    "name": "6-[(3,5-dimethylphenyl)amino]-8-(methylamino)imidazo[1,2-b]pyridazine-3-carboxamide",
+    "smiles": "Cc1cc(cc(c1)Nc2cc(c3ncc(n3n2)C(=O)N)NC)C",
+    "smiles_stereo": "Cc1cc(cc(c1)Nc2cc(c3ncc(n3n2)C(=O)N)NC)C",
+    "type": "non-polymer"
+  },
+  "8VP": {
+    "formula": "C22 H24 N8 O S",
+    "inchi_key": "NFTMKHWBOINJGM-UHFFFAOYSA-N",
+    "name": "2-[1-(5-ethylpyrimidin-2-yl)piperidin-4-yl]-4-[[4-(1,2,3,4-tetrazol-1-yl)phenoxy]methyl]-1,3-thiazole",
+    "smiles": "CCc1cnc(nc1)N2CCC(CC2)c3nc(cs3)COc4ccc(cc4)n5cnnn5",
+    "smiles_stereo": "CCc1cnc(nc1)N2CCC(CC2)c3nc(cs3)COc4ccc(cc4)n5cnnn5",
+    "type": "non-polymer"
+  },
+  "8WL": {
+    "formula": "C21 H24 F N7 O5 S",
+    "inchi_key": "DGBKNTVAKIFYNU-UHFFFAOYSA-N",
+    "name": "N-(2-fluoranyl-4-methylsulfonyl-phenyl)-5-nitro-6-[4-(3-propan-2-yl-1,2,4-oxadiazol-5-yl)piperidin-1-yl]pyrimidin-4-amine",
+    "smiles": "CC(C)c1nc(on1)C2CCN(CC2)c3c(c(ncn3)Nc4ccc(cc4F)S(=O)(=O)C)[N+](=O)[O-]",
+    "smiles_stereo": "CC(C)c1nc(on1)C2CCN(CC2)c3c(c(ncn3)Nc4ccc(cc4F)S(=O)(=O)C)[N+](=O)[O-]",
+    "type": "non-polymer"
+  },
+  "9ZS": {
+    "formula": "C16 H12 Cl2 N4 O",
+    "inchi_key": "OFPQQEBBZKPLFE-UHFFFAOYSA-N",
+    "name": "N-[2-(2,6-dichlorophenyl)-1H-imidazo[4,5-c]pyridin-4-yl]cyclopropanecarboxamide",
+    "smiles": "c1cc(c(c(c1)Cl)c2[nH]c3ccnc(c3n2)NC(=O)C4CC4)Cl",
+    "smiles_stereo": "c1cc(c(c(c1)Cl)c2[nH]c3ccnc(c3n2)NC(=O)C4CC4)Cl",
+    "type": "non-polymer"
+  },
+  "AGS": {
+    "formula": "C10 H16 N5 O12 P3 S",
+    "inchi_key": "NLTUCYMLOPLUHL-KQYNXXCUSA-N",
+    "name": "PHOSPHOTHIOPHOSPHORIC ACID-ADENYLATE ESTER",
+    "smiles": "c1nc(c2c(n1)n(cn2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=S)(O)O)O)O)N",
+    "smiles_stereo": "c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=S)(O)O)O)O)N",
+    "type": "non-polymer"
+  },
+  "DR7": {
+    "formula": "C38 H52 N6 O7",
+    "inchi_key": "AXRYRYVKAWYZBR-GASGPIRDSA-N",
+    "name": "(3S,8S,9S,12S)-3,12-BIS(1,1-DIMETHYLETHYL)-8-HYDROXY-4,11-DIOXO-9-(PHENYLMETHYL)-6-[[4-(2-PYRIDINYL)PHENYL]METHYL]-2,5,\n6,10,13-PENTAAZATETRADECANEDIOIC ACID DIMETHYL ESTER",
+    "smiles": "CC(C)(C)C(C(=O)NC(Cc1ccccc1)C(CN(Cc2ccc(cc2)c3ccccn3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+    "smiles_stereo": "CC(C)(C)[C@@H](C(=O)N[C@@H](Cc1ccccc1)[C@H](CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[C@H](C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+    "type": "non-polymer"
+  },
+  "I7J": {
+    "formula": "C21 H24 F N5 O5 S",
+    "inchi_key": "XTRUQJBVQBUKSQ-UHFFFAOYSA-N",
+    "name": "propan-2-yl 4-[1-(2-fluoranyl-4-methylsulfonyl-phenyl)pyrazolo[3,4-d]pyrimidin-4-yl]oxypiperidine-1-carboxylate",
+    "smiles": "CC(C)OC(=O)N1CCC(CC1)Oc2c3cnn(c3ncn2)c4ccc(cc4F)S(=O)(=O)C",
+    "smiles_stereo": "CC(C)OC(=O)N1CCC(CC1)Oc2c3cnn(c3ncn2)c4ccc(cc4F)S(=O)(=O)C",
+    "type": "non-polymer"
+  },
+  "IK1": {
+    "formula": "C12 H11 N3 O2 S",
+    "inchi_key": "PSVUSJKZJQMCSP-UHFFFAOYSA-N",
+    "name": "5-PHENYL-2-UREIDOTHIOPHENE-3-CARBOXAMIDE",
+    "smiles": "c1ccc(cc1)c2cc(c(s2)NC(=O)N)C(=O)N",
+    "smiles_stereo": "c1ccc(cc1)c2cc(c(s2)NC(=O)N)C(=O)N",
+    "type": "non-polymer"
+  },
+  "KZJ": {
+    "formula": "C23 H20 N8 O2",
+    "inchi_key": "LMOIQLXOGZDGRD-UHFFFAOYSA-N",
+    "name": "6-{[1-(4-cyanophenyl)-2-oxo-1,2-dihydropyridin-3-yl]amino}-N-cyclopropyl-8-(methylamino)imidazo[1,2-b]pyridazine-3-carboxamide",
+    "smiles": "CNc1cc(nn2c1ncc2C(=O)NC3CC3)NC4=CC=CN(C4=O)c5ccc(cc5)C#N",
+    "smiles_stereo": "CNc1cc(nn2c1ncc2C(=O)NC3CC3)NC4=CC=CN(C4=O)c5ccc(cc5)C#N",
+    "type": "non-polymer"
+  },
+  "L8Y": {
+    "formula": "C19 H17 F N6 O2",
+    "inchi_key": "FFYLSLMDLCQSRS-UHFFFAOYSA-N",
+    "name": "4-[(2-carbamoylphenyl)amino]-6-[(5-fluoropyridin-2-yl)amino]-N-methylpyridine-3-carboxamide",
+    "smiles": "CNC(=O)c1cnc(cc1Nc2ccccc2C(=O)N)Nc3ccc(cn3)F",
+    "smiles_stereo": "CNC(=O)c1cnc(cc1Nc2ccccc2C(=O)N)Nc3ccc(cn3)F",
+    "type": "non-polymer"
+  },
+  "LSC": {
+    "formula": "C26 H53 N O7 P",
+    "inchi_key": "YAMUFBLWGFFICM-ZOGNMOHXSA-O",
+    "name": "(4R,7R,18E)-4,7-dihydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphaheptacos-18-en-1-aminium 4-oxide",
+    "smiles": "CCCCCCCCC=CCCCCCCCC(=O)OCC(COP(=O)(O)OCC[N+](C)(C)C)O",
+    "smiles_stereo": "CCCCCCCC/C=C/CCCCCCCC(=O)OC[C@H](CO[P@](=O)(O)OCC[N+](C)(C)C)O",
+    "type": "non-polymer"
+  },
+  "MK8": {
+    "formula": "C7 H15 N O2",
+    "inchi_key": "LKZQHZQXROBVOO-ZETCQYMHSA-N",
+    "name": "2-methyl-L-norleucine",
+    "smiles": "CCCCC(C)(C(=O)O)N",
+    "smiles_stereo": "CCCC[C@@](C)(C(=O)O)N",
+    "type": "L-peptide linking"
+  },
+  "PTR": {
+    "formula": "C9 H12 N O6 P",
+    "inchi_key": "DCWXELXMIBXGTH-QMMMGPOBSA-N",
+    "name": "O-PHOSPHOTYROSINE",
+    "smiles": "c1cc(ccc1CC(C(=O)O)N)OP(=O)(O)O",
+    "smiles_stereo": "c1cc(ccc1C[C@@H](C(=O)O)N)OP(=O)(O)O",
+    "type": "L-peptide linking"
+  },
+  "UNL": {
+    "formula": null,
+    "inchi_key": null,
+    "name": "Unknown ligand",
+    "smiles": null,
+    "smiles_stereo": null,
+    "type": "non-polymer"
+  }
+}
