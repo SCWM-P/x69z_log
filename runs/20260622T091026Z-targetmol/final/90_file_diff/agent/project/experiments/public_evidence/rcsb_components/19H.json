@@ -1,0 +1,167 @@
+{
+  "chem_comp": {
+    "formula": "C20 H19 Cl2 N O3",
+    "formula_weight": 392.276,
+    "id": "19H",
+    "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+    "pdbx_ambiguous_flag": "N",
+    "pdbx_formal_charge": 0,
+    "pdbx_initial_date": "2012-11-08T00:00:00.000+00:00",
+    "pdbx_modified_date": "2013-01-04T00:00:00.000+00:00",
+    "pdbx_processing_site": "RCSB",
+    "pdbx_release_status": "REL",
+    "three_letter_code": "19H",
+    "type": "non-polymer"
+  },
+  "pdbx_chem_comp_audit": [
+    {
+      "action_type": "Create component",
+      "comp_id": "19H",
+      "date": "2012-11-08T00:00:00.000+00:00",
+      "ordinal": 1
+    },
+    {
+      "action_type": "Initial release",
+      "comp_id": "19H",
+      "date": "2013-01-04T00:00:00.000+00:00",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_chem_comp_descriptor": [
+    {
+      "comp_id": "19H",
+      "descriptor": "Clc3c(cc(OCCCc2c1ccc(Cl)cc1nc2C(=O)O)cc3C)C",
+      "program": "ACDLabs",
+      "program_version": "12.01",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "19H",
+      "descriptor": "InChI=1S/C20H19Cl2NO3/c1-11-8-14(9-12(2)18(11)22)26-7-3-4-16-15-6-5-13(21)10-17(15)23-19(16)20(24)25/h5-6,8-10,23H,3-4,7H2,1-2H3,(H,24,25)",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChI"
+    },
+    {
+      "comp_id": "19H",
+      "descriptor": "MCMWRWKXPXXZAS-UHFFFAOYSA-N",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChIKey"
+    },
+    {
+      "comp_id": "19H",
+      "descriptor": "Cc1cc(OCCCc2c([nH]c3cc(Cl)ccc23)C(O)=O)cc(C)c1Cl",
+      "program": "CACTVS",
+      "program_version": "3.370",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "19H",
+      "descriptor": "Cc1cc(OCCCc2c([nH]c3cc(Cl)ccc23)C(O)=O)cc(C)c1Cl",
+      "program": "CACTVS",
+      "program_version": "3.370",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "19H",
+      "descriptor": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.7.6",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "19H",
+      "descriptor": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.7.6",
+      "type": "SMILES"
+    }
+  ],
+  "pdbx_chem_comp_identifier": [
+    {
+      "comp_id": "19H",
+      "identifier": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+      "program": "ACDLabs",
+      "program_version": "12.01",
+      "type": "SYSTEMATIC NAME"
+    },
+    {
+      "comp_id": "19H",
+      "identifier": "6-chloranyl-3-[3-(4-chloranyl-3,5-dimethyl-phenoxy)propyl]-1H-indole-2-carboxylic acid",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.7.6",
+      "type": "SYSTEMATIC NAME"
+    }
+  ],
+  "rcsb_chem_comp_container_identifiers": {
+    "comp_id": "19H",
+    "rcsb_id": "19H"
+  },
+  "rcsb_chem_comp_descriptor": {
+    "InChI": "InChI=1S/C20H19Cl2NO3/c1-11-8-14(9-12(2)18(11)22)26-7-3-4-16-15-6-5-13(21)10-17(15)23-19(16)20(24)25/h5-6,8-10,23H,3-4,7H2,1-2H3,(H,24,25)",
+    "InChIKey": "MCMWRWKXPXXZAS-UHFFFAOYSA-N",
+    "SMILES": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+    "SMILES_stereo": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+    "comp_id": "19H"
+  },
+  "rcsb_chem_comp_info": {
+    "atom_count": 45,
+    "atom_count_chiral": 0,
+    "atom_count_heavy": 26,
+    "bond_count": 47,
+    "bond_count_aromatic": 16,
+    "comp_id": "19H",
+    "initial_deposition_date": "2012-11-08T00:00:00.000+00:00",
+    "initial_release_date": "2013-01-04T00:00:00.000+00:00",
+    "release_status": "REL",
+    "revision_date": "2013-01-04T00:00:00.000+00:00"
+  },
+  "rcsb_chem_comp_related": [
+    {
+      "comp_id": "19H",
+      "ordinal": 1,
+      "related_mapping_method": "matching InChIKey in PubChem",
+      "resource_accession_code": "70680244",
+      "resource_name": "PubChem"
+    },
+    {
+      "comp_id": "19H",
+      "ordinal": 2,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "CHEMBL2314209",
+      "resource_name": "ChEMBL"
+    },
+    {
+      "comp_id": "19H",
+      "ordinal": 3,
+      "related_mapping_method": "matching ChEMBL ID in Pharos",
+      "resource_accession_code": "CHEMBL2314209",
+      "resource_name": "Pharos"
+    }
+  ],
+  "rcsb_chem_comp_synonyms": [
+    {
+      "comp_id": "19H",
+      "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+      "ordinal": 1,
+      "provenance_source": "PDB Reference Data",
+      "type": "Preferred Name"
+    },
+    {
+      "comp_id": "19H",
+      "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+      "ordinal": 2,
+      "provenance_source": "ACDLabs",
+      "type": "Systematic Name"
+    },
+    {
+      "comp_id": "19H",
+      "name": "6-chloranyl-3-[3-(4-chloranyl-3,5-dimethyl-phenoxy)propyl]-1H-indole-2-carboxylic acid",
+      "ordinal": 3,
+      "provenance_source": "OpenEye OEToolkits",
+      "type": "Systematic Name"
+    }
+  ],
+  "rcsb_id": "19H"
+}

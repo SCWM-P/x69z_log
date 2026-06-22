@@ -1,0 +1,174 @@
+{
+  "target1": {
+    "atoms": 1206,
+    "chains": {
+      "J": {
+        "length": 151,
+        "range": [
+          "171",
+          "321"
+        ],
+        "sha1": "d6d14b63b531d40342e67276d36a1aa1e55ada94",
+        "nterm": "GDELYRQSLEIISRYLREQATGAKDTKPMG",
+        "cterm": "ESITDVLVRTKRDWLVKQRGWDGFVEFFHV",
+        "composition": {
+          "A": 8,
+          "C": 1,
+          "D": 10,
+          "E": 10,
+          "F": 7,
+          "G": 12,
+          "H": 4,
+          "I": 9,
+          "K": 10,
+          "L": 13,
+          "M": 3,
+          "N": 4,
+          "P": 2,
+          "Q": 6,
+          "R": 14,
+          "S": 10,
+          "T": 10,
+          "V": 13,
+          "W": 3,
+          "Y": 2
+        }
+      }
+    },
+    "het_residues": {},
+    "elements": {
+      "N": 221,
+      "C": 758,
+      "O": 223,
+      "S": 4
+    },
+    "bbox_min": [
+      -35.274,
+      -30.997,
+      -112.911
+    ],
+    "bbox_max": [
+      3.311,
+      13.126,
+      -78.86
+    ],
+    "b_mean": 64.19933665008297,
+    "b_min": 31.67,
+    "b_max": 118.49
+  },
+  "target2": {
+    "atoms": 1976,
+    "chains": {
+      "A": {
+        "length": 257,
+        "range": [
+          "580",
+          "867"
+        ],
+        "sha1": "a690baa68bb5786443e831b0c159b5448c5ad8fa",
+        "nterm": "SFHRVDQKEITQLSHLGQGTRTNVYEGRLR",
+        "cterm": "CPQLATLTSQCLTYEPTQRPSFRTILRDLT",
+        "composition": {
+          "A": 16,
+          "C": 6,
+          "D": 8,
+          "E": 20,
+          "F": 8,
+          "G": 17,
+          "H": 12,
+          "I": 8,
+          "K": 7,
+          "L": 34,
+          "M": 5,
+          "N": 6,
+          "P": 16,
+          "Q": 12,
+          "R": 20,
+          "S": 18,
+          "T": 15,
+          "V": 19,
+          "W": 4,
+          "Y": 6
+        }
+      }
+    },
+    "het_residues": {},
+    "elements": {
+      "N": 351,
+      "C": 1257,
+      "O": 356,
+      "S": 12
+    },
+    "bbox_min": [
+      -11.236,
+      -15.867,
+      -4.436
+    ],
+    "bbox_max": [
+      41.371,
+      24.879,
+      49.855
+    ],
+    "b_mean": 58.783846153846156,
+    "b_min": 31.81,
+    "b_max": 121.73
+  },
+  "target3": {
+    "atoms": 4609,
+    "chains": {
+      "R": {
+        "length": 292,
+        "range": [
+          "1",
+          "300"
+        ],
+        "sha1": "2551621a4a797e53d2a50401a5688f21b8659b6a",
+        "nterm": "MESSFSFGVILAVLASLIIATNTLVAVAVL",
+        "cterm": "NSLLNPLIYAYWQKEVRLQLYHMALGVKKV",
+        "composition": {
+          "A": 28,
+          "C": 8,
+          "D": 6,
+          "E": 5,
+          "F": 21,
+          "G": 18,
+          "H": 7,
+          "I": 18,
+          "K": 11,
+          "L": 46,
+          "M": 11,
+          "N": 5,
+          "P": 9,
+          "Q": 12,
+          "R": 8,
+          "S": 24,
+          "T": 15,
+          "V": 26,
+          "W": 4,
+          "Y": 10
+        }
+      }
+    },
+    "het_residues": {},
+    "elements": {
+      "N": 362,
+      "C": 1498,
+      "O": 380,
+      "S": 19,
+      "H": 2350
+    },
+    "bbox_min": [
+      76.954,
+      84.525,
+      62.25
+    ],
+    "bbox_max": [
+      141.345,
+      139.183,
+      126.858
+    ],
+    "b_mean": 56.00343024517222,
+    "b_min": 27.13,
+    "b_max": 99.41
+  }
+}

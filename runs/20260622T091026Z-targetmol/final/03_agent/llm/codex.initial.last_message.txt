@@ -1,0 +1,23 @@
+Done. Final archive is at [candidate/result.zip](/work/targetmol/run/agent/project/candidate/result.zip).
+
+Key validation:
+- Zip members exactly: `result1.csv`, `result2.csv`, `result3.csv`, `result.log`
+- One row per target
+- Route final products match `mol_smiles` by text and RDKit canonical check
+- `validate_cli.py` passes
+- SHA256: `02d1b47aa59b2fde4451254213296c54e1297f0c95cac4c53f2acd9cddf0844a`
+
+Final target choices:
+- `result1`: MCL1, RCSB 4HW2 ligand-family analog 19H
+- `result2`: TYK2 JH2, RCSB 4WOV/BMS-066 ligand 3SM
+- `result3`: GPR119, RCSB 8ZRK/GSK-1292263 ligand A1D8Y
+
+Offline validation:
+- Tier 1 proxy: `76.0511`, `75.4544`, `75.7669`, all above thresholds `65.1588`, `65.9992`, `66.4825`
+- Tier 2 proxy with Vina: `87.3431`, `86.1440`, `87.7669`
+- Tier 2 affinities: `-9.410`, `-8.908`, `-10.930`
+- Failures: `0`
+
+Research/validation artifacts are under [experiments/offline_eval](/work/targetmol/run/agent/project/experiments/offline_eval) and x69z has durable target analysis, evidence, candidate decision, and final validation nodes recorded.
+
+Public evidence sources used include RCSB entries [4HW2](https://www.rcsb.org/structure/4HW2), [4WOV](https://www.rcsb.org/structure/4WOV), [7K7O](https://www.rcsb.org/structure/7K7O), [7XZ6](https://www.rcsb.org/structure/7XZ6), [8VHF](https://www.rcsb.org/structure/8VHF), and [8ZRK](https://www.rcsb.org/structure/8ZRK).

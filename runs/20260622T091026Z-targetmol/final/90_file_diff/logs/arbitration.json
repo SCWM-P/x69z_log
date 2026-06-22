@@ -1,0 +1,107 @@
+{
+  "agent": "/work/targetmol/run/agent/candidate/result.zip",
+  "baseline": "/work/targetmol/run/baseline/result.zip",
+  "decision": "hybrid",
+  "targets": {
+    "result1.csv": [
+      {
+        "accepted_for_ranking": true,
+        "arbiter_mode": "aggressive",
+        "canonical": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+        "elapsed_ms": 66,
+        "heavy_atoms": 26,
+        "logp": 5.801340000000004,
+        "mw": 392.28200000000015,
+        "offline_proxy_score": 70.3566,
+        "openbabel": {
+          "available": true,
+          "output_exists": true,
+          "status": 0,
+          "stderr": "1 molecule converted\n"
+        },
+        "qed": 0.5212945781088127,
+        "rings": 3,
+        "rotors": 6,
+        "sa": 2.3741025663867372,
+        "same_smiles_baseline_index": null,
+        "smiles": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+        "target_member": "result1.csv",
+        "tpsa": 62.32
+      },
+      {
+        "accepted_replacements": 1,
+        "arbiter_mode": "aggressive",
+        "baseline_selected": 1,
+        "final_count": 1,
+        "maximum": 1
+      }
+    ],
+    "result2.csv": [
+      {
+        "accepted_for_ranking": true,
+        "arbiter_mode": "aggressive",
+        "canonical": "CNc1nc2[nH]c(-c3cccc(CNC(=O)COC)n3)cc2c2c1ncn2C",
+        "elapsed_ms": 71,
+        "heavy_atoms": 28,
+        "logp": 1.8158999999999996,
+        "mw": 379.4240000000001,
+        "offline_proxy_score": 61.3351,
+        "openbabel": {
+          "available": true,
+          "output_exists": true,
+          "status": 0,
+          "stderr": "1 molecule converted\n"
+        },
+        "qed": 0.47136435513979896,
+        "rings": 4,
+        "rotors": 6,
+        "sa": 2.871297352354972,
+        "same_smiles_baseline_index": null,
+        "smiles": "CNc1nc2[nH]c(-c3cccc(CNC(=O)COC)n3)cc2c2c1ncn2C",
+        "target_member": "result2.csv",
+        "tpsa": 109.75
+      },
+      {
+        "accepted_replacements": 1,
+        "arbiter_mode": "aggressive",
+        "baseline_selected": 1,
+        "final_count": 1,
+        "maximum": 1
+      }
+    ],
+    "result3.csv": [
+      {
+        "accepted_for_ranking": true,
+        "arbiter_mode": "aggressive",
+        "canonical": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+        "elapsed_ms": 103,
+        "heavy_atoms": 32,
+        "logp": 3.9539000000000026,
+        "mw": 456.5680000000002,
+        "offline_proxy_score": 69.9641,
+        "openbabel": {
+          "available": true,
+          "output_exists": true,
+          "status": 0,
+          "stderr": "1 molecule converted\n"
+        },
+        "qed": 0.5269442838814542,
+        "rings": 4,
+        "rotors": 7,
+        "sa": 2.6109069664026983,
+        "same_smiles_baseline_index": null,
+        "smiles": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+        "target_member": "result3.csv",
+        "tpsa": 98.42
+      },
+      {
+        "accepted_replacements": 1,
+        "arbiter_mode": "aggressive",
+        "baseline_selected": 1,
+        "final_count": 1,
+        "maximum": 1
+      }
+    ]
+  },
+  "ts": "2026-06-22T09:40:13Z"
+}

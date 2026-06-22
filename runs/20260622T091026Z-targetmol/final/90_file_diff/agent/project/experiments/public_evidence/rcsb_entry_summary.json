@@ -1,0 +1,68 @@
+{
+  "4HW2": {
+    "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design",
+    "doi": null,
+    "year": 2013,
+    "pubmed": null,
+    "nonpolymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "7K7O": {
+    "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH COMPOUND-12 AKA:6-[(cyclopropanecarbonyl)amino]-4-{[2-methoxy-3-(pyrimidin-2-yl)phenyl]amino}-N-methylpyridazine-3-carboxamide",
+    "doi": null,
+    "year": 2021,
+    "pubmed": null,
+    "nonpolymer_entity_ids": [
+      "2"
+    ]
+  },
+  "4WOV": {
+    "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH BMS-066 AKA 2-METHOXY-N-({6-[3-METHYL-7-(METHYLAMINO)-3,5,8,10-TETRAAZATRICYCLO[7.3.0.0, 6]DODECA-1(9),2(6),4,7,11-PENTAEN-11-YL]PYRIDIN-2-YL}METHY L)ACETAMIDE",
+    "doi": null,
+    "year": 2015,
+    "pubmed": null,
+    "nonpolymer_entity_ids": [
+      "2",
+      "3"
+    ]
+  },
+  "7XZ6": {
+    "title": "GPR119-Gs-APD668 complex",
+    "doi": null,
+    "year": 2022,
+    "pubmed": null,
+    "nonpolymer_entity_ids": [
+      "6"
+    ]
+  },
+  "8VHF": {
+    "title": "Cryo-EM structure of GPR119-Gs-Nb35 complex with small molecule agonist MBX-2982",
+    "doi": null,
+    "year": 2024,
+    "pubmed": null,
+    "nonpolymer_entity_ids": [
+      "6"
+    ]
+  },
+  "9L79": {
+    "title": "Structure of GPR119-Gs complex bound to AR231453",
+    "doi": null,
+    "year": null,
+    "pubmed": null,
+    "nonpolymer_entity_ids": [
+      "7"
+    ]
+  },
+  "9L80": {
+    "title": "Structure of GPR119-Gs complex bound to an allosteric modulator",
+    "doi": null,
+    "year": null,
+    "pubmed": null,
+    "nonpolymer_entity_ids": [
+      "7"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "log_bytes": 77,
+  "members": [
+    "result1.csv",
+    "result2.csv",
+    "result3.csv",
+    "result.log"
+  ],
+  "path": "candidate/result.zip",
+  "rows": {
+    "result1.csv": {
+      "mol_smiles": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+      "route_final_canonical_equal": true,
+      "route_final_text_equal": true,
+      "route_len": 99,
+      "row_count": 1
+    },
+    "result2.csv": {
+      "mol_smiles": "CNc1nc2[nH]c(-c3cccc(CNC(=O)COC)n3)cc2c2c1ncn2C",
+      "route_final_canonical_equal": true,
+      "route_final_text_equal": true,
+      "route_len": 103,
+      "row_count": 1
+    },
+    "result3.csv": {
+      "mol_smiles": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+      "route_final_canonical_equal": true,
+      "route_final_text_equal": true,
+      "route_len": 117,
+      "row_count": 1
+    }
+  },
+  "sha256": "02d1b47aa59b2fde4451254213296c54e1297f0c95cac4c53f2acd9cddf0844a",
+  "size": 774
+}

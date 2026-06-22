@@ -1,0 +1,160 @@
+{
+  "chem_comp": {
+    "formula": "C19 H21 N7 O2",
+    "formula_weight": 379.416,
+    "id": "3SM",
+    "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+    "pdbx_ambiguous_flag": "N",
+    "pdbx_formal_charge": 0,
+    "pdbx_initial_date": "2014-10-17T00:00:00.000+00:00",
+    "pdbx_modified_date": "2015-03-13T00:00:00.000+00:00",
+    "pdbx_processing_site": "RCSB",
+    "pdbx_release_status": "REL",
+    "three_letter_code": "3SM",
+    "type": "non-polymer"
+  },
+  "pdbx_chem_comp_audit": [
+    {
+      "action_type": "Create component",
+      "comp_id": "3SM",
+      "date": "2014-10-17T00:00:00.000+00:00",
+      "ordinal": 1
+    },
+    {
+      "action_type": "Initial release",
+      "comp_id": "3SM",
+      "date": "2015-03-18T00:00:00.000+00:00",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_chem_comp_descriptor": [
+    {
+      "comp_id": "3SM",
+      "descriptor": "O=C(NCc4nc(c3nc2nc(c1ncn(c1c2c3)C)NC)ccc4)COC",
+      "program": "ACDLabs",
+      "program_version": "12.01",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "3SM",
+      "descriptor": "InChI=1S/C19H21N7O2/c1-20-19-16-17(26(2)10-22-16)12-7-14(24-18(12)25-19)13-6-4-5-11(23-13)8-21-15(27)9-28-3/h4-7,10H,8-9H2,1-3H3,(H,21,27)(H2,20,24,25)",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChI"
+    },
+    {
+      "comp_id": "3SM",
+      "descriptor": "ULTCRVJUAZCGPP-UHFFFAOYSA-N",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChIKey"
+    },
+    {
+      "comp_id": "3SM",
+      "descriptor": "CNc1nc2[nH]c(cc2c3n(C)cnc13)c4cccc(CNC(=O)COC)n4",
+      "program": "CACTVS",
+      "program_version": "3.385",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "3SM",
+      "descriptor": "CNc1nc2[nH]c(cc2c3n(C)cnc13)c4cccc(CNC(=O)COC)n4",
+      "program": "CACTVS",
+      "program_version": "3.385",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "3SM",
+      "descriptor": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.9.2",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "3SM",
+      "descriptor": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.9.2",
+      "type": "SMILES"
+    }
+  ],
+  "pdbx_chem_comp_identifier": [
+    {
+      "comp_id": "3SM",
+      "identifier": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+      "program": "ACDLabs",
+      "program_version": "12.01",
+      "type": "SYSTEMATIC NAME"
+    }
+  ],
+  "rcsb_chem_comp_container_identifiers": {
+    "comp_id": "3SM",
+    "rcsb_id": "3SM"
+  },
+  "rcsb_chem_comp_descriptor": {
+    "InChI": "InChI=1S/C19H21N7O2/c1-20-19-16-17(26(2)10-22-16)12-7-14(24-18(12)25-19)13-6-4-5-11(23-13)8-21-15(27)9-28-3/h4-7,10H,8-9H2,1-3H3,(H,21,27)(H2,20,24,25)",
+    "InChIKey": "ULTCRVJUAZCGPP-UHFFFAOYSA-N",
+    "SMILES": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+    "SMILES_stereo": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+    "comp_id": "3SM"
+  },
+  "rcsb_chem_comp_info": {
+    "atom_count": 49,
+    "atom_count_chiral": 0,
+    "atom_count_heavy": 28,
+    "bond_count": 52,
+    "bond_count_aromatic": 20,
+    "comp_id": "3SM",
+    "initial_deposition_date": "2014-10-17T00:00:00.000+00:00",
+    "initial_release_date": "2015-03-18T00:00:00.000+00:00",
+    "release_status": "REL",
+    "revision_date": "2015-03-18T00:00:00.000+00:00"
+  },
+  "rcsb_chem_comp_related": [
+    {
+      "comp_id": "3SM",
+      "ordinal": 1,
+      "related_mapping_method": "assigned by PDB",
+      "resource_accession_code": "SAMPUT",
+      "resource_name": "CCDC/CSD"
+    },
+    {
+      "comp_id": "3SM",
+      "ordinal": 2,
+      "related_mapping_method": "matching InChIKey in PubChem",
+      "resource_accession_code": "24825710",
+      "resource_name": "PubChem"
+    },
+    {
+      "comp_id": "3SM",
+      "ordinal": 3,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "CHEMBL1923983",
+      "resource_name": "ChEMBL"
+    },
+    {
+      "comp_id": "3SM",
+      "ordinal": 4,
+      "related_mapping_method": "matching ChEMBL ID in Pharos",
+      "resource_accession_code": "CHEMBL1923983",
+      "resource_name": "Pharos"
+    }
+  ],
+  "rcsb_chem_comp_synonyms": [
+    {
+      "comp_id": "3SM",
+      "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+      "ordinal": 1,
+      "provenance_source": "PDB Reference Data",
+      "type": "Preferred Name"
+    },
+    {
+      "comp_id": "3SM",
+      "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+      "ordinal": 2,
+      "provenance_source": "ACDLabs",
+      "type": "Systematic Name"
+    }
+  ],
+  "rcsb_id": "3SM"
+}

@@ -1,0 +1,107 @@
+{
+  "result1.csv": [
+    {
+      "canonical_smiles": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+      "id": "mcl1_19h_cocrystal",
+      "note": "RCSB 4HW2 ligand 19H, MCL1 BH3 groove acidic indole anchor.",
+      "route": "COC(=O)c1[nH]c2cc(Cl)ccc2c1CCCOc1cc(C)c(Cl)c(C)c1>>Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+      "smiles": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl"
+    },
+    {
+      "canonical_smiles": "O=C(O)c1c(-c2ccc(Cl)cc2)[nH]c2ccc(Oc3ccccc3)cc12",
+      "id": "mcl1_probe_indole_acid",
+      "note": "Probe/baseline acidic indole-aryl MCL1-like analog.",
+      "route": "COC(=O)c1c(-c2ccc(Cl)cc2)[nH]c2ccc(Oc3ccccc3)cc12>>O=C(O)c1c(-c2ccc(Cl)cc2)[nH]c2ccc(Oc3ccccc3)cc12",
+      "smiles": "O=C(O)c1c(-c2ccc(Cl)cc2)[nH]c2ccc(Oc3ccccc3)cc12"
+    },
+    {
+      "canonical_smiles": "O=C(O)c1c(-c2ccc(Cl)cc2)[nH]c2ccccc12",
+      "id": "mcl1_compact_indole_cl",
+      "note": "Compact acidic indole analog from baseline stage-B profile.",
+      "route": "COC(=O)c1c(-c2ccc(Cl)cc2)[nH]c2ccccc12>>O=C(O)c1c(-c2ccc(Cl)cc2)[nH]c2ccccc12",
+      "smiles": "O=C(O)c1c(-c2ccc(Cl)cc2)[nH]c2ccccc12"
+    },
+    {
+      "canonical_smiles": "O=C(O)c1cc2ccccc2s1",
+      "id": "mcl1_benzothiophene_acid",
+      "note": "Small acidic benzothiophene fallback, lower hydrophobic volume.",
+      "route": "COC(=O)c1cc2ccccc2s1>>O=C(O)c1cc2ccccc2s1",
+      "smiles": "O=C(O)c1cc2ccccc2s1"
+    }
+  ],
+  "result2.csv": [
+    {
+      "canonical_smiles": "CNC(=O)c1nnc(NC(=O)C2CC2)cc1Nc1cccc(-c2ncccn2)c1OC",
+      "id": "tyk2_vzj_cocrystal",
+      "note": "RCSB 7K7O TYK2 JH2 compound-12/VZJ.",
+      "route": "CNC(=O)c1c(Cl)c(Cl)nn1NC(=O)C1CC1.COc1c(N)cccc1-c1ncccn1>>CNC(=O)c1nnc(NC(=O)C2CC2)cc1Nc1cccc(-c2ncccn2)c1OC",
+      "smiles": "CNC(=O)c1c(cc(nn1)NC(=O)C2CC2)Nc3cccc(c3OC)c4ncccn4"
+    },
+    {
+      "canonical_smiles": "CNc1nc2[nH]c(-c3cccc(CNC(=O)COC)n3)cc2c2c1ncn2C",
+      "id": "tyk2_3sm_bms066",
+      "note": "RCSB 4WOV BMS-066/3SM JH2 inhibitor.",
+      "route": "COCC(=O)NCc1cccc(-c2cc3c(nc(N(C)C)c4ncn(C)c43)[nH]2)n1>>CNc1nc2[nH]c(-c3cccc(CNC(=O)COC)n3)cc2c2c1ncn2C",
+      "smiles": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C"
+    },
+    {
+      "canonical_smiles": "CC(C)(C)NC(=O)c1ccc(Nc2ncc(C#N)cc2F)cn1",
+      "id": "tyk2_probe_carboxamide",
+      "note": "Probe/baseline TYK2 heteroaryl carboxamide.",
+      "route": "CN(C(=O)c1ccc(Nc2ncc(C#N)cc2F)cn1)C(C)(C)C>>CC(C)(C)NC(=O)c1ccc(Nc2ncc(C#N)cc2F)cn1",
+      "smiles": "CC(C)(C)NC(=O)c1ccc(Nc2ncc(C#N)cc2F)cn1"
+    },
+    {
+      "id": "tyk2_stageb_naza",
+      "note": "Stage-B profile TYK2 heteroaryl carboxamide; canonical duplicate of probe retained only for provenance in rejected notes.",
+      "route": "auto_methyl_precursor",
+      "skip_panel": "duplicate_of_tyk2_probe_carboxamide",
+      "skipped": "duplicate_of_tyk2_probe_carboxamide",
+      "smiles": "CC(C)(C)NC(=O)c1ncc(Nc2ncc(C#N)cc2F)cc1"
+    },
+    {
+      "canonical_smiles": "CN(C)C(=O)c1ccc(Nc2ncc(F)cc2C#N)cn1",
+      "id": "tyk2_dimethylamide",
+      "note": "Stage-B profile dimethylamide analog.",
+      "route": "CN(C)C(=O)c1ccc(N(C)c2ncc(F)cc2C#N)cn1>>CN(C)C(=O)c1ccc(Nc2ncc(F)cc2C#N)cn1",
+      "smiles": "CN(C)C(=O)c1ncc(Nc2ncc(F)cc2C#N)cc1"
+    }
+  ],
+  "result3.csv": [
+    {
+      "canonical_smiles": "CC(C)OC(=O)N1CCC(Oc2ncnc3c2cnn3-c2ccc(S(C)(=O)=O)cc2F)CC1",
+      "id": "gpr119_i7j_apd668",
+      "note": "RCSB 7XZ6 GPR119 agonist APD668/I7J.",
+      "route": "CC(C)OC(=O)N1CCC(O)CC1.CS(=O)(=O)c1ccc(-n2ncc3c(Cl)ncnc32)c(F)c1>>CC(C)OC(=O)N1CCC(Oc2ncnc3c2cnn3-c2ccc(S(C)(=O)=O)cc2F)CC1",
+      "smiles": "CC(C)OC(=O)N1CCC(CC1)Oc2c3cnn(c3ncn2)c4ccc(cc4F)S(=O)(=O)C"
+    },
+    {
+      "canonical_smiles": "CCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1",
+      "id": "gpr119_8vp_mbx2982",
+      "note": "RCSB 8VHF GPR119 agonist MBX-2982/8VP.",
+      "route": "CCCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1>>CCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1",
+      "smiles": "CCc1cnc(nc1)N2CCC(CC2)c3nc(cs3)COc4ccc(cc4)n5cnnn5"
+    },
+    {
+      "canonical_smiles": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+      "id": "gpr119_a1d8y_gsk1292263",
+      "note": "RCSB 8ZRK GPR119 agonist GSK-1292263/A1D8Y.",
+      "route": "CCC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1>>CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+      "smiles": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C"
+    },
+    {
+      "canonical_smiles": "CS(=O)(=O)c1ccc(OC2CCN(c3ncccn3)CC2)cc1",
+      "id": "gpr119_probe_sulfone",
+      "note": "Probe/baseline compact sulfone piperidine agonist-like analog.",
+      "route": "CCS(=O)(=O)c1ccc(OC2CCN(c3ncccn3)CC2)cc1>>CS(=O)(=O)c1ccc(OC2CCN(c3ncccn3)CC2)cc1",
+      "smiles": "CS(=O)(=O)c1ccc(OC2CCN(c3ncccn3)CC2)cc1"
+    },
+    {
+      "canonical_smiles": "CS(=O)(=O)c1ccc(OCCN2CCC(c3ncccn3)CC2)cc1",
+      "id": "gpr119_stageb_sulfone",
+      "note": "Stage-B profile piperidine heteroaryl sulfone.",
+      "route": "CCS(=O)(=O)c1ccc(OCCN2CCC(c3ncccn3)CC2)cc1>>CS(=O)(=O)c1ccc(OCCN2CCC(c3ncccn3)CC2)cc1",
+      "smiles": "CS(=O)(=O)c1ccc(OCCN2CCC(CC2)c2ncccn2)cc1"
+    }
+  ]
+}

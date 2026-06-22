@@ -1,0 +1,565 @@
+{
+  "chem_comp": {
+    "formula": "C38 H52 N6 O7",
+    "formula_weight": 704.855,
+    "id": "DR7",
+    "name": "(3S,8S,9S,12S)-3,12-BIS(1,1-DIMETHYLETHYL)-8-HYDROXY-4,11-DIOXO-9-(PHENYLMETHYL)-6-[[4-(2-PYRIDINYL)PHENYL]METHYL]-2,5,\n6,10,13-PENTAAZATETRADECANEDIOIC ACID DIMETHYL ESTER",
+    "pdbx_ambiguous_flag": "N",
+    "pdbx_formal_charge": 0,
+    "pdbx_initial_date": "2005-09-26T00:00:00.000+00:00",
+    "pdbx_modified_date": "2020-06-17T00:00:00.000+00:00",
+    "pdbx_processing_site": "RCSB",
+    "pdbx_release_status": "REL",
+    "three_letter_code": "DR7",
+    "type": "non-polymer"
+  },
+  "pdbx_chem_comp_audit": [
+    {
+      "action_type": "Create component",
+      "comp_id": "DR7",
+      "date": "2005-09-26T00:00:00.000+00:00",
+      "ordinal": 1
+    },
+    {
+      "action_type": "Modify aromatic_flag",
+      "comp_id": "DR7",
+      "date": "2011-06-04T00:00:00.000+00:00",
+      "ordinal": 2
+    },
+    {
+      "action_type": "Modify descriptor",
+      "comp_id": "DR7",
+      "date": "2011-06-04T00:00:00.000+00:00",
+      "ordinal": 3
+    },
+    {
+      "action_type": "Modify synonyms",
+      "comp_id": "DR7",
+      "date": "2020-06-05T00:00:00.000+00:00",
+      "ordinal": 4
+    }
+  ],
+  "pdbx_chem_comp_descriptor": [
+    {
+      "comp_id": "DR7",
+      "descriptor": "O=C(OC)NC(C(=O)NC(Cc1ccccc1)C(O)CN(NC(=O)C(NC(=O)OC)C(C)(C)C)Cc3ccc(c2ncccc2)cc3)C(C)(C)C",
+      "program": "ACDLabs",
+      "program_version": "10.04",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "DR7",
+      "descriptor": "COC(=O)N[C@H](C(=O)N[C@@H](Cc1ccccc1)[C@@H](O)CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[C@@H](NC(=O)OC)C(C)(C)C)C(C)(C)C",
+      "program": "CACTVS",
+      "program_version": "3.341",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "DR7",
+      "descriptor": "COC(=O)N[CH](C(=O)N[CH](Cc1ccccc1)[CH](O)CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[CH](NC(=O)OC)C(C)(C)C)C(C)(C)C",
+      "program": "CACTVS",
+      "program_version": "3.341",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "DR7",
+      "descriptor": "CC(C)(C)[C@@H](C(=O)N[C@@H](Cc1ccccc1)[C@H](CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[C@H](C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.5.0",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "DR7",
+      "descriptor": "CC(C)(C)C(C(=O)NC(Cc1ccccc1)C(CN(Cc2ccc(cc2)c3ccccn3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.5.0",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "DR7",
+      "descriptor": "InChI=1S/C38H52N6O7/c1-37(2,3)31(41-35(48)50-7)33(46)40-29(22-25-14-10-9-11-15-25)30(45)24-44(43-34(47)32(38(4,5)6)42-36(49)51-8)23-26-17-19-27(20-18-26)28-16-12-13-21-39-28/h9-21,29-32,45H,22-24H2,1-8H3,(H,40,46)(H,41,48)(H,42,49)(H,43,47)/t29-,30-,31+,32+/m0/s1",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChI"
+    },
+    {
+      "comp_id": "DR7",
+      "descriptor": "AXRYRYVKAWYZBR-GASGPIRDSA-N",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChIKey"
+    }
+  ],
+  "pdbx_chem_comp_identifier": [
+    {
+      "comp_id": "DR7",
+      "identifier": "methyl [(1S,4S,5S,10S)-4-benzyl-1,10-di-tert-butyl-5-hydroxy-2,9,12-trioxo-7-(4-pyridin-2-ylbenzyl)-13-oxa-3,7,8,11-tetraazatetradec-1-yl]carbamate (non-preferred name)",
+      "program": "ACDLabs",
+      "program_version": "10.04",
+      "type": "SYSTEMATIC NAME"
+    },
+    {
+      "comp_id": "DR7",
+      "identifier": "methyl N-[(2S)-1-[[(2S,3S)-3-hydroxy-4-[[[(2S)-2-(methoxycarbonylamino)-3,3-dimethyl-butanoyl]amino]-[(4-pyridin-2-ylphenyl)methyl]amino]-1-phenyl-butan-2-yl]amino]-3,3-dimethyl-1-oxo-butan-2-yl]carbamate",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.5.0",
+      "type": "SYSTEMATIC NAME"
+    }
+  ],
+  "rcsb_chem_comp_annotation": [
+    {
+      "annotation_id": "J05AE08",
+      "assignment_version": "5.1",
+      "description": "ATC matching InChIKey in DrugBank",
+      "name": "atazanavir",
+      "provenance_source": "DrugBank",
+      "type": "ATC",
+      "annotation_lineage": [
+        {
+          "id": "J",
+          "name": "ANTIINFECTIVES FOR SYSTEMIC USE"
+        },
+        {
+          "depth": 1,
+          "id": "J05",
+          "name": "ANTIVIRALS FOR SYSTEMIC USE"
+        },
+        {
+          "depth": 2,
+          "id": "J05A",
+          "name": "DIRECT ACTING ANTIVIRALS"
+        },
+        {
+          "depth": 3,
+          "id": "J05AE",
+          "name": "Protease inhibitors, direct acting antivirals"
+        },
+        {
+          "depth": 4,
+          "id": "J05AE08",
+          "name": "atazanavir"
+        }
+      ]
+    },
+    {
+      "annotation_id": "J05AR15",
+      "assignment_version": "5.1",
+      "description": "ATC matching InChIKey in DrugBank",
+      "name": "atazanavir and cobicistat",
+      "provenance_source": "DrugBank",
+      "type": "ATC",
+      "annotation_lineage": [
+        {
+          "id": "J",
+          "name": "ANTIINFECTIVES FOR SYSTEMIC USE"
+        },
+        {
+          "depth": 1,
+          "id": "J05",
+          "name": "ANTIVIRALS FOR SYSTEMIC USE"
+        },
+        {
+          "depth": 2,
+          "id": "J05A",
+          "name": "DIRECT ACTING ANTIVIRALS"
+        },
+        {
+          "depth": 3,
+          "id": "J05AR",
+          "name": "Antivirals for treatment of HIV infections, combinations"
+        },
+        {
+          "depth": 4,
+          "id": "J05AR15",
+          "name": "atazanavir and cobicistat"
+        }
+      ]
+    },
+    {
+      "annotation_id": "J05AR23",
+      "assignment_version": "5.1",
+      "description": "ATC matching InChIKey in DrugBank",
+      "name": "atazanavir and ritonavir",
+      "provenance_source": "DrugBank",
+      "type": "ATC",
+      "annotation_lineage": [
+        {
+          "id": "J",
+          "name": "ANTIINFECTIVES FOR SYSTEMIC USE"
+        },
+        {
+          "depth": 1,
+          "id": "J05",
+          "name": "ANTIVIRALS FOR SYSTEMIC USE"
+        },
+        {
+          "depth": 2,
+          "id": "J05A",
+          "name": "DIRECT ACTING ANTIVIRALS"
+        },
+        {
+          "depth": 3,
+          "id": "J05AR",
+          "name": "Antivirals for treatment of HIV infections, combinations"
+        },
+        {
+          "depth": 4,
+          "id": "J05AR23",
+          "name": "atazanavir and ritonavir"
+        }
+      ]
+    }
+  ],
+  "rcsb_chem_comp_container_identifiers": {
+    "atc_codes": [
+      "J05AE08",
+      "J05AR15",
+      "J05AR23"
+    ],
+    "comp_id": "DR7",
+    "drugbank_id": "DB01072",
+    "rcsb_id": "DR7"
+  },
+  "rcsb_chem_comp_descriptor": {
+    "InChI": "InChI=1S/C38H52N6O7/c1-37(2,3)31(41-35(48)50-7)33(46)40-29(22-25-14-10-9-11-15-25)30(45)24-44(43-34(47)32(38(4,5)6)42-36(49)51-8)23-26-17-19-27(20-18-26)28-16-12-13-21-39-28/h9-21,29-32,45H,22-24H2,1-8H3,(H,40,46)(H,41,48)(H,42,49)(H,43,47)/t29-,30-,31+,32+/m0/s1",
+    "InChIKey": "AXRYRYVKAWYZBR-GASGPIRDSA-N",
+    "SMILES": "CC(C)(C)C(C(=O)NC(Cc1ccccc1)C(CN(Cc2ccc(cc2)c3ccccn3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+    "SMILES_stereo": "CC(C)(C)[C@@H](C(=O)N[C@@H](Cc1ccccc1)[C@H](CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[C@H](C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+    "comp_id": "DR7"
+  },
+  "rcsb_chem_comp_info": {
+    "atom_count": 103,
+    "atom_count_chiral": 4,
+    "atom_count_heavy": 51,
+    "bond_count": 105,
+    "bond_count_aromatic": 19,
+    "comp_id": "DR7",
+    "initial_deposition_date": "2005-09-26T00:00:00.000+00:00",
+    "initial_release_date": "2006-08-29T00:00:00.000+00:00",
+    "release_status": "REL",
+    "revision_date": "2020-06-05T00:00:00.000+00:00"
+  },
+  "rcsb_chem_comp_related": [
+    {
+      "comp_id": "DR7",
+      "ordinal": 1,
+      "related_mapping_method": "matching InChIKey in DrugBank",
+      "resource_accession_code": "DB01072",
+      "resource_name": "DrugBank"
+    },
+    {
+      "comp_id": "DR7",
+      "ordinal": 2,
+      "related_mapping_method": "matching InChIKey in PubChem",
+      "resource_accession_code": "148192",
+      "resource_name": "PubChem"
+    },
+    {
+      "comp_id": "DR7",
+      "ordinal": 3,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "198904-31-3",
+      "resource_name": "CAS"
+    },
+    {
+      "comp_id": "DR7",
+      "ordinal": 4,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "CHEBI:37924",
+      "resource_name": "ChEBI"
+    },
+    {
+      "comp_id": "DR7",
+      "ordinal": 5,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "CHEMBL1163",
+      "resource_name": "ChEMBL"
+    },
+    {
+      "comp_id": "DR7",
+      "ordinal": 6,
+      "related_mapping_method": "matching ChEMBL ID in Pharos",
+      "resource_accession_code": "CHEMBL1163",
+      "resource_name": "Pharos"
+    }
+  ],
+  "rcsb_chem_comp_synonyms": [
+    {
+      "comp_id": "DR7",
+      "name": "(3S,8S,9S,12S)-3,12-BIS(1,1-DIMETHYLETHYL)-8-HYDROXY-4,11-DIOXO-9-(PHENYLMETHYL)-6-[[4-(2-PYRIDINYL)PHENYL]METHYL]-2,5,\n6,10,13-PENTAAZATETRADECANEDIOIC ACID DIMETHYL ESTER",
+      "ordinal": 1,
+      "provenance_source": "PDB Reference Data",
+      "type": "Preferred Name"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "ATAZANAVIR",
+      "ordinal": 2,
+      "provenance_source": "PDB Reference Data",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "METHYL [(1S,4S,5S,10S)-4-BENZYL-1,10-DI-TERT-BUTYL-5-HYDROXY-2,9,12-TRIOXO-7-(4-PYRIDIN-2-YLBENZYL)-13-OXA-3,7,8,11-TETRAAZATETRADEC-1-YL]CARBAMATE",
+      "ordinal": 3,
+      "provenance_source": "PDB Reference Data",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "methyl [(1S,4S,5S,10S)-4-benzyl-1,10-di-tert-butyl-5-hydroxy-2,9,12-trioxo-7-(4-pyridin-2-ylbenzyl)-13-oxa-3,7,8,11-tetraazatetradec-1-yl]carbamate (non-preferred name)",
+      "ordinal": 4,
+      "provenance_source": "ACDLabs",
+      "type": "Systematic Name"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "methyl N-[(2S)-1-[[(2S,3S)-3-hydroxy-4-[[[(2S)-2-(methoxycarbonylamino)-3,3-dimethyl-butanoyl]amino]-[(4-pyridin-2-ylphenyl)methyl]amino]-1-phenyl-butan-2-yl]amino]-3,3-dimethyl-1-oxo-butan-2-yl]carbamate",
+      "ordinal": 5,
+      "provenance_source": "OpenEye OEToolkits",
+      "type": "Systematic Name"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "Atazanavir",
+      "ordinal": 6,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "Atazanavirum",
+      "ordinal": 7,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "Atazanavir sulfate",
+      "ordinal": 8,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "DR7",
+      "name": "ATZ",
+      "ordinal": 9,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    }
+  ],
+  "rcsb_chem_comp_target": [
+    {
+      "comp_id": "DR7",
+      "interaction_type": "target",
+      "name": "Pol polyprotein",
+      "ordinal": 1,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q72874",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "modulator",
+        "inhibition of synthesis"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "target",
+      "name": "Gag-Pol polyprotein",
+      "ordinal": 2,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P03366",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "modulator",
+        "inhibition of synthesis"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "enzyme",
+      "name": "Cytochrome P450 3A4",
+      "ordinal": 3,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P08684",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate",
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "enzyme",
+      "name": "Cytochrome P450 2C9",
+      "ordinal": 4,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P11712",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate",
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "enzyme",
+      "name": "UDP-glucuronosyltransferase 1A1",
+      "ordinal": 5,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P22309",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "enzyme",
+      "name": "Cytochrome P450 2C8",
+      "ordinal": 6,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P10632",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "enzyme",
+      "name": "Cytochrome P450 1A2",
+      "ordinal": 7,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P05177",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "enzyme",
+      "name": "Cytochrome P450 3A5",
+      "ordinal": 8,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P20815",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "enzyme",
+      "name": "Cytochrome P450 3A7",
+      "ordinal": 9,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P24462",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "carrier",
+      "name": "Albumin",
+      "ordinal": 10,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P02768",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "binder"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "carrier",
+      "name": "alpha1-acid glycoprotein",
+      "ordinal": 11,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P02763",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "binder"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "transporter",
+      "name": "ATP-dependent translocase ABCB1",
+      "ordinal": 12,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P08183",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate",
+        "inhibitor",
+        "inducer"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "transporter",
+      "name": "Multidrug resistance-associated protein 1",
+      "ordinal": 13,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P33527",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate",
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "transporter",
+      "name": "Solute carrier organic anion transporter family member 1B1",
+      "ordinal": 14,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q9Y6L6",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "transporter",
+      "name": "Solute carrier organic anion transporter family member 1B3",
+      "ordinal": 15,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q9NPD5",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "transporter",
+      "name": "Bile salt export pump",
+      "ordinal": 16,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "O95342",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate"
+      ]
+    },
+    {
+      "comp_id": "DR7",
+      "interaction_type": "transporter",
+      "name": "Solute carrier organic anion transporter family member 2B1",
+      "ordinal": 17,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "O94956",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    }
+  ],
+  "rcsb_id": "DR7"
+}

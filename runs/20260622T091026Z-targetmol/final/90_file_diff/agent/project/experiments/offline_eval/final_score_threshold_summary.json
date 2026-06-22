@@ -1,0 +1,33 @@
+{
+  "per_target": [
+    {
+      "historical_threshold": 65.1588,
+      "smiles": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+      "target": "result1.csv",
+      "tier1_delta": 10.8923,
+      "tier1_official_weighted_proxy": 76.0511,
+      "tier2_affinity": -9.41,
+      "tier2_official_weighted_proxy": 87.3431
+    },
+    {
+      "historical_threshold": 65.9992,
+      "smiles": "CNc1nc2[nH]c(-c3cccc(CNC(=O)COC)n3)cc2c2c1ncn2C",
+      "target": "result2.csv",
+      "tier1_delta": 9.4552,
+      "tier1_official_weighted_proxy": 75.4544,
+      "tier2_affinity": -8.908,
+      "tier2_official_weighted_proxy": 86.144
+    },
+    {
+      "historical_threshold": 66.4825,
+      "smiles": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+      "target": "result3.csv",
+      "tier1_delta": 9.2844,
+      "tier1_official_weighted_proxy": 75.7669,
+      "tier2_affinity": -10.93,
+      "tier2_official_weighted_proxy": 87.7669
+    }
+  ],
+  "tier1_min": 75.4544,
+  "tier2_min": 86.144
+}

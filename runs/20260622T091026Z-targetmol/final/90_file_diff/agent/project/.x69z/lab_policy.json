@@ -1,0 +1,200 @@
+{
+  "default_role": "PI",
+  "recruitment_requires_human_approval": true,
+  "roles": {
+    "PI": {
+      "host": {
+        "permission_groups": [
+          "human-approved-codex-or-claude-tools"
+        ]
+      },
+      "label": "Principal Investigator",
+      "risk": {
+        "human_gated": []
+      },
+      "tools": {
+        "allow": [
+          "runtime.init",
+          "runtime.status",
+          "runtime.dashboard",
+          "context.policy",
+          "context.node_rule",
+          "context.role",
+          "context.launch",
+          "context.intro",
+          "lab.recruit",
+          "lab.dismiss",
+          "node.add",
+          "node.edit",
+          "node.remove"
+        ],
+        "deny": []
+      },
+      "workspace": {
+        "scope": "runtime-and-authorized-workspaces"
+      }
+    },
+    "adversary": {
+      "extends": "runtime_reader",
+      "host": {
+        "permission_groups": []
+      },
+      "label": "Adversarial Critic",
+      "risk": {
+        "human_gated": []
+      },
+      "tools": {
+        "allow": [
+          "runtime.dashboard"
+        ],
+        "deny": []
+      },
+      "workspace": {
+        "scope": "runtime"
+      }
+    },
+    "experimenter": {
+      "host": {
+        "permission_groups": [
+          "authorized-bash",
+          "authorized-python",
+          "project-artifacts"
+        ]
+      },
+      "label": "Experiment Runner",
+      "risk": {
+        "human_gated": []
+      },
+      "tools": {
+        "allow": [
+          "runtime.status",
+          "context.policy",
+          "context.role",
+          "artifact.record",
+          "submission.record"
+        ],
+        "deny": [
+          "node.*",
+          "lab.*"
+        ]
+      },
+      "workspace": {
+        "scope": "authorized-experiment-workspace"
+      }
+    },
+    "literature_scout": {
+      "extends": "runtime_reader",
+      "host": {
+        "permission_groups": [
+          "web-search",
+          "web-fetch"
+        ]
+      },
+      "label": "Literature Scout",
+      "risk": {
+        "human_gated": []
+      },
+      "tools": {
+        "allow": [],
+        "deny": []
+      },
+      "workspace": {
+        "scope": "authorized-web-research"
+      }
+    },
+    "repo_scout": {
+      "extends": "runtime_reader",
+      "host": {
+        "permission_groups": [
+          "web-search",
+          "web-fetch",
+          "git-read"
+        ]
+      },
+      "label": "Repository Scout",
+      "risk": {
+        "human_gated": []
+      },
+      "tools": {
+        "allow": [],
+        "deny": []
+      },
+      "workspace": {
+        "scope": "authorized-reference-repos"
+      }
+    },
+    "reviewer": {
+      "extends": "runtime_reader",
+      "host": {
+        "permission_groups": []
+      },
+      "label": "Workflow Reviewer",
+      "risk": {
+        "human_gated": []
+      },
+      "tools": {
+        "allow": [
+          "runtime.dashboard"
+        ],
+        "deny": []
+      },
+      "workspace": {
+        "scope": "runtime"
+      }
+    },
+    "runtime_reader": {
+      "host": {
+        "permission_groups": []
+      },
+      "label": "Runtime Reader",
+      "risk": {
+        "human_gated": []
+      },
+      "tools": {
+        "allow": [
+          "runtime.status",
+          "context.policy",
+          "context.role"
+        ],
+        "deny": []
+      },
+      "workspace": {
+        "scope": "read-only-runtime-context"
+      }
+    },
+    "toolsmith": {
+      "host": {
+        "permission_groups": [
+          "read-only-files",
+          "proposal-workspace-write"
+        ]
+      },
+      "label": "Toolsmith",
+      "requires_human_approval_to_create": true,
+      "risk": {
+        "human_gated": [
+          "write_tool_or_adapter_code",
+          "load_or_enable_mcp_skill_plugin_or_adapter",
+          "modify_x69z_adapter_runtime_or_lab_policy",
+          "create_task_specific_submission_or_leaderboard_tools"
+        ]
+      },
+      "tools": {
+        "allow": [
+          "runtime.status",
+          "runtime.dashboard",
+          "context.policy",
+          "context.role"
+        ],
+        "deny": [
+          "node.*",
+          "archive.*",
+          "lab.*"
+        ]
+      },
+      "workspace": {
+        "scope": "authorized-tool-proposal-workspace"
+      }
+    }
+  }
+}
