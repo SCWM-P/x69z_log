@@ -1,0 +1,713 @@
+{
+  "target1.pdb": {
+    "chains": {
+      "J": {
+        "length": 151
+      }
+    },
+    "hits": [
+      {
+        "chain": "J",
+        "top_hits": [
+          {
+            "identifier": "4HW2_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "4HW3_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "4HW4_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "4ZBF_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "4ZBI_1",
+            "score": 1.0,
+            "services": null
+          }
+        ],
+        "entities": [
+          {
+            "rcsb_id": "4ZBI_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+              "formula_weight": 17.85
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 157,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "entry_id": "4ZBI",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "Q07820",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "4ZBF_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+              "formula_weight": 17.85
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 157,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "entry_id": "4ZBF",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "Q07820",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "4HW4_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+              "formula_weight": 17.85
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 157,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "A",
+                "B"
+              ],
+              "entry_id": "4HW4",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "Q07820",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "4HW3_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+              "formula_weight": 17.494
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 153,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "entry_id": "4HW3",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "Q07820",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "4HW2_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+              "formula_weight": 17.494
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 153,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "entry_id": "4HW2",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "Q07820",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "target2.pdb": {
+    "chains": {
+      "A": {
+        "length": 257
+      }
+    },
+    "hits": [
+      {
+        "chain": "A",
+        "top_hits": [
+          {
+            "identifier": "3ZON_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "4OLI_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "4WOV_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "5C01_1",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "5C03_1",
+            "score": 1.0,
+            "services": null
+          }
+        ],
+        "entities": [
+          {
+            "rcsb_id": "5C03_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Non-receptor tyrosine-protein kinase TYK2",
+              "formula_weight": 38.476
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 342,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "A",
+                "B"
+              ],
+              "entry_id": "5C03",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P29597",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "5C01_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NON-RECEPTOR TYROSINE-PROTEIN KINASE TYK2",
+              "formula_weight": 38.476
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 342,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "A",
+                "B"
+              ],
+              "entry_id": "5C01",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P29597",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "4WOV_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Non-receptor tyrosine-protein kinase TYK2",
+              "formula_weight": 35.499
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 317,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "A",
+                "B"
+              ],
+              "entry_id": "4WOV",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P29597",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "4OLI_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Non-receptor tyrosine-protein kinase TYK2",
+              "formula_weight": 73.304
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 645,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A"
+              ],
+              "asym_ids": [
+                "A"
+              ],
+              "entry_id": "4OLI",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P29597",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "3ZON_1",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NON-RECEPTOR TYROSINE-PROTEIN KINASE TYK2",
+              "formula_weight": 37.407
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 335,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "A"
+              ],
+              "asym_ids": [
+                "A"
+              ],
+              "entry_id": "3ZON",
+              "entity_id": "1",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P29597",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "target3.pdb": {
+    "chains": {
+      "R": {
+        "length": 292
+      }
+    },
+    "hits": [
+      {
+        "chain": "R",
+        "top_hits": [
+          {
+            "identifier": "7XZ5_5",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "7XZ6_5",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "8VHF_5",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "8ZR5_5",
+            "score": 1.0,
+            "services": null
+          },
+          {
+            "identifier": "8ZRK_5",
+            "score": 1.0,
+            "services": null
+          }
+        ],
+        "entities": [
+          {
+            "rcsb_id": "8ZRK_5",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Glucose-dependent insulinotropic receptor",
+              "formula_weight": 40.762
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 369,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "E"
+              ],
+              "entry_id": "8ZRK",
+              "entity_id": "5",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "Q8TDV5",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "8ZR5_5",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Glucose-dependent insulinotropic receptor",
+              "formula_weight": 39.769
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 358,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "C"
+              ],
+              "asym_ids": [
+                "E"
+              ],
+              "entry_id": "8ZR5",
+              "entity_id": "5",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "Q8TDV5",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "8VHF_5",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor,LgBiT",
+              "formula_weight": 67.778
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 615,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Escherichia coli"
+              },
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              },
+              {
+                "ncbi_scientific_name": "Oplophorus gracilirostris"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "E"
+              ],
+              "entry_id": "8VHF",
+              "entity_id": "5",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P0ABE7",
+                  "database_name": "UniProt"
+                },
+                {
+                  "database_accession": "Q8TDV5",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "7XZ6_5",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor",
+              "formula_weight": 53.785
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 485,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Escherichia coli"
+              },
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "E"
+              ],
+              "entry_id": "7XZ6",
+              "entity_id": "5",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P0ABE7",
+                  "database_name": "UniProt"
+                },
+                {
+                  "database_accession": "Q8TDV5",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_id": "7XZ5_5",
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor",
+              "formula_weight": 53.785
+            },
+            "entity_poly": {
+              "rcsb_sample_sequence_length": 485,
+              "rcsb_entity_polymer_type": "Protein"
+            },
+            "rcsb_entity_source_organism": [
+              {
+                "ncbi_scientific_name": "Escherichia coli"
+              },
+              {
+                "ncbi_scientific_name": "Homo sapiens"
+              }
+            ],
+            "rcsb_polymer_entity_container_identifiers": {
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "E"
+              ],
+              "entry_id": "7XZ5",
+              "entity_id": "5",
+              "reference_sequence_identifiers": [
+                {
+                  "database_accession": "P0ABE7",
+                  "database_name": "UniProt"
+                },
+                {
+                  "database_accession": "Q8TDV5",
+                  "database_name": "UniProt"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

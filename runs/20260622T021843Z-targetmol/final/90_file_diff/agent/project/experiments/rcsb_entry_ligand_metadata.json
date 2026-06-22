@@ -1,0 +1,1728 @@
+{
+  "data": {
+    "entries": [
+      {
+        "rcsb_id": "4ZBI",
+        "struct": {
+          "title": "Mcl-1 complexed with small molecules"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.5
+          ],
+          "deposited_nonpolymer_entity_instance_count": 12,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "4M6",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "asym_ids": [
+                "M",
+                "N",
+                "O",
+                "P",
+                "Q",
+                "R",
+                "S",
+                "T",
+                "U",
+                "V",
+                "W",
+                "X"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "4M6",
+              "name": "1-[3-(naphthalen-1-yloxy)propyl]-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinoline-2-carboxylic acid"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 385.455,
+                "type": "non-polymer",
+                "formula": "C25 H23 N O3",
+                "name": "1-[3-(naphthalen-1-yloxy)propyl]-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinoline-2-carboxylic acid",
+                "id": "4M6"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCC5",
+                "SMILES": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCC5",
+                "InChIKey": "XOMAOOTVWOCYAD-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q07820"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "4ZBF",
+        "struct": {
+          "title": "Mcl-1 complexed with small molecules"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.2
+          ],
+          "deposited_nonpolymer_entity_instance_count": 12,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "4M7",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "asym_ids": [
+                "M",
+                "N",
+                "O",
+                "P",
+                "Q",
+                "R",
+                "S",
+                "T",
+                "U",
+                "V",
+                "W",
+                "X"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "4M7",
+              "name": "(1R)-7-[3-(naphthalen-1-yloxy)propyl]-3,4-dihydro-2H-[1,4]thiazepino[2,3,4-hi]indole-6-carboxylic acid 1-oxide"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 433.519,
+                "type": "non-polymer",
+                "formula": "C25 H23 N O4 S",
+                "name": "(1R)-7-[3-(naphthalen-1-yloxy)propyl]-3,4-dihydro-2H-[1,4]thiazepino[2,3,4-hi]indole-6-carboxylic acid 1-oxide",
+                "id": "4M7"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCCS5=O",
+                "SMILES": "c1ccc2c(c1)cccc2OCCCc3c4cccc5c4n(c3C(=O)O)CCCS5=O",
+                "InChIKey": "RWBITVLVWMQUOJ-WJOKGBTCSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q07820"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "4HW4",
+        "struct": {
+          "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            1.53
+          ],
+          "deposited_nonpolymer_entity_instance_count": 0,
+          "polymer_entity_count": 2,
+          "nonpolymer_entity_count": 0
+        },
+        "nonpolymer_entities": null,
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Mcl-1 BH3 peptide"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "auth_asym_ids": [
+                "C",
+                "D"
+              ],
+              "reference_sequence_identifiers": null
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q07820"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "4HW3",
+        "struct": {
+          "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.4
+          ],
+          "deposited_nonpolymer_entity_instance_count": 12,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "19G",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "asym_ids": [
+                "M",
+                "N",
+                "O",
+                "P",
+                "Q",
+                "R",
+                "S",
+                "T",
+                "U",
+                "V",
+                "W",
+                "X"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "19G",
+              "name": "3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1-benzothiophene-2-carboxylic acid"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 374.881,
+                "type": "non-polymer",
+                "formula": "C20 H19 Cl O3 S",
+                "name": "3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1-benzothiophene-2-carboxylic acid",
+                "id": "19G"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3sc2C(=O)O",
+                "SMILES": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccccc3sc2C(=O)O",
+                "InChIKey": "GFWMYYSJLSUPMD-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q07820"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "4HW2",
+        "struct": {
+          "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.8
+          ],
+          "deposited_nonpolymer_entity_instance_count": 10,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 3
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "PGE",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "H",
+                "J",
+                "K"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "PGE",
+              "name": "TRIETHYLENE GLYCOL"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 150.173,
+                "type": "non-polymer",
+                "formula": "C6 H14 O4",
+                "name": "TRIETHYLENE GLYCOL",
+                "id": "PGE"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "C(COCCOCCO)O",
+                "SMILES": "C(COCCOCCO)O",
+                "InChIKey": "ZIBGPFATKBEMQZ-UHFFFAOYSA-N"
+              }
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "EDO",
+              "auth_asym_ids": [
+                "B"
+              ],
+              "asym_ids": [
+                "L"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "EDO",
+              "name": "1,2-ETHANEDIOL"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 62.068,
+                "type": "non-polymer",
+                "formula": "C2 H6 O2",
+                "name": "1,2-ETHANEDIOL",
+                "id": "EDO"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "C(CO)O",
+                "SMILES": "C(CO)O",
+                "InChIKey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+              }
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "19H",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "asym_ids": [
+                "G",
+                "I",
+                "M",
+                "N",
+                "O",
+                "P"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "19H",
+              "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 392.276,
+                "type": "non-polymer",
+                "formula": "C20 H19 Cl2 N O3",
+                "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+                "id": "19H"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+                "SMILES": "Cc1cc(cc(c1Cl)C)OCCCc2c3ccc(cc3[nH]c2C(=O)O)Cl",
+                "InChIKey": "MCMWRWKXPXXZAS-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Induced myeloid leukemia cell differentiation protein Mcl-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q07820"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "5C03",
+        "struct": {
+          "title": "Crystal Structure of kinase"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            1.9
+          ],
+          "deposited_nonpolymer_entity_instance_count": 15,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 4
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "AGS",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "C",
+                "K"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "AGS",
+              "name": "PHOSPHOTHIOPHOSPHORIC ACID-ADENYLATE ESTER"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 523.247,
+                "type": "non-polymer",
+                "formula": "C10 H16 N5 O12 P3 S",
+                "name": "PHOSPHOTHIOPHOSPHORIC ACID-ADENYLATE ESTER",
+                "id": "AGS"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=S)(O)O)O)O)N",
+                "SMILES": "c1nc(c2c(n1)n(cn2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=S)(O)O)O)O)N",
+                "InChIKey": "NLTUCYMLOPLUHL-KQYNXXCUSA-N"
+              }
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "EDO",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "F",
+                "G",
+                "J",
+                "N",
+                "O",
+                "P"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "EDO",
+              "name": "1,2-ETHANEDIOL"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 62.068,
+                "type": "non-polymer",
+                "formula": "C2 H6 O2",
+                "name": "1,2-ETHANEDIOL",
+                "id": "EDO"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "C(CO)O",
+                "SMILES": "C(CO)O",
+                "InChIKey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+              }
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "GOL",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "E",
+                "H",
+                "I",
+                "M",
+                "Q"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "GOL",
+              "name": "GLYCEROL"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 92.094,
+                "type": "non-polymer",
+                "formula": "C3 H8 O3",
+                "name": "GLYCEROL",
+                "id": "GOL"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "C(C(CO)O)O",
+                "SMILES": "C(C(CO)O)O",
+                "InChIKey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N"
+              }
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "MG",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "D",
+                "L"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "MG",
+              "name": "MAGNESIUM ION"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 24.305,
+                "type": "non-polymer",
+                "formula": "Mg",
+                "name": "MAGNESIUM ION",
+                "id": "MG"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "[Mg+2]",
+                "SMILES": "[Mg+2]",
+                "InChIKey": "JLVVSXFLKOJNIY-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Non-receptor tyrosine-protein kinase TYK2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P29597"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "5C01",
+        "struct": {
+          "title": "Crystal Structure of kinase"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.15
+          ],
+          "deposited_nonpolymer_entity_instance_count": 6,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 3
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "UNL",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "C",
+                "G"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "UNL",
+              "name": "UNKNOWN LIGAND"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": null,
+                "type": "non-polymer",
+                "formula": null,
+                "name": "Unknown ligand",
+                "id": "UNL"
+              },
+              "rcsb_chem_comp_descriptor": null
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "EDO",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "D",
+                "E",
+                "H"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "EDO",
+              "name": "1,2-ETHANEDIOL"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 62.068,
+                "type": "non-polymer",
+                "formula": "C2 H6 O2",
+                "name": "1,2-ETHANEDIOL",
+                "id": "EDO"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "C(CO)O",
+                "SMILES": "C(CO)O",
+                "InChIKey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+              }
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "GOL",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "asym_ids": [
+                "F"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "GOL",
+              "name": "GLYCEROL"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 92.094,
+                "type": "non-polymer",
+                "formula": "C3 H8 O3",
+                "name": "GLYCEROL",
+                "id": "GOL"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "C(C(CO)O)O",
+                "SMILES": "C(C(CO)O)O",
+                "InChIKey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NON-RECEPTOR TYROSINE-PROTEIN KINASE TYK2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P29597"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "4WOV",
+        "struct": {
+          "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH BMS-066 AKA 2-METHOXY-N-({6-[3-METHYL-7-(METHYLAMINO)-3,5,8,10-TETRAAZATRICYCLO[7.3.0.0, 6]DODECA-1(9),2(6),4,7,11-PENTAEN-11-YL]PYRIDIN-2-YL}METHY L)ACETAMIDE"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            1.8
+          ],
+          "deposited_nonpolymer_entity_instance_count": 7,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 2
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "3SM",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "C",
+                "F"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "3SM",
+              "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 379.416,
+                "type": "non-polymer",
+                "formula": "C19 H21 N7 O2",
+                "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+                "id": "3SM"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+                "SMILES": "CNc1c2c(c3cc([nH]c3n1)c4cccc(n4)CNC(=O)COC)n(cn2)C",
+                "InChIKey": "ULTCRVJUAZCGPP-UHFFFAOYSA-N"
+              }
+            }
+          },
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "SO4",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "asym_ids": [
+                "D",
+                "E",
+                "G",
+                "H",
+                "I"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "SO4",
+              "name": "SULFATE ION"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 96.063,
+                "type": "non-polymer",
+                "formula": "O4 S",
+                "name": "SULFATE ION",
+                "id": "SO4"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "[O-]S(=O)(=O)[O-]",
+                "SMILES": "[O-]S(=O)(=O)[O-]",
+                "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Non-receptor tyrosine-protein kinase TYK2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A",
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P29597"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "4OLI",
+        "struct": {
+          "title": "The pseudokinase/kinase protein from JAK-family member TYK2"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.8
+          ],
+          "deposited_nonpolymer_entity_instance_count": 2,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "2TT",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "asym_ids": [
+                "B",
+                "C"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "2TT",
+              "name": "2-chloro-N-{2-[(cyclopropylcarbonyl)amino]pyridin-4-yl}benzamide"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 315.754,
+                "type": "non-polymer",
+                "formula": "C16 H14 Cl N3 O2",
+                "name": "2-chloro-N-{2-[(cyclopropylcarbonyl)amino]pyridin-4-yl}benzamide",
+                "id": "2TT"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "c1ccc(c(c1)C(=O)Nc2ccnc(c2)NC(=O)C3CC3)Cl",
+                "SMILES": "c1ccc(c(c1)C(=O)Nc2ccnc(c2)NC(=O)C3CC3)Cl",
+                "InChIKey": "BZYFIAMMQPKLOE-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Non-receptor tyrosine-protein kinase TYK2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P29597"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "3ZON",
+        "struct": {
+          "title": "Human TYK2 pseudokinase domain bound to a kinase inhibitor"
+        },
+        "exptl": [
+          {
+            "method": "X-RAY DIFFRACTION"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.15
+          ],
+          "deposited_nonpolymer_entity_instance_count": 1,
+          "polymer_entity_count": 1,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "IK1",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "asym_ids": [
+                "B"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "IK1",
+              "name": "5-PHENYL-2-UREIDOTHIOPHENE-3-CARBOXAMIDE"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 261.3,
+                "type": "non-polymer",
+                "formula": "C12 H11 N3 O2 S",
+                "name": "5-PHENYL-2-UREIDOTHIOPHENE-3-CARBOXAMIDE",
+                "id": "IK1"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "c1ccc(cc1)c2cc(c(s2)NC(=O)N)C(=O)N",
+                "SMILES": "c1ccc(cc1)c2cc(c(s2)NC(=O)N)C(=O)N",
+                "InChIKey": "PSVUSJKZJQMCSP-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "NON-RECEPTOR TYROSINE-PROTEIN KINASE TYK2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P29597"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "8ZRK",
+        "struct": {
+          "title": "Cryo-EM structure of GPR119-Gs Complex with small molecule agonist GSK-1292263"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.82
+          ],
+          "deposited_nonpolymer_entity_instance_count": 1,
+          "polymer_entity_count": 5,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "A1D8Y",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "F"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "A1D8Y",
+              "name": "GSK-1292263"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 456.558,
+                "type": "non-polymer",
+                "formula": "C23 H28 N4 O4 S",
+                "name": "GSK-1292263",
+                "id": "A1D8Y"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+                "SMILES": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+                "InChIKey": "AYJRTVVIBJSSKN-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P63092"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "auth_asym_ids": [
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P62873"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "3",
+              "auth_asym_ids": [
+                "G"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P59768"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "nanobody35"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "4",
+              "auth_asym_ids": [
+                "N"
+              ],
+              "reference_sequence_identifiers": null
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Glucose-dependent insulinotropic receptor"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "5",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q8TDV5"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "8ZR5",
+        "struct": {
+          "title": "Cryo-EM Structure of GPR119-Gs-Firuglipel complex"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            3.31
+          ],
+          "deposited_nonpolymer_entity_instance_count": 1,
+          "polymer_entity_count": 5,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "A1D8M",
+              "auth_asym_ids": [
+                "C"
+              ],
+              "asym_ids": [
+                "F"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "A1D8M",
+              "name": "4-[5-[(1~{R})-1-(4-cyclopropylcarbonylphenoxy)propyl]-1,2,4-oxadiazol-3-yl]-2-fluoranyl-~{N}-[(2~{R})-1-oxidanylpropan-2-yl]benzamide"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 467.489,
+                "type": "non-polymer",
+                "formula": "C25 H26 F N3 O5",
+                "name": "4-[5-[(1~{R})-1-(4-cyclopropylcarbonylphenoxy)propyl]-1,2,4-oxadiazol-3-yl]-2-fluoranyl-~{N}-[(2~{R})-1-oxidanylpropan-2-yl]benzamide",
+                "id": "A1D8M"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "CC[C@H](c1nc(no1)c2ccc(c(c2)F)C(=O)N[C@H](C)CO)Oc3ccc(cc3)C(=O)C4CC4",
+                "SMILES": "CCC(c1nc(no1)c2ccc(c(c2)F)C(=O)NC(C)CO)Oc3ccc(cc3)C(=O)C4CC4",
+                "InChIKey": "LRXRIKVDAVVQCP-SPLOXXLWSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Glucose-dependent insulinotropic receptor"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "5",
+              "auth_asym_ids": [
+                "C"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q8TDV5"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Nanobody 35"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "4",
+              "auth_asym_ids": [
+                "N"
+              ],
+              "reference_sequence_identifiers": null
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "3",
+              "auth_asym_ids": [
+                "G"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P59768"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "auth_asym_ids": [
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P62873"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P63092"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "7XZ6",
+        "struct": {
+          "title": "GPR119-Gs-APD668 complex"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            2.8
+          ],
+          "deposited_nonpolymer_entity_instance_count": 1,
+          "polymer_entity_count": 5,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "I7J",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "F"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "I7J",
+              "name": "propan-2-yl 4-[1-(2-fluoranyl-4-methylsulfonyl-phenyl)pyrazolo[3,4-d]pyrimidin-4-yl]oxypiperidine-1-carboxylate"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 477.509,
+                "type": "non-polymer",
+                "formula": "C21 H24 F N5 O5 S",
+                "name": "propan-2-yl 4-[1-(2-fluoranyl-4-methylsulfonyl-phenyl)pyrazolo[3,4-d]pyrimidin-4-yl]oxypiperidine-1-carboxylate",
+                "id": "I7J"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "CC(C)OC(=O)N1CCC(CC1)Oc2c3cnn(c3ncn2)c4ccc(cc4F)S(=O)(=O)C",
+                "SMILES": "CC(C)OC(=O)N1CCC(CC1)Oc2c3cnn(c3ncn2)c4ccc(cc4F)S(=O)(=O)C",
+                "InChIKey": "XTRUQJBVQBUKSQ-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P63092"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "auth_asym_ids": [
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P62873"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "5",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P0ABE7"
+                },
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q8TDV5"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Nanobody35"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "4",
+              "auth_asym_ids": [
+                "N"
+              ],
+              "reference_sequence_identifiers": null
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "3",
+              "auth_asym_ids": [
+                "G"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P59768"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "7XZ5",
+        "struct": {
+          "title": "GPR119-Gs-LPC complex"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            3.1
+          ],
+          "deposited_nonpolymer_entity_instance_count": 1,
+          "polymer_entity_count": 5,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "LSC",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "F"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "LSC",
+              "name": "(4R,7R,18E)-4,7-dihydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphaheptacos-18-en-1-aminium 4-oxide"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 522.675,
+                "type": "non-polymer",
+                "formula": "C26 H53 N O7 P",
+                "name": "(4R,7R,18E)-4,7-dihydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphaheptacos-18-en-1-aminium 4-oxide",
+                "id": "LSC"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "CCCCCCCC/C=C/CCCCCCCC(=O)OC[C@H](CO[P@](=O)(O)OCC[N+](C)(C)C)O",
+                "SMILES": "CCCCCCCCC=CCCCCCCCC(=O)OCC(COP(=O)(O)OCC[N+](C)(C)C)O",
+                "InChIKey": "YAMUFBLWGFFICM-ZOGNMOHXSA-O"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "5",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P0ABE7"
+                },
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q8TDV5"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Nanobody35"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "4",
+              "auth_asym_ids": [
+                "N"
+              ],
+              "reference_sequence_identifiers": null
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "3",
+              "auth_asym_ids": [
+                "G"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P59768"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "auth_asym_ids": [
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P62873"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P63092"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rcsb_id": "8VHF",
+        "struct": {
+          "title": "Cryo-EM structure of GPR119-Gs-Nb35 complex with small molecule agonist MBX-2982"
+        },
+        "exptl": [
+          {
+            "method": "ELECTRON MICROSCOPY"
+          }
+        ],
+        "rcsb_entry_info": {
+          "resolution_combined": [
+            3.51
+          ],
+          "deposited_nonpolymer_entity_instance_count": 1,
+          "polymer_entity_count": 5,
+          "nonpolymer_entity_count": 1
+        },
+        "nonpolymer_entities": [
+          {
+            "rcsb_nonpolymer_entity_container_identifiers": {
+              "nonpolymer_comp_id": "8VP",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "asym_ids": [
+                "F"
+              ]
+            },
+            "pdbx_entity_nonpoly": {
+              "comp_id": "8VP",
+              "name": "2-[1-(5-ethylpyrimidin-2-yl)piperidin-4-yl]-4-[[4-(1,2,3,4-tetrazol-1-yl)phenoxy]methyl]-1,3-thiazole"
+            },
+            "nonpolymer_comp": {
+              "chem_comp": {
+                "formula_weight": 448.544,
+                "type": "non-polymer",
+                "formula": "C22 H24 N8 O S",
+                "name": "2-[1-(5-ethylpyrimidin-2-yl)piperidin-4-yl]-4-[[4-(1,2,3,4-tetrazol-1-yl)phenoxy]methyl]-1,3-thiazole",
+                "id": "8VP"
+              },
+              "rcsb_chem_comp_descriptor": {
+                "SMILES_stereo": "CCc1cnc(nc1)N2CCC(CC2)c3nc(cs3)COc4ccc(cc4)n5cnnn5",
+                "SMILES": "CCc1cnc(nc1)N2CCC(CC2)c3nc(cs3)COc4ccc(cc4)n5cnnn5",
+                "InChIKey": "NFTMKHWBOINJGM-UHFFFAOYSA-N"
+              }
+            }
+          }
+        ],
+        "polymer_entities": [
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor,LgBiT"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "5",
+              "auth_asym_ids": [
+                "R"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P0ABE7"
+                },
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "Q8TDV5"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "4",
+              "auth_asym_ids": [
+                "A"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P63092"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Nanobody35"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "3",
+              "auth_asym_ids": [
+                "N"
+              ],
+              "reference_sequence_identifiers": null
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "2",
+              "auth_asym_ids": [
+                "C"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P59768"
+                }
+              ]
+            }
+          },
+          {
+            "rcsb_polymer_entity": {
+              "pdbx_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1, HiBiT"
+            },
+            "rcsb_polymer_entity_container_identifiers": {
+              "entity_id": "1",
+              "auth_asym_ids": [
+                "B"
+              ],
+              "reference_sequence_identifiers": [
+                {
+                  "database_name": "UniProt",
+                  "database_accession": "P62873"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "member": "result1.csv",
+    "label": "t1_4M7",
+    "smiles": "O=C(O)c1c(CCCOc2cccc3ccccc23)c2cccc3c2n1CCCS3=O",
+    "center": [
+      -8.42,
+      -3.799,
+      -91.832
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "4ZBF:4M7",
+    "fit_rmsd": 0.0,
+    "elapsed_ms": 17100,
+    "returncode": 0,
+    "modes": [
+      -11.41,
+      -9.964,
+      -9.895
+    ],
+    "affinity": -11.41,
+    "error": ""
+  },
+  {
+    "member": "result1.csv",
+    "label": "t1_4M6",
+    "smiles": "O=C(O)c1c(CCCOc2cccc3ccccc23)c2cccc3c2n1CCC3",
+    "center": [
+      -8.42,
+      -3.799,
+      -91.832
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "4ZBF:4M7",
+    "fit_rmsd": 0.0,
+    "elapsed_ms": 12506,
+    "returncode": 0,
+    "modes": [
+      -11.27,
+      -10.53,
+      -10.25
+    ],
+    "affinity": -11.27,
+    "error": ""
+  },
+  {
+    "member": "result1.csv",
+    "label": "t1_19G",
+    "smiles": "Cc1cc(OCCCc2c(C(=O)O)sc3ccccc23)cc(C)c1Cl",
+    "center": [
+      -8.42,
+      -3.799,
+      -91.832
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "4ZBF:4M7",
+    "fit_rmsd": 0.0,
+    "elapsed_ms": 10602,
+    "returncode": 0,
+    "modes": [
+      -9.43,
+      -8.716,
+      -8.302
+    ],
+    "affinity": -9.43,
+    "error": ""
+  },
+  {
+    "member": "result1.csv",
+    "label": "t1_19H",
+    "smiles": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+    "center": [
+      -8.42,
+      -3.799,
+      -91.832
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "4ZBF:4M7",
+    "fit_rmsd": 0.0,
+    "elapsed_ms": 12785,
+    "returncode": 0,
+    "modes": [
+      -9.375,
+      -8.423
+    ],
+    "affinity": -9.375,
+    "error": ""
+  },
+  {
+    "member": "result2.csv",
+    "label": "t2_3SM",
+    "smiles": "CNc1nc2[nH]c(-c3cccc(CNC(=O)COC)n3)cc2c2c1ncn2C",
+    "center": [
+      12.004,
+      -5.651,
+      29.063
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "ref": "4WOV:3SM",
+    "fit_rmsd": 0.472,
+    "elapsed_ms": 9340,
+    "returncode": 0,
+    "modes": [
+      -8.807,
+      -8.741,
+      -8.69
+    ],
+    "affinity": -8.807,
+    "error": ""
+  },
+  {
+    "member": "result2.csv",
+    "label": "t2_2TT",
+    "smiles": "O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1ccccc1Cl",
+    "center": [
+      12.004,
+      -5.651,
+      29.063
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "ref": "4WOV:3SM",
+    "fit_rmsd": 0.472,
+    "elapsed_ms": 5957,
+    "returncode": 0,
+    "modes": [
+      -8.094,
+      -7.911,
+      -6.898
+    ],
+    "affinity": -8.094,
+    "error": ""
+  },
+  {
+    "member": "result2.csv",
+    "label": "t2_IK1",
+    "smiles": "NC(=O)Nc1sc(-c2ccccc2)cc1C(N)=O",
+    "center": [
+      12.004,
+      -5.651,
+      29.063
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "ref": "4WOV:3SM",
+    "fit_rmsd": 0.472,
+    "elapsed_ms": 4996,
+    "returncode": 0,
+    "modes": [
+      -8.126,
+      -8.125,
+      -8.041
+    ],
+    "affinity": -8.126,
+    "error": ""
+  },
+  {
+    "member": "result3.csv",
+    "label": "t3_I7J",
+    "smiles": "CC(C)OC(=O)N1CCC(Oc2ncnc3c2cnn3-c2ccc(S(C)(=O)=O)cc2F)CC1",
+    "center": [
+      97.21,
+      119.192,
+      85.755
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "7XZ6:I7J",
+    "fit_rmsd": 0.574,
+    "elapsed_ms": 15885,
+    "returncode": 0,
+    "modes": [
+      -10.59,
+      -10.46,
+      -10.01
+    ],
+    "affinity": -10.59,
+    "error": ""
+  },
+  {
+    "member": "result3.csv",
+    "label": "t3_8VP",
+    "smiles": "CCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1",
+    "center": [
+      97.21,
+      119.192,
+      85.755
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "7XZ6:I7J",
+    "fit_rmsd": 0.574,
+    "elapsed_ms": 13016,
+    "returncode": 0,
+    "modes": [
+      -11.53,
+      -10.8,
+      -9.785
+    ],
+    "affinity": -11.53,
+    "error": ""
+  },
+  {
+    "member": "result3.csv",
+    "label": "t3_A1D8Y",
+    "smiles": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+    "center": [
+      97.21,
+      119.192,
+      85.755
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "7XZ6:I7J",
+    "fit_rmsd": 0.574,
+    "elapsed_ms": 18690,
+    "returncode": 0,
+    "modes": [
+      -12.68,
+      -12.31,
+      -10.27
+    ],
+    "affinity": -12.68,
+    "error": ""
+  },
+  {
+    "member": "result3.csv",
+    "label": "t3_A1D8M",
+    "smiles": "CC[C@@H](Oc1ccc(C(=O)C2CC2)cc1)c1nc(-c2ccc(C(=O)N[C@H](C)CO)c(F)c2)no1",
+    "center": [
+      97.21,
+      119.192,
+      85.755
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "7XZ6:I7J",
+    "fit_rmsd": 0.574,
+    "elapsed_ms": 22790,
+    "returncode": 0,
+    "modes": [
+      -12.39,
+      -12.0
+    ],
+    "affinity": -12.39,
+    "error": ""
+  }
+]

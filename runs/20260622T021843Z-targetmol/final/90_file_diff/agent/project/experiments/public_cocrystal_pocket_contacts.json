@@ -1,0 +1,1002 @@
+{
+  "4ZBF:4M7": {
+    "ligand_atom_count": 372,
+    "contact_residues_4p5A": [
+      {
+        "chain": "I",
+        "residue": "ARG263",
+        "min_dist": 2.25
+      },
+      {
+        "chain": "F",
+        "residue": "ARG263",
+        "min_dist": 2.35
+      },
+      {
+        "chain": "A",
+        "residue": "ARG263",
+        "min_dist": 2.47
+      },
+      {
+        "chain": "H",
+        "residue": "ARG263",
+        "min_dist": 2.58
+      },
+      {
+        "chain": "E",
+        "residue": "ARG263",
+        "min_dist": 2.6
+      },
+      {
+        "chain": "C",
+        "residue": "ARG263",
+        "min_dist": 2.61
+      },
+      {
+        "chain": "K",
+        "residue": "ARG263",
+        "min_dist": 2.74
+      },
+      {
+        "chain": "B",
+        "residue": "ARG263",
+        "min_dist": 2.74
+      },
+      {
+        "chain": "J",
+        "residue": "ARG263",
+        "min_dist": 2.76
+      },
+      {
+        "chain": "D",
+        "residue": "ARG263",
+        "min_dist": 2.76
+      },
+      {
+        "chain": "L",
+        "residue": "ARG263",
+        "min_dist": 2.87
+      },
+      {
+        "chain": "G",
+        "residue": "ARG263",
+        "min_dist": 2.99
+      },
+      {
+        "chain": "K",
+        "residue": "LEU267",
+        "min_dist": 3.13
+      },
+      {
+        "chain": "H",
+        "residue": "LEU267",
+        "min_dist": 3.26
+      },
+      {
+        "chain": "L",
+        "residue": "LEU267",
+        "min_dist": 3.29
+      },
+      {
+        "chain": "I",
+        "residue": "PHE270",
+        "min_dist": 3.3
+      },
+      {
+        "chain": "H",
+        "residue": "PHE270",
+        "min_dist": 3.31
+      },
+      {
+        "chain": "F",
+        "residue": "PHE270",
+        "min_dist": 3.32
+      },
+      {
+        "chain": "B",
+        "residue": "PHE270",
+        "min_dist": 3.32
+      },
+      {
+        "chain": "A",
+        "residue": "PHE270",
+        "min_dist": 3.32
+      },
+      {
+        "chain": "C",
+        "residue": "GLU225",
+        "min_dist": 3.33
+      },
+      {
+        "chain": "A",
+        "residue": "LEU267",
+        "min_dist": 3.35
+      },
+      {
+        "chain": "L",
+        "residue": "PHE270",
+        "min_dist": 3.38
+      },
+      {
+        "chain": "K",
+        "residue": "PHE270",
+        "min_dist": 3.38
+      },
+      {
+        "chain": "K",
+        "residue": "THR266",
+        "min_dist": 3.39
+      },
+      {
+        "chain": "E",
+        "residue": "LEU267",
+        "min_dist": 3.39
+      },
+      {
+        "chain": "G",
+        "residue": "ALA227",
+        "min_dist": 3.41
+      },
+      {
+        "chain": "D",
+        "residue": "LEU267",
+        "min_dist": 3.41
+      },
+      {
+        "chain": "E",
+        "residue": "PHE270",
+        "min_dist": 3.41
+      },
+      {
+        "chain": "G",
+        "residue": "VAL253",
+        "min_dist": 3.42
+      },
+      {
+        "chain": "J",
+        "residue": "LEU267",
+        "min_dist": 3.43
+      },
+      {
+        "chain": "C",
+        "residue": "PHE270",
+        "min_dist": 3.44
+      },
+      {
+        "chain": "E",
+        "residue": "LEU235",
+        "min_dist": 3.45
+      },
+      {
+        "chain": "B",
+        "residue": "PHE254",
+        "min_dist": 3.46
+      },
+      {
+        "chain": "F",
+        "residue": "MET250",
+        "min_dist": 3.47
+      }
+    ],
+    "polar_heavy_atom_pairs_3p5A": [
+      [
+        2.25,
+        "ARG263:NH1",
+        "4M7:OAA"
+      ],
+      [
+        2.35,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.47,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.58,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.6,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.61,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.74,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.74,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.76,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.76,
+        "ARG263:NH2",
+        "4M7:OAA"
+      ],
+      [
+        2.87,
+        "ARG263:NE",
+        "4M7:OAC"
+      ],
+      [
+        2.92,
+        "ARG263:NE",
+        "4M7:OAC"
+      ],
+      [
+        2.94,
+        "ARG263:NE",
+        "4M7:OAC"
+      ],
+      [
+        2.94,
+        "ARG263:NH2",
+        "4M7:OAC"
+      ],
+      [
+        2.96,
+        "ARG263:NE",
+        "4M7:OAC"
+      ],
+      [
+        2.96,
+        "ARG263:NE",
+        "4M7:OAC"
+      ],
+      [
+        2.97,
+        "ARG263:NE",
+        "4M7:OAA"
+      ],
+      [
+        2.99,
+        "ARG263:NE",
+        "4M7:OAA"
+      ],
+      [
+        3.0,
+        "ARG263:NE",
+        "4M7:OAA"
+      ],
+      [
+        3.02,
+        "ARG263:NE",
+        "4M7:OAC"
+      ],
+      [
+        3.05,
+        "ARG263:NE",
+        "4M7:OAA"
+      ],
+      [
+        3.05,
+        "ARG263:NE",
+        "4M7:OAC"
+      ],
+      [
+        3.05,
+        "ARG263:NH1",
+        "4M7:OAC"
+      ],
+      [
+        3.07,
+        "ARG263:NE",
+        "4M7:OAA"
+      ],
+      [
+        3.08,
+        "ARG263:NE",
+        "4M7:OAA"
+      ]
+    ]
+  },
+  "4WOV:3SM": {
+    "ligand_atom_count": 98,
+    "contact_residues_4p5A": [
+      {
+        "chain": "B",
+        "residue": "VAL690",
+        "min_dist": 1.82
+      },
+      {
+        "chain": "B",
+        "residue": "LEU595",
+        "min_dist": 1.83
+      },
+      {
+        "chain": "A",
+        "residue": "LEU595",
+        "min_dist": 1.95
+      },
+      {
+        "chain": "A",
+        "residue": "VAL690",
+        "min_dist": 2.03
+      },
+      {
+        "chain": "B",
+        "residue": "GLU688",
+        "min_dist": 2.34
+      },
+      {
+        "chain": "A",
+        "residue": "GLU688",
+        "min_dist": 2.36
+      },
+      {
+        "chain": "A",
+        "residue": "GLN597",
+        "min_dist": 2.54
+      },
+      {
+        "chain": "B",
+        "residue": "GLN597",
+        "min_dist": 2.55
+      },
+      {
+        "chain": "A",
+        "residue": "TYR689",
+        "min_dist": 2.65
+      },
+      {
+        "chain": "A",
+        "residue": "GLU691",
+        "min_dist": 2.67
+      },
+      {
+        "chain": "B",
+        "residue": "GLU691",
+        "min_dist": 2.69
+      },
+      {
+        "chain": "B",
+        "residue": "LEU741",
+        "min_dist": 2.93
+      },
+      {
+        "chain": "B",
+        "residue": "TYR689",
+        "min_dist": 2.96
+      },
+      {
+        "chain": "A",
+        "residue": "GLY693",
+        "min_dist": 2.97
+      },
+      {
+        "chain": "B",
+        "residue": "GLY693",
+        "min_dist": 3.03
+      },
+      {
+        "chain": "B",
+        "residue": "ARG738",
+        "min_dist": 3.07
+      },
+      {
+        "chain": "A",
+        "residue": "ARG738",
+        "min_dist": 3.1
+      },
+      {
+        "chain": "A",
+        "residue": "LEU741",
+        "min_dist": 3.13
+      },
+      {
+        "chain": "B",
+        "residue": "VAL697",
+        "min_dist": 3.21
+      },
+      {
+        "chain": "A",
+        "residue": "VAL697",
+        "min_dist": 3.26
+      },
+      {
+        "chain": "B",
+        "residue": "PRO694",
+        "min_dist": 3.34
+      },
+      {
+        "chain": "A",
+        "residue": "LYS642",
+        "min_dist": 3.35
+      },
+      {
+        "chain": "A",
+        "residue": "PRO694",
+        "min_dist": 3.37
+      },
+      {
+        "chain": "B",
+        "residue": "VAL640",
+        "min_dist": 3.38
+      },
+      {
+        "chain": "B",
+        "residue": "LYS642",
+        "min_dist": 3.39
+      },
+      {
+        "chain": "A",
+        "residue": "HIS692",
+        "min_dist": 3.42
+      },
+      {
+        "chain": "B",
+        "residue": "HIS692",
+        "min_dist": 3.47
+      },
+      {
+        "chain": "B",
+        "residue": "VAL603",
+        "min_dist": 3.48
+      },
+      {
+        "chain": "A",
+        "residue": "VAL640",
+        "min_dist": 3.52
+      },
+      {
+        "chain": "A",
+        "residue": "VAL603",
+        "min_dist": 3.62
+      },
+      {
+        "chain": "B",
+        "residue": "GLY596",
+        "min_dist": 3.63
+      },
+      {
+        "chain": "A",
+        "residue": "GLY596",
+        "min_dist": 3.63
+      },
+      {
+        "chain": "A",
+        "residue": "THR687",
+        "min_dist": 3.8
+      },
+      {
+        "chain": "B",
+        "residue": "THR687",
+        "min_dist": 3.81
+      },
+      {
+        "chain": "A",
+        "residue": "SER758",
+        "min_dist": 3.81
+      }
+    ],
+    "polar_heavy_atom_pairs_3p5A": [
+      [
+        2.72,
+        "VAL690:O",
+        "3SM:N26"
+      ],
+      [
+        2.79,
+        "VAL690:O",
+        "3SM:N26"
+      ],
+      [
+        2.83,
+        "LEU595:O",
+        "3SM:N18"
+      ],
+      [
+        2.91,
+        "LEU595:O",
+        "3SM:N18"
+      ],
+      [
+        2.94,
+        "VAL690:N",
+        "3SM:N3"
+      ],
+      [
+        3.02,
+        "VAL690:N",
+        "3SM:N3"
+      ],
+      [
+        3.41,
+        "LEU595:O",
+        "3SM:N12"
+      ]
+    ]
+  },
+  "7XZ5:LSC": {
+    "ligand_atom_count": 87,
+    "contact_residues_4p5A": [
+      {
+        "chain": "R",
+        "residue": "GLN65",
+        "min_dist": 1.38
+      },
+      {
+        "chain": "R",
+        "residue": "ARG262",
+        "min_dist": 1.8
+      },
+      {
+        "chain": "R",
+        "residue": "SER156",
+        "min_dist": 2.33
+      },
+      {
+        "chain": "R",
+        "residue": "GLU261",
+        "min_dist": 2.33
+      },
+      {
+        "chain": "R",
+        "residue": "LEU169",
+        "min_dist": 2.33
+      },
+      {
+        "chain": "R",
+        "residue": "ALA90",
+        "min_dist": 2.37
+      },
+      {
+        "chain": "R",
+        "residue": "VAL85",
+        "min_dist": 2.37
+      },
+      {
+        "chain": "R",
+        "residue": "PHE158",
+        "min_dist": 2.38
+      },
+      {
+        "chain": "R",
+        "residue": "PHE157",
+        "min_dist": 2.41
+      },
+      {
+        "chain": "R",
+        "residue": "ALA159",
+        "min_dist": 2.41
+      },
+      {
+        "chain": "R",
+        "residue": "TYR257",
+        "min_dist": 2.42
+      },
+      {
+        "chain": "R",
+        "residue": "PHE7",
+        "min_dist": 2.42
+      },
+      {
+        "chain": "R",
+        "residue": "ALA89",
+        "min_dist": 2.46
+      },
+      {
+        "chain": "R",
+        "residue": "LEU94",
+        "min_dist": 2.48
+      },
+      {
+        "chain": "R",
+        "residue": "GLY173",
+        "min_dist": 2.51
+      },
+      {
+        "chain": "R",
+        "residue": "VAL93",
+        "min_dist": 2.51
+      },
+      {
+        "chain": "R",
+        "residue": "PHE174",
+        "min_dist": 2.51
+      },
+      {
+        "chain": "R",
+        "residue": "THR86",
+        "min_dist": 2.75
+      },
+      {
+        "chain": "R",
+        "residue": "TRP265",
+        "min_dist": 2.76
+      },
+      {
+        "chain": "R",
+        "residue": "TRP238",
+        "min_dist": 2.83
+      },
+      {
+        "chain": "R",
+        "residue": "PHE241",
+        "min_dist": 2.86
+      },
+      {
+        "chain": "R",
+        "residue": "LEU61",
+        "min_dist": 2.87
+      },
+      {
+        "chain": "R",
+        "residue": "ILE136",
+        "min_dist": 2.91
+      },
+      {
+        "chain": "R",
+        "residue": "MET82",
+        "min_dist": 3.18
+      },
+      {
+        "chain": "R",
+        "residue": "CYS155",
+        "min_dist": 3.22
+      },
+      {
+        "chain": "R",
+        "residue": "LEU242",
+        "min_dist": 3.38
+      },
+      {
+        "chain": "R",
+        "residue": "ALA177",
+        "min_dist": 3.8
+      },
+      {
+        "chain": "R",
+        "residue": "GLN154",
+        "min_dist": 3.81
+      },
+      {
+        "chain": "R",
+        "residue": "LYS152",
+        "min_dist": 4.22
+      },
+      {
+        "chain": "R",
+        "residue": "SER4",
+        "min_dist": 4.27
+      },
+      {
+        "chain": "R",
+        "residue": "VAL132",
+        "min_dist": 4.41
+      }
+    ],
+    "polar_heavy_atom_pairs_3p5A": [
+      [
+        2.79,
+        "ARG262:NH2",
+        "LSC:O25"
+      ],
+      [
+        2.95,
+        "GLN65:NE2",
+        "LSC:O33"
+      ],
+      [
+        3.35,
+        "SER156:OG",
+        "LSC:N32"
+      ],
+      [
+        3.37,
+        "GLU261:OE2",
+        "LSC:N32"
+      ]
+    ]
+  },
+  "7XZ6:I7J": {
+    "ligand_atom_count": 57,
+    "contact_residues_4p5A": [
+      {
+        "chain": "R",
+        "residue": "GLU261",
+        "min_dist": 2.06
+      },
+      {
+        "chain": "R",
+        "residue": "ALA89",
+        "min_dist": 2.07
+      },
+      {
+        "chain": "R",
+        "residue": "PHE7",
+        "min_dist": 2.1
+      },
+      {
+        "chain": "R",
+        "residue": "ALA90",
+        "min_dist": 2.14
+      },
+      {
+        "chain": "R",
+        "residue": "LEU169",
+        "min_dist": 2.16
+      },
+      {
+        "chain": "R",
+        "residue": "PHE174",
+        "min_dist": 2.22
+      },
+      {
+        "chain": "R",
+        "residue": "PHE241",
+        "min_dist": 2.23
+      },
+      {
+        "chain": "R",
+        "residue": "LEU94",
+        "min_dist": 2.24
+      },
+      {
+        "chain": "R",
+        "residue": "ILE136",
+        "min_dist": 2.28
+      },
+      {
+        "chain": "R",
+        "residue": "TRP265",
+        "min_dist": 2.32
+      },
+      {
+        "chain": "R",
+        "residue": "GLY173",
+        "min_dist": 2.37
+      },
+      {
+        "chain": "R",
+        "residue": "LEU61",
+        "min_dist": 2.44
+      },
+      {
+        "chain": "R",
+        "residue": "MET82",
+        "min_dist": 2.44
+      },
+      {
+        "chain": "R",
+        "residue": "VAL93",
+        "min_dist": 2.49
+      },
+      {
+        "chain": "R",
+        "residue": "LEU242",
+        "min_dist": 2.52
+      },
+      {
+        "chain": "R",
+        "residue": "VAL85",
+        "min_dist": 2.57
+      },
+      {
+        "chain": "R",
+        "residue": "SER156",
+        "min_dist": 2.61
+      },
+      {
+        "chain": "R",
+        "residue": "LEU11",
+        "min_dist": 2.69
+      },
+      {
+        "chain": "R",
+        "residue": "THR86",
+        "min_dist": 2.71
+      },
+      {
+        "chain": "R",
+        "residue": "TRP238",
+        "min_dist": 2.71
+      },
+      {
+        "chain": "R",
+        "residue": "PHE157",
+        "min_dist": 2.73
+      },
+      {
+        "chain": "R",
+        "residue": "ARG262",
+        "min_dist": 2.74
+      },
+      {
+        "chain": "R",
+        "residue": "VAL166",
+        "min_dist": 3.26
+      },
+      {
+        "chain": "R",
+        "residue": "GLN65",
+        "min_dist": 3.31
+      },
+      {
+        "chain": "R",
+        "residue": "VAL132",
+        "min_dist": 4.07
+      },
+      {
+        "chain": "R",
+        "residue": "SER133",
+        "min_dist": 4.18
+      },
+      {
+        "chain": "R",
+        "residue": "ALA177",
+        "min_dist": 4.22
+      },
+      {
+        "chain": "R",
+        "residue": "PHE158",
+        "min_dist": 4.23
+      },
+      {
+        "chain": "R",
+        "residue": "VAL172",
+        "min_dist": 4.31
+      }
+    ],
+    "polar_heavy_atom_pairs_3p5A": [
+      [
+        2.97,
+        "PHE174:N",
+        "I7J:O2"
+      ],
+      [
+        3.09,
+        "TRP265:NE1",
+        "I7J:N3"
+      ],
+      [
+        3.39,
+        "TRP265:NE1",
+        "I7J:N5"
+      ],
+      [
+        3.41,
+        "PHE157:N",
+        "I7J:O4"
+      ]
+    ]
+  },
+  "8VHF:8VP": {
+    "ligand_atom_count": 32,
+    "contact_residues_4p5A": [
+      {
+        "chain": "R",
+        "residue": "GLU261",
+        "min_dist": 2.88
+      },
+      {
+        "chain": "R",
+        "residue": "TRP238",
+        "min_dist": 3.22
+      },
+      {
+        "chain": "R",
+        "residue": "GLY173",
+        "min_dist": 3.23
+      },
+      {
+        "chain": "R",
+        "residue": "TRP265",
+        "min_dist": 3.28
+      },
+      {
+        "chain": "R",
+        "residue": "PHE157",
+        "min_dist": 3.32
+      },
+      {
+        "chain": "R",
+        "residue": "ALA90",
+        "min_dist": 3.39
+      },
+      {
+        "chain": "R",
+        "residue": "PHE174",
+        "min_dist": 3.4
+      },
+      {
+        "chain": "R",
+        "residue": "THR86",
+        "min_dist": 3.51
+      },
+      {
+        "chain": "R",
+        "residue": "LEU61",
+        "min_dist": 3.53
+      },
+      {
+        "chain": "R",
+        "residue": "VAL93",
+        "min_dist": 3.6
+      },
+      {
+        "chain": "R",
+        "residue": "ALA89",
+        "min_dist": 3.63
+      },
+      {
+        "chain": "R",
+        "residue": "LEU169",
+        "min_dist": 3.68
+      },
+      {
+        "chain": "R",
+        "residue": "LEU94",
+        "min_dist": 3.76
+      },
+      {
+        "chain": "R",
+        "residue": "VAL85",
+        "min_dist": 3.9
+      },
+      {
+        "chain": "R",
+        "residue": "PHE241",
+        "min_dist": 3.98
+      },
+      {
+        "chain": "R",
+        "residue": "MET82",
+        "min_dist": 3.98
+      },
+      {
+        "chain": "R",
+        "residue": "LEU242",
+        "min_dist": 4.08
+      },
+      {
+        "chain": "R",
+        "residue": "GLN65",
+        "min_dist": 4.16
+      },
+      {
+        "chain": "R",
+        "residue": "SER156",
+        "min_dist": 4.23
+      },
+      {
+        "chain": "R",
+        "residue": "CYS155",
+        "min_dist": 4.33
+      },
+      {
+        "chain": "R",
+        "residue": "PHE165",
+        "min_dist": 4.46
+      },
+      {
+        "chain": "R",
+        "residue": "PHE7",
+        "min_dist": 4.47
+      }
+    ],
+    "polar_heavy_atom_pairs_3p5A": [
+      [
+        2.88,
+        "GLU261:O",
+        "8VP:N32"
+      ]
+    ]
+  }
+}

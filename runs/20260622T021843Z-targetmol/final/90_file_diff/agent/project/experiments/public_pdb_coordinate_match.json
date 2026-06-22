@@ -1,0 +1,224 @@
+{
+  "target1.pdb": [
+    {
+      "entry": "4ZBF",
+      "chain": "J",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.0
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "L",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.277
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "H",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.278
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "D",
+      "aligned_ca": 148,
+      "identity": 1.0,
+      "coverage_target": 0.9801,
+      "ca_rmsd": 0.297
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "K",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.322
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "F",
+      "aligned_ca": 148,
+      "identity": 1.0,
+      "coverage_target": 0.9801,
+      "ca_rmsd": 0.345
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "A",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.35
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "E",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.371
+    },
+    {
+      "entry": "4ZBI",
+      "chain": "F",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.385
+    },
+    {
+      "entry": "4HW3",
+      "chain": "B",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.388
+    },
+    {
+      "entry": "4ZBI",
+      "chain": "A",
+      "aligned_ca": 151,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.397
+    },
+    {
+      "entry": "4ZBF",
+      "chain": "C",
+      "aligned_ca": 148,
+      "identity": 1.0,
+      "coverage_target": 0.9801,
+      "ca_rmsd": 0.399
+    }
+  ],
+  "target2.pdb": [
+    {
+      "entry": "4WOV",
+      "chain": "B",
+      "aligned_ca": 256,
+      "identity": 1.0,
+      "coverage_target": 0.9961,
+      "ca_rmsd": 0.472
+    },
+    {
+      "entry": "4WOV",
+      "chain": "A",
+      "aligned_ca": 256,
+      "identity": 1.0,
+      "coverage_target": 0.9961,
+      "ca_rmsd": 0.503
+    },
+    {
+      "entry": "5C01",
+      "chain": "A",
+      "aligned_ca": 257,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.709
+    },
+    {
+      "entry": "5C03",
+      "chain": "B",
+      "aligned_ca": 257,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.721
+    },
+    {
+      "entry": "5C03",
+      "chain": "A",
+      "aligned_ca": 257,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.768
+    },
+    {
+      "entry": "5C01",
+      "chain": "B",
+      "aligned_ca": 257,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.768
+    },
+    {
+      "entry": "4OLI",
+      "chain": "A",
+      "aligned_ca": 257,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.813
+    },
+    {
+      "entry": "3ZON",
+      "chain": "A",
+      "aligned_ca": 254,
+      "identity": 1.0,
+      "coverage_target": 0.9883,
+      "ca_rmsd": 0.832
+    }
+  ],
+  "target3.pdb": [
+    {
+      "entry": "7XZ5",
+      "chain": "R",
+      "aligned_ca": 292,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.0
+    },
+    {
+      "entry": "7XZ6",
+      "chain": "R",
+      "aligned_ca": 292,
+      "identity": 1.0,
+      "coverage_target": 1.0,
+      "ca_rmsd": 0.574
+    },
+    {
+      "entry": "8VHF",
+      "chain": "R",
+      "aligned_ca": 288,
+      "identity": 1.0,
+      "coverage_target": 0.9863,
+      "ca_rmsd": 1.091
+    },
+    {
+      "entry": "7XZ6",
+      "chain": "B",
+      "aligned_ca": 52,
+      "identity": 0.5192,
+      "coverage_target": 0.1781,
+      "ca_rmsd": 14.583
+    },
+    {
+      "entry": "8VHF",
+      "chain": "B",
+      "aligned_ca": 52,
+      "identity": 0.5192,
+      "coverage_target": 0.1781,
+      "ca_rmsd": 14.617
+    },
+    {
+      "entry": "7XZ5",
+      "chain": "B",
+      "aligned_ca": 52,
+      "identity": 0.5192,
+      "coverage_target": 0.1781,
+      "ca_rmsd": 14.652
+    },
+    {
+      "entry": "8ZRK",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "entry": "8ZR5",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ]
+}
