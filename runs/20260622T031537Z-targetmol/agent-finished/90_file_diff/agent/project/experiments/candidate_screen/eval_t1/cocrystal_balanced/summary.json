@@ -1,0 +1,44 @@
+{
+  "elapsed_seconds": 1.246,
+  "failure_count": 0,
+  "label": "cocrystal_balanced",
+  "molecule_count": 3,
+  "official_weighted_proxy_score_mean": 76.0384,
+  "official_weighted_proxy_score_min": 75.8562,
+  "ok_count": 3,
+  "outputs": {
+    "failures_jsonl": "experiments/candidate_screen/eval_t1/cocrystal_balanced/failures.jsonl",
+    "metrics_jsonl": "experiments/candidate_screen/eval_t1/cocrystal_balanced/metrics.jsonl",
+    "per_molecule_csv": "experiments/candidate_screen/eval_t1/cocrystal_balanced/per_molecule.csv"
+  },
+  "pdb_dir": "input_targets",
+  "proxy_score_mean": 66.3115,
+  "proxy_score_min": 60.8603,
+  "result_zip": "experiments/candidate_screen/zips/cocrystal_balanced.zip",
+  "scale_note": "Local scores are transparent 0-100 proxy/ranking signals using official field names and the semifinal 0.6 molecule / 0.4 synthesis-route top-level weighting; they are not on the hidden leaderboard 0.x scale and should not be subtracted from official scores.",
+  "slowest": [
+    {
+      "prep_ms": 153,
+      "row": 1,
+      "smiles": "CCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 119,
+      "row": 1,
+      "smiles": "Cc1cc(OCCCc2c(C(=O)O)sc3ccccc23)cc(C)c1Cl",
+      "target": "result1.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 96,
+      "row": 1,
+      "smiles": "CNc1cc(Nc2cc(C)cc(C)c2)nn2c(C(N)=O)cnc12",
+      "target": "result2.csv",
+      "vina_ms": null
+    }
+  ],
+  "tier": 1,
+  "ts": "2026-06-22T03:29:48Z"
+}

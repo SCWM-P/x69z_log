@@ -1,0 +1,42 @@
+{
+  "cocrystal_balanced": {
+    "assignment": {
+      "result1.csv": "19G",
+      "result2.csv": "7GL",
+      "result3.csv": "8VP"
+    },
+    "zip": "/work/targetmol/run/agent/project/experiments/candidate_screen/zips/cocrystal_balanced.zip"
+  },
+  "mcl_indole_tyk2_kzj_gpr119_8vp": {
+    "assignment": {
+      "result1.csv": "19H",
+      "result2.csv": "KZJ",
+      "result3.csv": "8VP"
+    },
+    "zip": "/work/targetmol/run/agent/project/experiments/candidate_screen/zips/mcl_indole_tyk2_kzj_gpr119_8vp.zip"
+  },
+  "mcl_tricycle_tyk2_late_gpr119_apd": {
+    "assignment": {
+      "result1.csv": "4M7",
+      "result2.csv": "L8Y",
+      "result3.csv": "I7J"
+    },
+    "zip": "/work/targetmol/run/agent/project/experiments/candidate_screen/zips/mcl_tricycle_tyk2_late_gpr119_apd.zip"
+  },
+  "mixed_high_proxy": {
+    "assignment": {
+      "result1.csv": "19G",
+      "result2.csv": "L8Y",
+      "result3.csv": "I7J"
+    },
+    "zip": "/work/targetmol/run/agent/project/experiments/candidate_screen/zips/mixed_high_proxy.zip"
+  },
+  "small_tyk2_gpr119_ar231": {
+    "assignment": {
+      "result1.csv": "19G",
+      "result2.csv": "9ZS",
+      "result3.csv": "8VP"
+    },
+    "zip": "/work/targetmol/run/agent/project/experiments/candidate_screen/zips/small_tyk2_gpr119_ar231.zip"
+  }
+}

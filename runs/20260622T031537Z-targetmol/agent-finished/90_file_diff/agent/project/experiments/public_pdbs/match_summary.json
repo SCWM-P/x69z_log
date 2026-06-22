@@ -1,0 +1,419 @@
+{
+  "target1": [
+    {
+      "best_chain": {
+        "atom_count": 1212,
+        "chain": "B",
+        "entry": "4HW2",
+        "identity": 1.0,
+        "res_count": 151,
+        "rmsd_same_order": null
+      },
+      "entry": "4HW2",
+      "ligand_codes": {
+        "19H": 156,
+        "PGE": 30
+      },
+      "ligand_instances": {
+        "19H": 6,
+        "PGE": 3
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1206,
+        "chain": "G",
+        "entry": "4HW3",
+        "identity": 1.0,
+        "res_count": 151,
+        "rmsd_same_order": 88.5781
+      },
+      "entry": "4HW3",
+      "ligand_codes": {
+        "19G": 300
+      },
+      "ligand_instances": {
+        "19G": 12
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 2506,
+        "chain": "A",
+        "entry": "4HW4",
+        "identity": 0.9805,
+        "res_count": 154,
+        "rmsd_same_order": null
+      },
+      "entry": "4HW4",
+      "ligand_codes": {
+        "ACE": 6,
+        "NH2": 2
+      },
+      "ligand_instances": {
+        "ACE": 2,
+        "NH2": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1206,
+        "chain": "J",
+        "entry": "4ZBF",
+        "identity": 1.0,
+        "res_count": 151,
+        "rmsd_same_order": 0.512
+      },
+      "entry": "4ZBF",
+      "ligand_codes": {
+        "4M7": 372
+      },
+      "ligand_instances": {
+        "4M7": 12
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1206,
+        "chain": "I",
+        "entry": "4ZBI",
+        "identity": 1.0,
+        "res_count": 151,
+        "rmsd_same_order": 40.4172
+      },
+      "entry": "4ZBI",
+      "ligand_codes": {
+        "4M6": 348
+      },
+      "ligand_instances": {
+        "4M6": 12
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 2282,
+        "chain": "A",
+        "entry": "5W89",
+        "identity": 0,
+        "res_count": 141,
+        "rmsd_same_order": null
+      },
+      "entry": "5W89",
+      "ligand_codes": {
+        "ACE": 3,
+        "MK8": 38,
+        "NLE": 18
+      },
+      "ligand_instances": {
+        "ACE": 1,
+        "MK8": 2,
+        "NLE": 1
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1187,
+        "chain": "B",
+        "entry": "5FDO",
+        "identity": 0.9934,
+        "res_count": 150,
+        "rmsd_same_order": null
+      },
+      "entry": "5FDO",
+      "ligand_codes": {
+        "5X2": 136
+      },
+      "ligand_instances": {
+        "5X2": 4
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 2399,
+        "chain": "A",
+        "entry": "5W8F",
+        "identity": 0.9868,
+        "res_count": 149,
+        "rmsd_same_order": null
+      },
+      "entry": "5W8F",
+      "ligand_codes": {
+        "MK8": 44,
+        "NLE": 18
+      },
+      "ligand_instances": {
+        "MK8": 2,
+        "NLE": 1
+      }
+    }
+  ],
+  "target2": [
+    {
+      "best_chain": {
+        "atom_count": 2044,
+        "chain": "A",
+        "entry": "3ZON",
+        "identity": 0,
+        "res_count": 261,
+        "rmsd_same_order": null
+      },
+      "entry": "3ZON",
+      "ligand_codes": {
+        "IK1": 18
+      },
+      "ligand_instances": {
+        "IK1": 1
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 4344,
+        "chain": "A",
+        "entry": "4OLI",
+        "identity": 0,
+        "res_count": 539,
+        "rmsd_same_order": null
+      },
+      "entry": "4OLI",
+      "ligand_codes": {
+        "2TT": 44
+      },
+      "ligand_instances": {
+        "2TT": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1959,
+        "chain": "A",
+        "entry": "4WOV",
+        "identity": 0,
+        "res_count": 258,
+        "rmsd_same_order": null
+      },
+      "entry": "4WOV",
+      "ligand_codes": {
+        "3SM": 98
+      },
+      "ligand_instances": {
+        "3SM": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 2048,
+        "chain": "A",
+        "entry": "5C01",
+        "identity": 0.9961,
+        "res_count": 258,
+        "rmsd_same_order": null
+      },
+      "entry": "5C01",
+      "ligand_codes": {
+        "UNL": 60
+      },
+      "ligand_instances": {
+        "UNL": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 2067,
+        "chain": "A",
+        "entry": "5C03",
+        "identity": 0.9885,
+        "res_count": 260,
+        "rmsd_same_order": null
+      },
+      "entry": "5C03",
+      "ligand_codes": {
+        "AGS": 62
+      },
+      "ligand_instances": {
+        "AGS": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1878,
+        "chain": "A",
+        "entry": "5TKD",
+        "identity": 0,
+        "res_count": 248,
+        "rmsd_same_order": null
+      },
+      "entry": "5TKD",
+      "ligand_codes": {
+        "7GL": 82
+      },
+      "ligand_instances": {
+        "7GL": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1853,
+        "chain": "A",
+        "entry": "6NSL",
+        "identity": 0,
+        "res_count": 251,
+        "rmsd_same_order": null
+      },
+      "entry": "6NSL",
+      "ligand_codes": {
+        "KZJ": 106
+      },
+      "ligand_instances": {
+        "KZJ": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1855,
+        "chain": "A",
+        "entry": "6NZE",
+        "identity": 0,
+        "res_count": 250,
+        "rmsd_same_order": null
+      },
+      "entry": "6NZE",
+      "ligand_codes": {
+        "L8Y": 90
+      },
+      "ligand_instances": {
+        "L8Y": 2
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 2430,
+        "chain": "A",
+        "entry": "5WEV",
+        "identity": 0,
+        "res_count": 293,
+        "rmsd_same_order": null
+      },
+      "entry": "5WEV",
+      "ligand_codes": {
+        "9ZS": 23,
+        "PTR": 32
+      },
+      "ligand_instances": {
+        "9ZS": 1,
+        "PTR": 2
+      }
+    }
+  ],
+  "target3": [
+    {
+      "best_chain": {
+        "atom_count": 4609,
+        "chain": "R",
+        "entry": "7XZ5",
+        "identity": 1.0,
+        "res_count": 292,
+        "rmsd_same_order": 0.3216
+      },
+      "entry": "7XZ5",
+      "ligand_codes": {
+        "LSC": 87
+      },
+      "ligand_instances": {
+        "LSC": 1
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 4609,
+        "chain": "R",
+        "entry": "7XZ6",
+        "identity": 1.0,
+        "res_count": 292,
+        "rmsd_same_order": 5.6083
+      },
+      "entry": "7XZ6",
+      "ligand_codes": {
+        "I7J": 57
+      },
+      "ligand_instances": {
+        "I7J": 1
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 2606,
+        "chain": "B",
+        "entry": "8VHF",
+        "identity": 0,
+        "res_count": 339,
+        "rmsd_same_order": null
+      },
+      "entry": "8VHF",
+      "ligand_codes": {
+        "8VP": 32
+      },
+      "ligand_instances": {
+        "8VP": 1
+      }
+    },
+    {
+      "entry": "8ZR5",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "entry": "8ZRK",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "best_chain": {
+        "atom_count": 2040,
+        "chain": "R",
+        "entry": "9L79",
+        "identity": 0,
+        "res_count": 270,
+        "rmsd_same_order": null
+      },
+      "entry": "9L79",
+      "ligand_codes": {
+        "8WL": 35
+      },
+      "ligand_instances": {
+        "8WL": 1
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1825,
+        "chain": "A",
+        "entry": "9L80",
+        "identity": 0,
+        "res_count": 224,
+        "rmsd_same_order": null
+      },
+      "entry": "9L80",
+      "ligand_codes": {
+        "DR7": 102
+      },
+      "ligand_instances": {
+        "DR7": 1
+      }
+    },
+    {
+      "best_chain": {
+        "atom_count": 1947,
+        "chain": "A",
+        "entry": "7WCM",
+        "identity": 0,
+        "res_count": 235,
+        "rmsd_same_order": null
+      },
+      "entry": "7WCM",
+      "ligand_codes": {
+        "8VP": 32
+      },
+      "ligand_instances": {
+        "8VP": 1
+      }
+    }
+  ]
+}

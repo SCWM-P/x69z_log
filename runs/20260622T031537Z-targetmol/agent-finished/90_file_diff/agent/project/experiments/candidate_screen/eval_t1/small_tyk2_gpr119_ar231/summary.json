@@ -1,0 +1,44 @@
+{
+  "elapsed_seconds": 1.194,
+  "failure_count": 0,
+  "label": "small_tyk2_gpr119_ar231",
+  "molecule_count": 3,
+  "official_weighted_proxy_score_mean": 76.1641,
+  "official_weighted_proxy_score_min": 75.8915,
+  "ok_count": 3,
+  "outputs": {
+    "failures_jsonl": "experiments/candidate_screen/eval_t1/small_tyk2_gpr119_ar231/failures.jsonl",
+    "metrics_jsonl": "experiments/candidate_screen/eval_t1/small_tyk2_gpr119_ar231/metrics.jsonl",
+    "per_molecule_csv": "experiments/candidate_screen/eval_t1/small_tyk2_gpr119_ar231/per_molecule.csv"
+  },
+  "pdb_dir": "input_targets",
+  "proxy_score_mean": 68.6271,
+  "proxy_score_min": 67.8072,
+  "result_zip": "experiments/candidate_screen/zips/small_tyk2_gpr119_ar231.zip",
+  "scale_note": "Local scores are transparent 0-100 proxy/ranking signals using official field names and the semifinal 0.6 molecule / 0.4 synthesis-route top-level weighting; they are not on the hidden leaderboard 0.x scale and should not be subtracted from official scores.",
+  "slowest": [
+    {
+      "prep_ms": 147,
+      "row": 1,
+      "smiles": "CCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 121,
+      "row": 1,
+      "smiles": "Cc1cc(OCCCc2c(C(=O)O)sc3ccccc23)cc(C)c1Cl",
+      "target": "result1.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 76,
+      "row": 1,
+      "smiles": "O=C(Nc1nccc2[nH]c(-c3c(Cl)cccc3Cl)nc12)C1CC1",
+      "target": "result2.csv",
+      "vina_ms": null
+    }
+  ],
+  "tier": 1,
+  "ts": "2026-06-22T03:29:54Z"
+}
