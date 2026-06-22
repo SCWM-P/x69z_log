@@ -1,0 +1,54 @@
+{
+  "owned_paths": [
+    "/work/targetmol/run/agent/project",
+    "/work/targetmol/run/agent/logs",
+    "/work/targetmol/run/agent/codex-home"
+  ],
+  "pi_gid": 65534,
+  "pi_uid": 65534,
+  "pi_user": "nobody",
+  "restricted_paths": [
+    {
+      "exists": true,
+      "mode": "0o700",
+      "ok": true,
+      "path": "/work/targetmol/run/baseline"
+    },
+    {
+      "exists": true,
+      "mode": "0o700",
+      "ok": true,
+      "path": "/work/targetmol/run/logs"
+    },
+    {
+      "exists": true,
+      "mode": "0o700",
+      "ok": true,
+      "path": "/work/targetmol/run/input_targets"
+    },
+    {
+      "exists": true,
+      "mode": "0o700",
+      "ok": true,
+      "path": "/work/targetmol/run/offline_eval/baseline"
+    },
+    {
+      "error": "missing",
+      "exists": false,
+      "ok": false,
+      "path": "/work/targetmol/run/final-result.zip"
+    },
+    {
+      "exists": true,
+      "mode": "0o700",
+      "ok": true,
+      "path": "/saisresult"
+    },
+    {
+      "error": "missing",
+      "exists": false,
+      "ok": false,
+      "path": "/app/targetmol/runtime_secrets.json"
+    }
+  ]
+}
