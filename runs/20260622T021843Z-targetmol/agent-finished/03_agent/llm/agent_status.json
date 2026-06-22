@@ -1,0 +1,26 @@
+{
+  "baseline_visibility": "hidden_from_agent_project_used_only_by_outer_fallback",
+  "budget_seconds": 13500,
+  "candidate": "/work/targetmol/run/agent/candidate/result.zip",
+  "candidate_exists": true,
+  "completed_at": "2026-06-22T02:46:01Z",
+  "dashboard_status": "running_during_agent",
+  "elapsed_seconds": 1575.911,
+  "pi_soft_time_minutes": 210,
+  "provider": "daseinai",
+  "provider_attempts": [
+    {
+      "elapsed_ms": 348,
+      "error": "",
+      "provider": "daseinai",
+      "status": 200
+    }
+  ],
+  "research_input": "/work/targetmol/run/agent/project/input_targets",
+  "returncode": 0,
+  "rows_per_target": 1,
+  "started_at": "2026-06-22T02:19:45Z",
+  "ts": "2026-06-22T02:19:45Z",
+  "x69z_node_limit": "unbounded",
+  "x69z_reference_dir": "/mnt/x69z-reference"
+}

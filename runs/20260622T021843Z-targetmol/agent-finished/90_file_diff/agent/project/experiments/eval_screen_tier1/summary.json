@@ -1,0 +1,58 @@
+{
+  "elapsed_seconds": 2.952,
+  "failure_count": 0,
+  "label": "known_ligand_screen_t1",
+  "molecule_count": 12,
+  "official_weighted_proxy_score_mean": 72.6505,
+  "official_weighted_proxy_score_min": 69.8421,
+  "ok_count": 11,
+  "outputs": {
+    "failures_jsonl": "/work/targetmol/run/agent/project/experiments/eval_screen_tier1/failures.jsonl",
+    "metrics_jsonl": "/work/targetmol/run/agent/project/experiments/eval_screen_tier1/metrics.jsonl",
+    "per_molecule_csv": "/work/targetmol/run/agent/project/experiments/eval_screen_tier1/per_molecule.csv"
+  },
+  "pdb_dir": null,
+  "proxy_score_mean": 64.5486,
+  "proxy_score_min": 57.0253,
+  "result_zip": "/work/targetmol/run/agent/project/experiments/screen_known_ligands.zip",
+  "scale_note": "Local scores are transparent 0-100 proxy/ranking signals using official field names and the semifinal 0.6 molecule / 0.4 synthesis-route top-level weighting; they are not on the hidden leaderboard 0.x scale and should not be subtracted from official scores.",
+  "slowest": [
+    {
+      "prep_ms": 408,
+      "row": 5,
+      "smiles": "CCCCCCCC/C=C/CCCCCCCC(=O)OC[C@@H](O)CO[P@](=O)(O)OCC[N+](C)(C)C",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 200,
+      "row": 4,
+      "smiles": "CC[C@@H](Oc1ccc(C(=O)C2CC2)cc1)c1nc(-c2ccc(C(=O)N[C@H](C)CO)c(F)c2)no1",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 178,
+      "row": 2,
+      "smiles": "CCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 169,
+      "row": 1,
+      "smiles": "O=C(O)c1c(CCCOc2cccc3ccccc23)c2cccc3c2n1CCCS3=O",
+      "target": "result1.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 169,
+      "row": 3,
+      "smiles": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+      "target": "result3.csv",
+      "vina_ms": null
+    }
+  ],
+  "tier": 1,
+  "ts": "2026-06-22T02:30:04Z"
+}

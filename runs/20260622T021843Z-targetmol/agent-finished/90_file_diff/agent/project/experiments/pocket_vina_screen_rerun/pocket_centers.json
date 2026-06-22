@@ -1,0 +1,47 @@
+{
+  "result1.csv": {
+    "center": [
+      -8.42,
+      -3.799,
+      -91.832
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "4ZBF:4M7",
+    "fit_rmsd": 0.0,
+    "alignment_ca": 151
+  },
+  "result2.csv": {
+    "center": [
+      12.004,
+      -5.651,
+      29.063
+    ],
+    "size": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "ref": "4WOV:3SM",
+    "fit_rmsd": 0.472,
+    "alignment_ca": 256
+  },
+  "result3.csv": {
+    "center": [
+      97.21,
+      119.192,
+      85.755
+    ],
+    "size": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "ref": "7XZ6:I7J",
+    "fit_rmsd": 0.574,
+    "alignment_ca": 292
+  }
+}
