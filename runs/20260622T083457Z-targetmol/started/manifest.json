@@ -1,0 +1,26 @@
+{
+  "checkpoint": "started",
+  "copied_files": [
+    "00_status/status.json",
+    "06_targets/README.md",
+    "06_targets/manifest.json",
+    "90_file_diff/input_targets/README.md",
+    "90_file_diff/input_targets/manifest.json",
+    "90_file_diff/input_targets/metadata/README.md",
+    "90_file_diff/input_targets/metadata/source_manifest.json",
+    "90_file_diff/input_targets/raw/target1.pdb",
+    "90_file_diff/input_targets/raw/target2.pdb",
+    "90_file_diff/input_targets/raw/target3.pdb",
+    "90_file_diff/logs/status.json"
+  ],
+  "excluded_by_design": [
+    "agent/project/baseline_result.zip",
+    "agent/candidate/result.zip",
+    "baseline/result.zip",
+    "final-result.zip",
+    "probe/*.bin",
+    "PDB files outside input_targets/raw"
+  ],
+  "file_diff_root": "90_file_diff",
+  "schema": "targetmol-logv3"
+}
