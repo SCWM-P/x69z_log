@@ -1,0 +1,188 @@
+{
+  "chem_comp": {
+    "formula": "C23 H28 N4 O4 S",
+    "formula_weight": 456.558,
+    "id": "A1D8Y",
+    "name": "GSK-1292263",
+    "pdbx_ambiguous_flag": "N",
+    "pdbx_formal_charge": 0,
+    "pdbx_initial_date": "2024-06-07T00:00:00.000+00:00",
+    "pdbx_modified_date": "2024-11-11T00:00:00.000+00:00",
+    "pdbx_processing_site": "PDBC",
+    "pdbx_release_status": "REL",
+    "three_letter_code": "A1D8Y",
+    "type": "non-polymer"
+  },
+  "pdbx_chem_comp_audit": [
+    {
+      "action_type": "Create component",
+      "comp_id": "A1D8Y",
+      "date": "2024-06-07T00:00:00.000+00:00",
+      "ordinal": 1
+    },
+    {
+      "action_type": "Initial release",
+      "comp_id": "A1D8Y",
+      "date": "2024-06-19T00:00:00.000+00:00",
+      "ordinal": 2
+    },
+    {
+      "action_type": "Modify name",
+      "comp_id": "A1D8Y",
+      "date": "2024-11-11T00:00:00.000+00:00",
+      "ordinal": 3
+    }
+  ],
+  "pdbx_chem_comp_descriptor": [
+    {
+      "comp_id": "A1D8Y",
+      "descriptor": "InChI=1S/C23H28N4O4S/c1-16(2)22-25-23(31-26-22)27-12-10-17(11-13-27)15-30-19-6-9-21(24-14-19)18-4-7-20(8-5-18)32(3,28)29/h4-9,14,16-17H,10-13,15H2,1-3H3",
+      "program": "InChI",
+      "program_version": "1.06",
+      "type": "InChI"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "descriptor": "AYJRTVVIBJSSKN-UHFFFAOYSA-N",
+      "program": "InChI",
+      "program_version": "1.06",
+      "type": "InChIKey"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "descriptor": "CC(C)c1noc(n1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)[S](C)(=O)=O",
+      "program": "CACTVS",
+      "program_version": "3.385",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "descriptor": "CC(C)c1noc(n1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)[S](C)(=O)=O",
+      "program": "CACTVS",
+      "program_version": "3.385",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "descriptor": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+      "program": "OpenEye OEToolkits",
+      "program_version": "2.0.7",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "descriptor": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+      "program": "OpenEye OEToolkits",
+      "program_version": "2.0.7",
+      "type": "SMILES"
+    }
+  ],
+  "pdbx_chem_comp_identifier": [
+    {
+      "comp_id": "A1D8Y",
+      "identifier": "5-[4-[[6-(4-methylsulfonylphenyl)pyridin-3-yl]oxymethyl]piperidin-1-yl]-3-propan-2-yl-1,2,4-oxadiazole",
+      "program": "OpenEye OEToolkits",
+      "program_version": "2.0.7",
+      "type": "SYSTEMATIC NAME"
+    }
+  ],
+  "rcsb_chem_comp_container_identifiers": {
+    "comp_id": "A1D8Y",
+    "drugbank_id": "DB12627",
+    "rcsb_id": "A1D8Y"
+  },
+  "rcsb_chem_comp_descriptor": {
+    "InChI": "InChI=1S/C23H28N4O4S/c1-16(2)22-25-23(31-26-22)27-12-10-17(11-13-27)15-30-19-6-9-21(24-14-19)18-4-7-20(8-5-18)32(3,28)29/h4-9,14,16-17H,10-13,15H2,1-3H3",
+    "InChIKey": "AYJRTVVIBJSSKN-UHFFFAOYSA-N",
+    "SMILES": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+    "SMILES_stereo": "CC(C)c1nc(on1)N2CCC(CC2)COc3ccc(nc3)c4ccc(cc4)S(=O)(=O)C",
+    "comp_id": "A1D8Y"
+  },
+  "rcsb_chem_comp_info": {
+    "atom_count": 60,
+    "atom_count_chiral": 0,
+    "atom_count_heavy": 32,
+    "bond_count": 63,
+    "bond_count_aromatic": 17,
+    "comp_id": "A1D8Y",
+    "initial_deposition_date": "2024-06-07T00:00:00.000+00:00",
+    "initial_release_date": "2024-06-19T00:00:00.000+00:00",
+    "release_status": "REL",
+    "revision_date": "2024-11-11T00:00:00.000+00:00"
+  },
+  "rcsb_chem_comp_related": [
+    {
+      "comp_id": "A1D8Y",
+      "ordinal": 1,
+      "related_mapping_method": "matching InChIKey in DrugBank",
+      "resource_accession_code": "DB12627",
+      "resource_name": "DrugBank"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "ordinal": 2,
+      "related_mapping_method": "matching InChIKey in PubChem",
+      "resource_accession_code": "24996872",
+      "resource_name": "PubChem"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "ordinal": 3,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "1032823-75-8",
+      "resource_name": "CAS"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "ordinal": 4,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "CHEMBL3187503",
+      "resource_name": "ChEMBL"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "ordinal": 5,
+      "related_mapping_method": "matching ChEMBL ID in Pharos",
+      "resource_accession_code": "CHEMBL3187503",
+      "resource_name": "Pharos"
+    }
+  ],
+  "rcsb_chem_comp_synonyms": [
+    {
+      "comp_id": "A1D8Y",
+      "name": "GSK-1292263",
+      "ordinal": 1,
+      "provenance_source": "PDB Reference Data",
+      "type": "Preferred Name"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "name": "5-[4-[[6-(4-methylsulfonylphenyl)pyridin-3-yl]oxymethyl]piperidin-1-yl]-3-propan-2-yl-1,2,4-oxadiazole",
+      "ordinal": 2,
+      "provenance_source": "OpenEye OEToolkits",
+      "type": "Systematic Name"
+    },
+    {
+      "comp_id": "A1D8Y",
+      "name": "GSK-1292263",
+      "ordinal": 3,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    }
+  ],
+  "rcsb_chem_comp_target": [
+    {
+      "comp_id": "A1D8Y",
+      "interaction_type": "target",
+      "name": "Glucose-dependent insulinotropic receptor",
+      "ordinal": 1,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q8TDV5",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "modulator"
+      ]
+    }
+  ],
+  "rcsb_id": "A1D8Y"
+}

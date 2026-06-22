@@ -1,0 +1,160 @@
+{
+  "chem_comp": {
+    "formula": "C21 H24 F N7 O5 S",
+    "formula_weight": 505.523,
+    "id": "8WL",
+    "name": "N-(2-fluoranyl-4-methylsulfonyl-phenyl)-5-nitro-6-[4-(3-propan-2-yl-1,2,4-oxadiazol-5-yl)piperidin-1-yl]pyrimidin-4-amine",
+    "pdbx_ambiguous_flag": "N",
+    "pdbx_formal_charge": 0,
+    "pdbx_initial_date": "2021-12-27T00:00:00.000+00:00",
+    "pdbx_modified_date": "2022-12-16T00:00:00.000+00:00",
+    "pdbx_processing_site": "PDBJ",
+    "pdbx_release_status": "REL",
+    "three_letter_code": "8WL",
+    "type": "non-polymer"
+  },
+  "pdbx_chem_comp_audit": [
+    {
+      "action_type": "Create component",
+      "comp_id": "8WL",
+      "date": "2021-12-27T00:00:00.000+00:00",
+      "ordinal": 1
+    },
+    {
+      "action_type": "Initial release",
+      "comp_id": "8WL",
+      "date": "2022-12-21T00:00:00.000+00:00",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_chem_comp_descriptor": [
+    {
+      "comp_id": "8WL",
+      "descriptor": "InChI=1S/C21H24FN7O5S/c1-12(2)18-26-21(34-27-18)13-6-8-28(9-7-13)20-17(29(30)31)19(23-11-24-20)25-16-5-4-14(10-15(16)22)35(3,32)33/h4-5,10-13H,6-9H2,1-3H3,(H,23,24,25)",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChI"
+    },
+    {
+      "comp_id": "8WL",
+      "descriptor": "DGBKNTVAKIFYNU-UHFFFAOYSA-N",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChIKey"
+    },
+    {
+      "comp_id": "8WL",
+      "descriptor": "CC(C)c1noc(n1)C2CCN(CC2)c3ncnc(Nc4ccc(cc4F)[S](C)(=O)=O)c3[N+]([O-])=O",
+      "program": "CACTVS",
+      "program_version": "3.385",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "8WL",
+      "descriptor": "CC(C)c1noc(n1)C2CCN(CC2)c3ncnc(Nc4ccc(cc4F)[S](C)(=O)=O)c3[N+]([O-])=O",
+      "program": "CACTVS",
+      "program_version": "3.385",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "8WL",
+      "descriptor": "CC(C)c1nc(on1)C2CCN(CC2)c3c(c(ncn3)Nc4ccc(cc4F)S(=O)(=O)C)[N+](=O)[O-]",
+      "program": "OpenEye OEToolkits",
+      "program_version": "2.0.7",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "8WL",
+      "descriptor": "CC(C)c1nc(on1)C2CCN(CC2)c3c(c(ncn3)Nc4ccc(cc4F)S(=O)(=O)C)[N+](=O)[O-]",
+      "program": "OpenEye OEToolkits",
+      "program_version": "2.0.7",
+      "type": "SMILES"
+    }
+  ],
+  "pdbx_chem_comp_identifier": [
+    {
+      "comp_id": "8WL",
+      "identifier": "~{N}-(2-fluoranyl-4-methylsulfonyl-phenyl)-5-nitro-6-[4-(3-propan-2-yl-1,2,4-oxadiazol-5-yl)piperidin-1-yl]pyrimidin-4-amine",
+      "program": "OpenEye OEToolkits",
+      "program_version": "2.0.7",
+      "type": "SYSTEMATIC NAME"
+    }
+  ],
+  "rcsb_chem_comp_container_identifiers": {
+    "comp_id": "8WL",
+    "rcsb_id": "8WL"
+  },
+  "rcsb_chem_comp_descriptor": {
+    "InChI": "InChI=1S/C21H24FN7O5S/c1-12(2)18-26-21(34-27-18)13-6-8-28(9-7-13)20-17(29(30)31)19(23-11-24-20)25-16-5-4-14(10-15(16)22)35(3,32)33/h4-5,10-13H,6-9H2,1-3H3,(H,23,24,25)",
+    "InChIKey": "DGBKNTVAKIFYNU-UHFFFAOYSA-N",
+    "SMILES": "CC(C)c1nc(on1)C2CCN(CC2)c3c(c(ncn3)Nc4ccc(cc4F)S(=O)(=O)C)[N+](=O)[O-]",
+    "SMILES_stereo": "CC(C)c1nc(on1)C2CCN(CC2)c3c(c(ncn3)Nc4ccc(cc4F)S(=O)(=O)C)[N+](=O)[O-]",
+    "comp_id": "8WL"
+  },
+  "rcsb_chem_comp_info": {
+    "atom_count": 59,
+    "atom_count_chiral": 0,
+    "atom_count_heavy": 35,
+    "bond_count": 62,
+    "bond_count_aromatic": 17,
+    "comp_id": "8WL",
+    "initial_deposition_date": "2021-12-27T00:00:00.000+00:00",
+    "initial_release_date": "2022-12-21T00:00:00.000+00:00",
+    "release_status": "REL",
+    "revision_date": "2022-12-21T00:00:00.000+00:00"
+  },
+  "rcsb_chem_comp_related": [
+    {
+      "comp_id": "8WL",
+      "ordinal": 1,
+      "related_mapping_method": "matching InChIKey in PubChem",
+      "resource_accession_code": "24939268",
+      "resource_name": "PubChem"
+    },
+    {
+      "comp_id": "8WL",
+      "ordinal": 2,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "733750-99-7",
+      "resource_name": "CAS"
+    },
+    {
+      "comp_id": "8WL",
+      "ordinal": 3,
+      "related_mapping_method": "assigned by PubChem resource",
+      "resource_accession_code": "CHEMBL461384",
+      "resource_name": "ChEMBL"
+    },
+    {
+      "comp_id": "8WL",
+      "ordinal": 4,
+      "related_mapping_method": "matching ChEMBL ID in Pharos",
+      "resource_accession_code": "CHEMBL461384",
+      "resource_name": "Pharos"
+    }
+  ],
+  "rcsb_chem_comp_synonyms": [
+    {
+      "comp_id": "8WL",
+      "name": "N-(2-fluoranyl-4-methylsulfonyl-phenyl)-5-nitro-6-[4-(3-propan-2-yl-1,2,4-oxadiazol-5-yl)piperidin-1-yl]pyrimidin-4-amine",
+      "ordinal": 1,
+      "provenance_source": "PDB Reference Data",
+      "type": "Preferred Name"
+    },
+    {
+      "comp_id": "8WL",
+      "name": "AR231453",
+      "ordinal": 2,
+      "provenance_source": "PDB Reference Data",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "8WL",
+      "name": "~{N}-(2-fluoranyl-4-methylsulfonyl-phenyl)-5-nitro-6-[4-(3-propan-2-yl-1,2,4-oxadiazol-5-yl)piperidin-1-yl]pyrimidin-4-amine",
+      "ordinal": 3,
+      "provenance_source": "OpenEye OEToolkits",
+      "type": "Systematic Name"
+    }
+  ],
+  "rcsb_id": "8WL"
+}

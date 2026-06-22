@@ -1,0 +1,58 @@
+{
+  "elapsed_seconds": 1.319,
+  "failure_count": 0,
+  "label": "panel_tier1",
+  "molecule_count": 13,
+  "official_weighted_proxy_score_mean": 74.5989,
+  "official_weighted_proxy_score_min": 56.7981,
+  "ok_count": 12,
+  "outputs": {
+    "failures_jsonl": "experiments/offline_eval/panel_tier1/failures.jsonl",
+    "metrics_jsonl": "experiments/offline_eval/panel_tier1/metrics.jsonl",
+    "per_molecule_csv": "experiments/offline_eval/panel_tier1/per_molecule.csv"
+  },
+  "pdb_dir": null,
+  "proxy_score_mean": 63.9322,
+  "proxy_score_min": 45.3166,
+  "result_zip": "experiments/candidates/panel.zip",
+  "scale_note": "Local scores are transparent 0-100 proxy/ranking signals using official field names and the semifinal 0.6 molecule / 0.4 synthesis-route top-level weighting; they are not on the hidden leaderboard 0.x scale and should not be subtracted from official scores.",
+  "slowest": [
+    {
+      "prep_ms": 93,
+      "row": 3,
+      "smiles": "CC(C)c1noc(N2CCC(COc3ccc(-c4ccc(S(C)(=O)=O)cc4)nc3)CC2)n1",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 84,
+      "row": 2,
+      "smiles": "CCc1cnc(N2CCC(c3nc(COc4ccc(-n5cnnn5)cc4)cs3)CC2)nc1",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 77,
+      "row": 1,
+      "smiles": "CC(C)OC(=O)N1CCC(Oc2ncnc3c2cnn3-c2ccc(S(C)(=O)=O)cc2F)CC1",
+      "target": "result3.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 69,
+      "row": 1,
+      "smiles": "Cc1cc(OCCCc2c(C(=O)O)[nH]c3cc(Cl)ccc23)cc(C)c1Cl",
+      "target": "result1.csv",
+      "vina_ms": null
+    },
+    {
+      "prep_ms": 67,
+      "row": 1,
+      "smiles": "CNC(=O)c1nnc(NC(=O)C2CC2)cc1Nc1cccc(-c2ncccn2)c1OC",
+      "target": "result2.csv",
+      "vina_ms": null
+    }
+  ],
+  "tier": 1,
+  "ts": "2026-06-22T09:30:38Z"
+}

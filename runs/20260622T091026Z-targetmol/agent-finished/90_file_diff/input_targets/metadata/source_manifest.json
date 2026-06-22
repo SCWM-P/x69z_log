@@ -1,0 +1,31 @@
+{
+  "copied_bytes": 729003,
+  "copied_metadata_bytes": 0,
+  "count": 3,
+  "discovered_file_count": 3,
+  "discovered_pdb_count": 3,
+  "input_dir": "/saisdata",
+  "metadata_count": 0,
+  "metadata_files": [],
+  "targets": [
+    {
+      "copied_path": "input_targets/raw/37/target1.pdb",
+      "relative_path": "37/target1.pdb",
+      "sha256": "5bf7f5f59c497974d761eb8fadbbd6351edadb4fe442a21f3e1470b28c115fe2",
+      "size": 195454
+    },
+    {
+      "copied_path": "input_targets/raw/37/target2.pdb",
+      "relative_path": "37/target2.pdb",
+      "sha256": "200f137801aebdfeeb49f25895a234eb2913c62d05d84665d96743823dd643bc",
+      "size": 160138
+    },
+    {
+      "copied_path": "input_targets/raw/37/target3.pdb",
+      "relative_path": "37/target3.pdb",
+      "sha256": "ede6a192bd7661f7c71cdd42ea2f9c6d735674c65a7966603da91e64363b67a1",
+      "size": 373411
+    }
+  ],
+  "truncated": false
+}
