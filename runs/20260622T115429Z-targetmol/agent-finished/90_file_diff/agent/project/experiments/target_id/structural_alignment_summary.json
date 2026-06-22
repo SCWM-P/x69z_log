@@ -1,0 +1,254 @@
+[
+  {
+    "chain": "B",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW3",
+    "pos": 0,
+    "rmsd": 0.388,
+    "target": "target1"
+  },
+  {
+    "chain": "G",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW3",
+    "pos": 0,
+    "rmsd": 0.444,
+    "target": "target1"
+  },
+  {
+    "chain": "E",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW2",
+    "pos": 0,
+    "rmsd": 0.453,
+    "target": "target1"
+  },
+  {
+    "chain": "D",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW3",
+    "pos": 0,
+    "rmsd": 0.478,
+    "target": "target1"
+  },
+  {
+    "chain": "C",
+    "mode": "numbers",
+    "n": 150,
+    "pdb": "4HW3",
+    "pos": null,
+    "rmsd": 0.479,
+    "target": "target1"
+  },
+  {
+    "chain": "B",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW2",
+    "pos": 0,
+    "rmsd": 0.493,
+    "target": "target1"
+  },
+  {
+    "chain": "D",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW2",
+    "pos": 0,
+    "rmsd": 0.496,
+    "target": "target1"
+  },
+  {
+    "chain": "E",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW3",
+    "pos": 0,
+    "rmsd": 0.496,
+    "target": "target1"
+  },
+  {
+    "chain": "C",
+    "mode": "numbers",
+    "n": 150,
+    "pdb": "4HW2",
+    "pos": null,
+    "rmsd": 0.55,
+    "target": "target1"
+  },
+  {
+    "chain": "F",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW3",
+    "pos": 0,
+    "rmsd": 0.575,
+    "target": "target1"
+  },
+  {
+    "chain": "A",
+    "mode": "numbers",
+    "n": 150,
+    "pdb": "4HW3",
+    "pos": null,
+    "rmsd": 0.597,
+    "target": "target1"
+  },
+  {
+    "chain": "K",
+    "mode": "substring",
+    "n": 151,
+    "pdb": "4HW3",
+    "pos": 0,
+    "rmsd": 0.604,
+    "target": "target1"
+  },
+  {
+    "chain": "B",
+    "mode": "numbers",
+    "n": 256,
+    "pdb": "4WOV",
+    "pos": null,
+    "rmsd": 0.472,
+    "target": "target2"
+  },
+  {
+    "chain": "A",
+    "mode": "numbers",
+    "n": 256,
+    "pdb": "4WOV",
+    "pos": null,
+    "rmsd": 0.503,
+    "target": "target2"
+  },
+  {
+    "chain": "A",
+    "mode": "numbers",
+    "n": 254,
+    "pdb": "3ZON",
+    "pos": null,
+    "rmsd": 0.726,
+    "target": "target2"
+  },
+  {
+    "chain": "A",
+    "mode": "numbers",
+    "n": 257,
+    "pdb": "4OLI",
+    "pos": null,
+    "rmsd": 0.813,
+    "target": "target2"
+  },
+  {
+    "chain": "R",
+    "mode": "substring",
+    "n": 292,
+    "pdb": "7XZ5",
+    "pos": 0,
+    "rmsd": 0.0,
+    "target": "target3"
+  },
+  {
+    "chain": "R",
+    "mode": "substring",
+    "n": 292,
+    "pdb": "7XZ6",
+    "pos": 0,
+    "rmsd": 0.574,
+    "target": "target3"
+  },
+  {
+    "chain": "R",
+    "mode": "numbers",
+    "n": 288,
+    "pdb": "8VHF",
+    "pos": null,
+    "rmsd": 1.08,
+    "target": "target3"
+  },
+  {
+    "chain": "G",
+    "mode": "numbers",
+    "n": 57,
+    "pdb": "7XZ6",
+    "pos": null,
+    "rmsd": 17.662,
+    "target": "target3"
+  },
+  {
+    "chain": "G",
+    "mode": "numbers",
+    "n": 57,
+    "pdb": "7XZ5",
+    "pos": null,
+    "rmsd": 18.026,
+    "target": "target3"
+  },
+  {
+    "chain": "C",
+    "mode": "numbers",
+    "n": 56,
+    "pdb": "8VHF",
+    "pos": null,
+    "rmsd": 18.094,
+    "target": "target3"
+  },
+  {
+    "chain": "N",
+    "mode": "numbers",
+    "n": 128,
+    "pdb": "7XZ6",
+    "pos": null,
+    "rmsd": 18.727,
+    "target": "target3"
+  },
+  {
+    "chain": "N",
+    "mode": "numbers",
+    "n": 128,
+    "pdb": "7XZ5",
+    "pos": null,
+    "rmsd": 18.81,
+    "target": "target3"
+  },
+  {
+    "chain": "N",
+    "mode": "numbers",
+    "n": 129,
+    "pdb": "8VHF",
+    "pos": null,
+    "rmsd": 18.957,
+    "target": "target3"
+  },
+  {
+    "chain": "J",
+    "mode": "numbers",
+    "n": 121,
+    "pdb": "4HW3",
+    "pos": null,
+    "rmsd": 19.3,
+    "target": "target3"
+  },
+  {
+    "chain": "A",
+    "mode": "numbers",
+    "n": 122,
+    "pdb": "4HW4",
+    "pos": null,
+    "rmsd": 19.313,
+    "target": "target3"
+  },
+  {
+    "chain": "E",
+    "mode": "numbers",
+    "n": 122,
+    "pdb": "4HW2",
+    "pos": null,
+    "rmsd": 19.459,
+    "target": "target3"
+  }
+]

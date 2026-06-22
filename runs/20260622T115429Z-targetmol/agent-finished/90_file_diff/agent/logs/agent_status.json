@@ -1,0 +1,91 @@
+{
+  "agent_guidance": "/work/targetmol/run/agent/project/AGENTS.md",
+  "budget_seconds": 13500,
+  "candidate": "/work/targetmol/run/agent/candidate/result.zip",
+  "candidate_exists": true,
+  "candidate_ready_after_segment": "initial",
+  "candidate_repaired_from": "/work/targetmol/run/agent/project/candidate/result.zip",
+  "completed_at": "2026-06-22T12:11:58Z",
+  "dashboard_status": "running_during_agent",
+  "elapsed_seconds": 985.237,
+  "project_candidate": "/work/targetmol/run/agent/project/candidate/result.zip",
+  "provider": "daseinai",
+  "provider_attempts": [
+    {
+      "elapsed_ms": 309,
+      "error": "",
+      "provider": "daseinai",
+      "status": 200
+    }
+  ],
+  "research_input": "/work/targetmol/run/agent/project/input_targets",
+  "rows_per_target": 1,
+  "security": {
+    "owned_paths": [
+      "/work/targetmol/run/agent/project",
+      "/work/targetmol/run/agent/logs",
+      "/work/targetmol/run/agent/codex-home"
+    ],
+    "pi_gid": 65534,
+    "pi_uid": 65534,
+    "pi_user": "nobody",
+    "restricted_paths": [
+      {
+        "exists": true,
+        "mode": "0o700",
+        "ok": true,
+        "path": "/work/targetmol/run/baseline"
+      },
+      {
+        "exists": true,
+        "mode": "0o700",
+        "ok": true,
+        "path": "/work/targetmol/run/logs"
+      },
+      {
+        "exists": true,
+        "mode": "0o700",
+        "ok": true,
+        "path": "/work/targetmol/run/input_targets"
+      },
+      {
+        "exists": true,
+        "mode": "0o700",
+        "ok": true,
+        "path": "/work/targetmol/run/offline_eval/baseline"
+      },
+      {
+        "error": "missing",
+        "exists": false,
+        "ok": false,
+        "path": "/work/targetmol/run/final-result.zip"
+      },
+      {
+        "exists": true,
+        "mode": "0o700",
+        "ok": true,
+        "path": "/saisresult"
+      },
+      {
+        "error": "missing",
+        "exists": false,
+        "ok": false,
+        "path": "/app/targetmol/runtime_secrets.json"
+      }
+    ]
+  },
+  "segments": [
+    {
+      "elapsed_seconds": 985.202,
+      "label": "initial",
+      "returncode": 0,
+      "timeout": false
+    }
+  ],
+  "started_at": "2026-06-22T11:55:33Z",
+  "ts": "2026-06-22T11:55:33Z",
+  "updated_at": "2026-06-22T12:11:58Z",
+  "visibility": "agent_project_contains_only_target_inputs_and_agent_outputs",
+  "x69z_node_limit": "unbounded",
+  "x69z_reference_dir": "/mnt/x69z-reference"
+}

@@ -1,0 +1,582 @@
+[
+  {
+    "ligands": [
+      {
+        "comp_id": "EDO",
+        "mw": 62.068,
+        "name": "1,2-ETHANEDIOL",
+        "type": "non-polymer"
+      },
+      {
+        "comp_id": "PGE",
+        "mw": 150.173,
+        "name": "TRIETHYLENE GLYCOL",
+        "type": "non-polymer"
+      },
+      {
+        "comp_id": "19H",
+        "mw": 392.276,
+        "name": "6-chloro-3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1H-indole-2-carboxylic acid",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "X-RAY DIFFRACTION"
+    ],
+    "pdb": "4HW2",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity": "4HW2_1",
+        "refs": [
+          {
+            "database_accession": "Q07820",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 153,
+        "uniprots": [
+          "Q07820"
+        ]
+      }
+    ],
+    "release": "2013-01-09T00:00:00Z",
+    "resolution": [
+      2.8
+    ],
+    "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design"
+  },
+  {
+    "ligands": [
+      {
+        "comp_id": "19G",
+        "mw": 374.881,
+        "name": "3-[3-(4-chloro-3,5-dimethylphenoxy)propyl]-1-benzothiophene-2-carboxylic acid",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "X-RAY DIFFRACTION"
+    ],
+    "pdb": "4HW3",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L"
+        ],
+        "description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity": "4HW3_1",
+        "refs": [
+          {
+            "database_accession": "Q07820",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 153,
+        "uniprots": [
+          "Q07820"
+        ]
+      }
+    ],
+    "release": "2013-01-09T00:00:00Z",
+    "resolution": [
+      2.4
+    ],
+    "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design"
+  },
+  {
+    "ligands": [],
+    "method": [
+      "X-RAY DIFFRACTION"
+    ],
+    "pdb": "4HW4",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "C",
+          "D"
+        ],
+        "description": "Mcl-1 BH3 peptide",
+        "entity": "4HW4_2",
+        "refs": null,
+        "seq_len": 18,
+        "uniprots": []
+      },
+      {
+        "auth_asym_ids": [
+          "A",
+          "B"
+        ],
+        "description": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+        "entity": "4HW4_1",
+        "refs": [
+          {
+            "database_accession": "Q07820",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 157,
+        "uniprots": [
+          "Q07820"
+        ]
+      }
+    ],
+    "release": "2013-01-09T00:00:00Z",
+    "resolution": [
+      1.53
+    ],
+    "title": "Discovery of potent Mcl-1 inhibitors using fragment-based methods and structure-based design"
+  },
+  {
+    "ligands": [
+      {
+        "comp_id": "IK1",
+        "mw": 261.3,
+        "name": "5-PHENYL-2-UREIDOTHIOPHENE-3-CARBOXAMIDE",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "X-RAY DIFFRACTION"
+    ],
+    "pdb": "3ZON",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "A"
+        ],
+        "description": "NON-RECEPTOR TYROSINE-PROTEIN KINASE TYK2",
+        "entity": "3ZON_1",
+        "refs": [
+          {
+            "database_accession": "P29597",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 335,
+        "uniprots": [
+          "P29597"
+        ]
+      }
+    ],
+    "release": "2013-04-10T00:00:00Z",
+    "resolution": [
+      2.15
+    ],
+    "title": "Human TYK2 pseudokinase domain bound to a kinase inhibitor"
+  },
+  {
+    "ligands": [
+      {
+        "comp_id": "2TT",
+        "mw": 315.754,
+        "name": "2-chloro-N-{2-[(cyclopropylcarbonyl)amino]pyridin-4-yl}benzamide",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "X-RAY DIFFRACTION"
+    ],
+    "pdb": "4OLI",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "A"
+        ],
+        "description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity": "4OLI_1",
+        "refs": [
+          {
+            "database_accession": "P29597",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 645,
+        "uniprots": [
+          "P29597"
+        ]
+      }
+    ],
+    "release": "2014-05-28T00:00:00Z",
+    "resolution": [
+      2.8
+    ],
+    "title": "The pseudokinase/kinase protein from JAK-family member TYK2"
+  },
+  {
+    "ligands": [
+      {
+        "comp_id": "3SM",
+        "mw": 379.416,
+        "name": "2-methoxy-N-({6-[1-methyl-4-(methylamino)-1,6-dihydroimidazo[4,5-d]pyrrolo[2,3-b]pyridin-7-yl]pyridin-2-yl}methyl)acetamide",
+        "type": "non-polymer"
+      },
+      {
+        "comp_id": "SO4",
+        "mw": 96.063,
+        "name": "SULFATE ION",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "X-RAY DIFFRACTION"
+    ],
+    "pdb": "4WOV",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "A",
+          "B"
+        ],
+        "description": "Non-receptor tyrosine-protein kinase TYK2",
+        "entity": "4WOV_1",
+        "refs": [
+          {
+            "database_accession": "P29597",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 317,
+        "uniprots": [
+          "P29597"
+        ]
+      }
+    ],
+    "release": "2015-03-18T00:00:00Z",
+    "resolution": [
+      1.8
+    ],
+    "title": "CRYSTAL STRUCTURE OF TYROSINE KINASE 2 JH2 (PSEUDO KINASE DOMAIN) COMPLEXED WITH BMS-066 AKA 2-METHOXY-N-({6-[3-METHYL-7-(METHYLAMINO)-3,5,8,10-TETRAAZATRICYCLO[7.3.0.0, 6]DODECA-1(9),2(6),4,7,11-PENTAEN-11-YL]PYRIDIN-2-YL}METHY L)ACETAMIDE"
+  },
+  {
+    "ligands": [
+      {
+        "comp_id": "LSC",
+        "mw": 522.675,
+        "name": "(4R,7R,18E)-4,7-dihydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphaheptacos-18-en-1-aminium 4-oxide",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "ELECTRON MICROSCOPY"
+    ],
+    "pdb": "7XZ5",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "R"
+        ],
+        "description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor",
+        "entity": "7XZ5_5",
+        "refs": [
+          {
+            "database_accession": "P0ABE7",
+            "database_name": "UniProt"
+          },
+          {
+            "database_accession": "Q8TDV5",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 485,
+        "uniprots": [
+          "P0ABE7",
+          "Q8TDV5"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "N"
+        ],
+        "description": "Nanobody35",
+        "entity": "7XZ5_4",
+        "refs": null,
+        "seq_len": 139,
+        "uniprots": []
+      },
+      {
+        "auth_asym_ids": [
+          "G"
+        ],
+        "description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+        "entity": "7XZ5_3",
+        "refs": [
+          {
+            "database_accession": "P59768",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 71,
+        "uniprots": [
+          "P59768"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "B"
+        ],
+        "description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+        "entity": "7XZ5_2",
+        "refs": [
+          {
+            "database_accession": "P62873",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 345,
+        "uniprots": [
+          "P62873"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "A"
+        ],
+        "description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short",
+        "entity": "7XZ5_1",
+        "refs": [
+          {
+            "database_accession": "P63092",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 394,
+        "uniprots": [
+          "P63092"
+        ]
+      }
+    ],
+    "release": "2022-08-24T00:00:00Z",
+    "resolution": [
+      3.1
+    ],
+    "title": "GPR119-Gs-LPC complex"
+  },
+  {
+    "ligands": [
+      {
+        "comp_id": "I7J",
+        "mw": 477.509,
+        "name": "propan-2-yl 4-[1-(2-fluoranyl-4-methylsulfonyl-phenyl)pyrazolo[3,4-d]pyrimidin-4-yl]oxypiperidine-1-carboxylate",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "ELECTRON MICROSCOPY"
+    ],
+    "pdb": "7XZ6",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "R"
+        ],
+        "description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor",
+        "entity": "7XZ6_5",
+        "refs": [
+          {
+            "database_accession": "P0ABE7",
+            "database_name": "UniProt"
+          },
+          {
+            "database_accession": "Q8TDV5",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 485,
+        "uniprots": [
+          "P0ABE7",
+          "Q8TDV5"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "N"
+        ],
+        "description": "Nanobody35",
+        "entity": "7XZ6_4",
+        "refs": null,
+        "seq_len": 139,
+        "uniprots": []
+      },
+      {
+        "auth_asym_ids": [
+          "G"
+        ],
+        "description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+        "entity": "7XZ6_3",
+        "refs": [
+          {
+            "database_accession": "P59768",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 71,
+        "uniprots": [
+          "P59768"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "B"
+        ],
+        "description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+        "entity": "7XZ6_2",
+        "refs": [
+          {
+            "database_accession": "P62873",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 345,
+        "uniprots": [
+          "P62873"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "A"
+        ],
+        "description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short",
+        "entity": "7XZ6_1",
+        "refs": [
+          {
+            "database_accession": "P63092",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 394,
+        "uniprots": [
+          "P63092"
+        ]
+      }
+    ],
+    "release": "2022-08-24T00:00:00Z",
+    "resolution": [
+      2.8
+    ],
+    "title": "GPR119-Gs-APD668 complex"
+  },
+  {
+    "ligands": [
+      {
+        "comp_id": "8VP",
+        "mw": 448.544,
+        "name": "2-[1-(5-ethylpyrimidin-2-yl)piperidin-4-yl]-4-[[4-(1,2,3,4-tetrazol-1-yl)phenoxy]methyl]-1,3-thiazole",
+        "type": "non-polymer"
+      }
+    ],
+    "method": [
+      "ELECTRON MICROSCOPY"
+    ],
+    "pdb": "8VHF",
+    "polymer_entities": [
+      {
+        "auth_asym_ids": [
+          "R"
+        ],
+        "description": "Soluble cytochrome b562,Glucose-dependent insulinotropic receptor,LgBiT",
+        "entity": "8VHF_5",
+        "refs": [
+          {
+            "database_accession": "P0ABE7",
+            "database_name": "UniProt"
+          },
+          {
+            "database_accession": "Q8TDV5",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 615,
+        "uniprots": [
+          "P0ABE7",
+          "Q8TDV5"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "A"
+        ],
+        "description": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short",
+        "entity": "8VHF_4",
+        "refs": [
+          {
+            "database_accession": "P63092",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 394,
+        "uniprots": [
+          "P63092"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "N"
+        ],
+        "description": "Nanobody35",
+        "entity": "8VHF_3",
+        "refs": null,
+        "seq_len": 138,
+        "uniprots": []
+      },
+      {
+        "auth_asym_ids": [
+          "C"
+        ],
+        "description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+        "entity": "8VHF_2",
+        "refs": [
+          {
+            "database_accession": "P59768",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 71,
+        "uniprots": [
+          "P59768"
+        ]
+      },
+      {
+        "auth_asym_ids": [
+          "B"
+        ],
+        "description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1, HiBiT",
+        "entity": "8VHF_1",
+        "refs": [
+          {
+            "database_accession": "P62873",
+            "database_name": "UniProt"
+          }
+        ],
+        "seq_len": 371,
+        "uniprots": [
+          "P62873"
+        ]
+      }
+    ],
+    "release": "2024-10-30T00:00:00Z",
+    "resolution": [
+      3.51
+    ],
+    "title": "Cryo-EM structure of GPR119-Gs-Nb35 complex with small molecule agonist MBX-2982"
+  }
+]

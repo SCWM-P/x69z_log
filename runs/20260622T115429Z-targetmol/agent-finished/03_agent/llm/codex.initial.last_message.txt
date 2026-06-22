@@ -1,0 +1,19 @@
+Built the final submission archive:
+
+`/work/targetmol/run/agent/project/candidate/result.zip`
+
+Validation passed:
+- Zip members exactly: `result1.csv`, `result2.csv`, `result3.csv`, `result.log`
+- Each CSV has `mol_smiles,route` and one row
+- RDKit parsed all products
+- Each route final product exactly equals `mol_smiles`
+- Offline eval tier 2: `3/3 ok`, `0 failures`
+
+Final local tier-2 official-weighted proxy scores:
+- `result1`: 87.7436, Mcl-1 ligand 19G
+- `result2`: 86.6038, TYK2 ligand 2TT
+- `result3`: 83.8727, GPR119 ligand 8VP / MBX-2982
+
+All exceed the AGENTS.md historical thresholds. x69z has durable nodes for target diagnosis, target identification, candidate ranking, final decision, and final validation.
+
+Main public structural sources used: [4HW3](https://www.rcsb.org/structure/4HW3), [4OLI](https://www.rcsb.org/structure/4OLI), [7XZ5](https://www.rcsb.org/structure/7XZ5), [8VHF](https://www.rcsb.org/structure/8VHF), plus ligand pages [19G](https://www.rcsb.org/ligand/19G), [2TT](https://www.rcsb.org/ligand/2TT), and [8VP](https://www.rcsb.org/ligand/8VP).
