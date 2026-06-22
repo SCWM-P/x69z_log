@@ -1,0 +1,56 @@
+[
+  {
+    "elapsed_ms": 1308,
+    "error": "HTTP Error 401: Unauthorized",
+    "status": 401,
+    "url": "https://api.openai.com/v1/models"
+  },
+  {
+    "elapsed_ms": 12134,
+    "error": "URLError: <urlopen error _ssl.c:999: The handshake operation timed out>",
+    "status": 0,
+    "url": "https://www.litellm.org/health/liveliness"
+  },
+  {
+    "elapsed_ms": 641,
+    "error": "",
+    "status": 200,
+    "url": "https://www.daseinai.xyz"
+  },
+  {
+    "elapsed_ms": 787,
+    "error": "",
+    "status": 200,
+    "url": "https://open.bigmodel.cn"
+  },
+  {
+    "elapsed_ms": 250,
+    "error": "",
+    "status": 200,
+    "url": "https://www.baidu.com"
+  },
+  {
+    "elapsed_ms": 220,
+    "error": "",
+    "status": 200,
+    "url": "https://www.qq.com"
+  },
+  {
+    "elapsed_ms": 439,
+    "error": "",
+    "status": 200,
+    "url": "https://gitee.com"
+  },
+  {
+    "elapsed_ms": 654,
+    "error": "",
+    "status": 200,
+    "url": "https://github.com"
+  },
+  {
+    "elapsed_ms": 2016,
+    "error": "",
+    "status": 200,
+    "url": "https://gitlab.com"
+  }
+]
