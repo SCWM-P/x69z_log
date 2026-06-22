@@ -1,0 +1,199 @@
+{
+  "cgroup": "15:name=systemd:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n14:misc:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n13:rdma:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n12:pids:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n11:hugetlb:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n10:net_prio:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n9:perf_event:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n8:net_cls:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n7:freezer:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n6:devices:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n5:memory:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n4:blkio:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n3:cpuacct:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n2:cpu:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n1:cpuset:/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n0::/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3\n",
+  "commands": {
+    "block_devices": {
+      "command": [
+        "lsblk",
+        "-a",
+        "-o",
+        "NAME,TYPE,SIZE,FSTYPE,MOUNTPOINTS,MODEL"
+      ],
+      "elapsed_ms": 79,
+      "status": 0,
+      "stderr": "",
+      "stdout": "NAME  TYPE   SIZE FSTYPE MOUNTPOINTS      MODEL\nram0  disk    64M                         \nram1  disk    64M                         \nram2  disk    64M                         \nram3  disk    64M                         \nram4  disk    64M                         \nram5  disk    64M                         \nram6  disk    64M                         \nram7  disk    64M                         \nram8  disk    64M                         \nram9  disk    64M                         \nram10 disk    64M                         \nram11 disk    64M                         \nram12 disk    64M                         \nram13 disk    64M                         \nram14 disk    64M                         \nram15 disk    64M                         \nloop0 loop   598M                         \nloop1 loop 651.4M                         \nloop2 loop     0B                         \nloop3 loop     0B                         \nloop4 loop     0B                         \nloop5 loop     0B                         \nloop6 loop     0B                         \nloop7 loop     0B                         \nsda   disk 388.4M                         Virtual Disk    \nsdb   disk     1G        [SWAP]           Virtual Disk    \nsdc   disk     1T                         Virtual Disk    \nsdd   disk     1T        /etc/hosts       Virtual Disk    \n                         /etc/hostname    \n                         /etc/resolv.conf \n"
+    },
+    "disk": {
+      "command": [
+        "df",
+        "-hT"
+      ],
+      "elapsed_ms": 6,
+      "status": 0,
+      "stderr": "",
+      "stdout": "Filesystem     Type     Size  Used Avail Use% Mounted on\noverlay        overlay 1007G  9.8G  946G   2% /\ntmpfs          tmpfs     64M     0   64M   0% /dev\ntmpfs          tmpfs    2.0G     0  2.0G   0% /sys/fs/cgroup\nshm            tmpfs     64M     0   64M   0% /dev/shm\nD:\\            9p       421G  359G   62G  86% /work\n/dev/sdd       ext4    1007G  9.8G  946G   2% /etc/hosts\nC:\\            9p       321G  192G  129G  60% /run/secrets/targetmol_github_ssh_key\ntmpfs          tmpfs    2.0G     0  2.0G   0% /proc/acpi\ntmpfs          tmpfs    2.0G     0  2.0G   0% /sys/firmware\n"
+    },
+    "gpu": {
+      "command": [
+        "nvidia-smi",
+        "-q"
+      ],
+      "elapsed_ms": 2,
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: 'nvidia-smi'",
+      "status": null
+    },
+    "identity": {
+      "command": [
+        "id"
+      ],
+      "elapsed_ms": 4,
+      "status": 0,
+      "stderr": "",
+      "stdout": "uid=0(root) gid=0(root) groups=0(root)\n"
+    },
+    "limits": {
+      "command": [
+        "bash",
+        "-lc",
+        "ulimit -a"
+      ],
+      "elapsed_ms": 7,
+      "status": 0,
+      "stderr": "",
+      "stdout": "real-time non-blocking time  (microseconds, -R) unlimited\ncore file size              (blocks, -c) 0\ndata seg size               (kbytes, -d) unlimited\nscheduling priority                 (-e) 0\nfile size                   (blocks, -f) unlimited\npending signals                     (-i) 15656\nmax locked memory           (kbytes, -l) unlimited\nmax memory size             (kbytes, -m) unlimited\nopen files                          (-n) 1048576\npipe size                (512 bytes, -p) 8\nPOSIX message queues         (bytes, -q) 819200\nreal-time priority                  (-r) 0\nstack size                  (kbytes, -s) 8192\ncpu time                   (seconds, -t) unlimited\nmax user processes                  (-u) unlimited\nvirtual memory              (kbytes, -v) unlimited\nfile locks                          (-x) unlimited\n"
+    },
+    "mounts": {
+      "command": [
+        "findmnt",
+        "-A",
+        "-o",
+        "TARGET,SOURCE,FSTYPE,OPTIONS"
+      ],
+      "elapsed_ms": 7,
+      "status": 0,
+      "stderr": "",
+      "stdout": "                     proc[/bus]                                                                                                     proc    ro,nosuid,nodev,noexec,relatime\n│ ├─/proc/fs                            proc[/fs]                                                                                                      proc    ro,nosuid,nodev,noexec,relatime\n│ ├─/proc/irq                           proc[/irq]                                                                                                     proc    ro,nosuid,nodev,noexec,relatime\n│ ├─/proc/sys                           proc[/sys]                                                                                                     proc    ro,nosuid,nodev,noexec,relatime\n│ ├─/proc/acpi                          tmpfs                                                                                                          tmpfs   ro,relatime\n│ ├─/proc/interrupts                    tmpfs[/null]                                                                                                   tmpfs   rw,nosuid,size=65536k,mode=755\n│ ├─/proc/kcore                         tmpfs[/null]                                                                                                   tmpfs   rw,nosuid,size=65536k,mode=755\n│ ├─/proc/keys                          tmpfs[/null]                                                                                                   tmpfs   rw,nosuid,size=65536k,mode=755\n│ └─/proc/timer_list                    tmpfs[/null]                                                                                                   tmpfs   rw,nosuid,size=65536k,mode=755\n├─/dev                                  tmpfs                                                                                                          tmpfs   rw,nosuid,size=65536k,mode=755\n│ ├─/dev/pts                            devpts                                                                                                         devpts  rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=666\n│ ├─/dev/mqueue                         mqueue                                                                                                         mqueue  rw,nosuid,nodev,noexec,relatime\n│ └─/dev/shm                            shm                                                                                                            tmpfs   rw,nosuid,nodev,noexec,relatime,size=65536k\n├─/sys                                  sysfs                                                                                                          sysfs   ro,nosuid,nodev,noexec,relatime\n│ ├─/sys/firmware                       tmpfs                                                                                                          tmpfs   ro,relatime\n│ └─/sys/fs/cgroup                      tmpfs                                                                                                          tmpfs   rw,nosuid,nodev,noexec,relatime,mode=755\n│   ├─/sys/fs/cgroup/cpuset             cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,cpuset\n│   ├─/sys/fs/cgroup/cpu                cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,cpu\n│   ├─/sys/fs/cgroup/cpuacct            cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,cpuacct\n│   ├─/sys/fs/cgroup/blkio              cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,blkio\n│   ├─/sys/fs/cgroup/memory             cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,memory\n│   ├─/sys/fs/cgroup/devices            cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,devices\n│   ├─/sys/fs/cgroup/freezer            cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,freezer\n│   ├─/sys/fs/cgroup/net_cls            cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,net_cls\n│   ├─/sys/fs/cgroup/perf_event         cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,perf_event\n│   ├─/sys/fs/cgroup/net_prio           cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,net_prio\n│   ├─/sys/fs/cgroup/hugetlb            cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,hugetlb\n│   ├─/sys/fs/cgroup/pids               cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,pids\n│   ├─/sys/fs/cgroup/rdma               cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,rdma\n│   ├─/sys/fs/cgroup/misc               cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,misc\n│   └─/sys/fs/cgroup/systemd            cgroup[/docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3]                               cgroup  ro,nosuid,nodev,noexec,relatime,name=systemd\n├─/saisdata                             D:\\[/Projects/docker/targetMOL/offline_sets/stageb_20260621_submit1]                                           9p      ro,noatime,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n├─/saisresult                           D:\\[/Projects/docker/targetMOL/tmp/agent-os-isolation-smoke-output]                                            9p      rw,noatime,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n├─/work                                 D:\\[/Projects/docker/targetMOL/tmp/agent-os-isolation-smoke-work]                                              9p      rw,noatime,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n├─/mnt/x69z-reference                   D:\\[/Projects/x69z]                                                                                            9p      ro,noatime,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n├─/etc/resolv.conf                      /dev/sdd[/data/docker/containers/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3/resolv.conf] ext4    rw,relatime\n├─/etc/hostname                         /dev/sdd[/data/docker/containers/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3/hostname]    ext4    rw,relatime\n├─/etc/hosts                            /dev/sdd[/data/docker/containers/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3/hosts]       ext4    rw,relatime\n└─/run/secrets/targetmol_github_ssh_key C:\\[/Users/lenovo/.ssh/id_ed25519]                                                                             9p      ro,noatime,dirsync,aname=drvfs;path=C:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n"
+    },
+    "network": {
+      "command": [
+        "ip",
+        "-details",
+        "address"
+      ],
+      "elapsed_ms": 11,
+      "status": 0,
+      "stderr": "",
+      "stdout": "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 promiscuity 0 minmtu 0 maxmtu 0 numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 \n    inet 127.0.0.1/8 scope host lo\n       valid_lft forever preferred_lft forever\n    inet6 ::1/128 scope host \n       valid_lft forever preferred_lft forever\n2: eth0@if262: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default \n    link/ether ba:ce:f5:5c:91:f9 brd ff:ff:ff:ff:ff:ff link-netnsid 0 promiscuity 0 minmtu 68 maxmtu 65535 \n    veth numtxqueues 4 numrxqueues 4 gso_max_size 65536 gso_max_segs 65535 \n    inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0\n       valid_lft forever preferred_lft forever\n"
+    },
+    "pci": {
+      "command": [
+        "lspci",
+        "-nn"
+      ],
+      "elapsed_ms": 23,
+      "status": 0,
+      "stderr": "",
+      "stdout": "5582:00:00.0 SCSI storage controller [0100]: Red Hat, Inc. Virtio console [1af4:1043] (rev 01)\n63f8:00:00.0 System peripheral [0880]: Red Hat, Inc. Virtio file system [1af4:105a] (rev 01)\nc0ed:00:00.0 3D controller [0302]: Microsoft Corporation Device [1414:008e]\ncbf5:00:00.0 3D controller [0302]: Microsoft Corporation Device [1414:008e]\n"
+    },
+    "processes": {
+      "command": [
+        "ps",
+        "-ef"
+      ],
+      "elapsed_ms": 12,
+      "status": 0,
+      "stderr": "",
+      "stdout": "UID        PID  PPID  C STIME TTY          TIME CMD\nroot         1     0  0 08:34 ?        00:00:00 /opt/conda/bin/python /app/targetmol/supervisor.py --input-dir /saisdata --output-dir /saisresult\nroot        58     1  0 08:35 ?        00:00:00 /opt/conda/bin/python /app/targetmol/probe.py --input-dir /saisdata --output-dir /work/targetmol/run/probe\nroot        59     1  0 08:35 ?        00:00:00 /opt/conda/bin/python /app/targetmol/baseline_v2.py --input_dir /saisdata --output_dir /work/targetmol/run/baseline --work_dir /app --enhancement_budget_seconds 30 --molecules_per_target 1 --search_pool_per_target 96\nroot        62    58  0 08:35 ?        00:00:00 ps -ef\n"
+    },
+    "routes": {
+      "command": [
+        "ip",
+        "route",
+        "show",
+        "table",
+        "all"
+      ],
+      "elapsed_ms": 3,
+      "status": 0,
+      "stderr": "",
+      "stdout": "default via 172.17.0.1 dev eth0 \n172.17.0.0/16 dev eth0 proto kernel scope link src 172.17.0.2 \nlocal 127.0.0.0/8 dev lo table local proto kernel scope host src 127.0.0.1 \nlocal 127.0.0.1 dev lo table local proto kernel scope host src 127.0.0.1 \nbroadcast 127.255.255.255 dev lo table local proto kernel scope link src 127.0.0.1 \nlocal 172.17.0.2 dev eth0 table local proto kernel scope host src 172.17.0.2 \nbroadcast 172.17.255.255 dev eth0 table local proto kernel scope link src 172.17.0.2 \nlocal ::1 dev lo table local proto kernel metric 0 pref medium\n"
+    }
+  },
+  "cpu_count": 4,
+  "cpuinfo": "processor\t: 0\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 68\nmodel name\t: AMD Ryzen 7 6800H with Radeon Graphics\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.883\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 4\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso\nbogomips\t: 6387.76\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 68\nmodel name\t: AMD Ryzen 7 6800H with Radeon Graphics\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.883\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 4\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso\nbogomips\t: 6387.76\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 2\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 68\nmodel name\t: AMD Ryzen 7 6800H with Radeon Graphics\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.883\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 4\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 2\ninitial apicid\t: 2\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso\nbogomips\t: 6387.76\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 3\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 68\nmodel name\t: AMD Ryzen 7 6800H with Radeon Graphics\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3193.883\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 4\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 3\ninitial apicid\t: 3\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso\nbogomips\t: 6387.76\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\n",
+  "credentials_present": {
+    "ANTHROPIC_AUTH_TOKEN": true,
+    "DASEINAI_API_KEY": true,
+    "GH_TOKEN": false,
+    "GITHUB_TOKEN": false,
+    "GITLAB_PERSONAL_TOKEN": true,
+    "GITLAB_TOKEN": false,
+    "GL_TOKEN": false,
+    "KEY_NAME": true,
+    "NVIDIA_API_KEY": false,
+    "NVIDIA_DIFFDOCK_KEY": true,
+    "NVIDIA_DIFFDOCK_KEY_NAME": false,
+    "OPENAI_API_KEY": true,
+    "ZHIPUAI_API_KEY": false
+  },
+  "devices": "Character devices:\n  1 mem\n  4 /dev/vc/0\n  4 tty\n  4 ttyS\n  5 /dev/tty\n  5 /dev/console\n  5 /dev/ptmx\n  7 vcs\n 10 misc\n 13 input\n 21 sg\n108 ppp\n128 ptm\n136 pts\n166 ttyACM\n180 usb\n189 usb_device\n226 drm\n229 hvc\n241 vhost-vdpa\n242 hidraw\n243 vfio\n244 uio\n245 macvtap\n246 ipvtap\n247 virtio-portsdev\n248 bsg\n249 ptp\n250 pps\n251 rtc\n252 dax\n253 dimmctl\n254 ndctl\n\nBlock devices:\n  1 ramdisk\n  7 loop\n  8 sd\n  9 md\n 65 sd\n 66 sd\n 67 sd\n 68 sd\n 69 sd\n 70 sd\n 71 sd\n128 sd\n129 sd\n130 sd\n131 sd\n132 sd\n133 sd\n134 sd\n135 sd\n252 device-mapper\n253 virtblk\n254 mdp\n259 blkext\n",
+  "hostname": "aa8e7870d641",
+  "load_average": [
+    0.0615234375,
+    0.02587890625,
+    0.00390625
+  ],
+  "memory": "MemTotal:        4014980 kB\nMemFree:         2602420 kB\nMemAvailable:    3063356 kB\nBuffers:           44272 kB\nCached:           547420 kB\nSwapCached:            0 kB\nActive:           300868 kB\nInactive:         704544 kB\nActive(anon):       2152 kB\nInactive(anon):   415280 kB\nActive(file):     298716 kB\nInactive(file):   289264 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       1048576 kB\nSwapFree:        1048576 kB\nDirty:               680 kB\nWriteback:           124 kB\nAnonPages:        405592 kB\nMapped:           259016 kB\nShmem:              3696 kB\nKReclaimable:     145980 kB\nSlab:             190288 kB\nSReclaimable:     145980 kB\nSUnreclaim:        44308 kB\nKernelStack:        3648 kB\nPageTables:         3688 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     3056064 kB\nCommitted_AS:    1119944 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       23336 kB\nVmallocChunk:          0 kB\nPercpu:             1488 kB\nAnonHugePages:    280576 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      134144 kB\nDirectMap2M:     4059136 kB\nDirectMap1G:     8388608 kB\n",
+  "mountinfo": "579 428 0:103 / / rw,relatime - overlay overlay rw,lowerdir=/var/lib/docker/overlay2/l/XK2WCA3IDVZCUDPDWKICK5BBWV:/var/lib/docker/overlay2/l/J7J7IGHM7A3MGDWO5NXYN7QEXA:/var/lib/docker/overlay2/l/VBMQGYKF4HUQU2XJ5DKCIRQC57:/var/lib/docker/overlay2/l/VKFG6BBG6ULNH5PF5ZGM5I7MW7:/var/lib/docker/overlay2/l/5SKYBPAZJ5JT2ZYTHK7E3OC2XZ:/var/lib/docker/overlay2/l/VEVJRVIA7MSNOQONXADSVQFMZP:/var/lib/docker/overlay2/l/CV3TAGM25UOXMYXZ7XQOC3ZKXH:/var/lib/docker/overlay2/l/Q25JQAU5MOPWAFXSIW4RWZDLJX:/var/lib/docker/overlay2/l/HA6WNYFR3S3CH5PCOOINCX43TN:/var/lib/docker/overlay2/l/27QVKVNZ4JEABGU4GWCV34QUI3:/var/lib/docker/overlay2/l/46IB7XNLSYHRKYMKOHDM5WB5ZA:/var/lib/docker/overlay2/l/FKTK4XDMNSLY2SW3YV5YN7SHB3:/var/lib/docker/overlay2/l/A76FVV3K5K7IVTC2WCBGELTKC7:/var/lib/docker/overlay2/l/MRKEXMYRAMMFFHJWTQL46DN5TA:/var/lib/docker/overlay2/l/QCISOLKR4GBNQZ7ERVTF45SVDI:/var/lib/docker/overlay2/l/JR3FJMGMJ5XTYTP7IY3JYBPTVT:/var/lib/docker/overlay2/l/RLT44EXUKBGN46QKB3PVUAQQBJ:/var/lib/docker/overlay2/l/LY6NDUP5HORZGUN444HPV7XG4J:/var/lib/docker/overlay2/l/7XULVDJKMLKUXGJ5ROYZICLVWQ:/var/lib/docker/overlay2/l/VEPGSK77LPOGN266JFLYSEDKVI:/var/lib/docker/overlay2/l/GRKK574JVTEZUHEX7CWKXRNRIT:/var/lib/docker/overlay2/l/6H6K75VEJRG7YTLVJ4RPBVSR5M:/var/lib/docker/overlay2/l/3HKAS35KYPCBOCQL7MBF2VRG3Q:/var/lib/docker/overlay2/l/4OTLJ4I3RV5QRYCNE236WNRFDT:/var/lib/docker/overlay2/l/QFTAT5KOZR3R7S6AJTKDD3QBFS:/var/lib/docker/overlay2/l/HM2IV3AX7WKIFYSNJWKZ4SOOZX:/var/lib/docker/overlay2/l/AEZGMBJBS4YME5C2H7UX6EKEYO:/var/lib/docker/overlay2/l/O45BG6PXRMUW5ARUZBOK6XCRG3:/var/lib/docker/overlay2/l/M672546YHZ7D7FHQ675VX5QQTO,upperdir=/var/lib/docker/overlay2/e1ea6ffa09ee8a2dd61b862f7a0f7c627e1a9e59b863e6736ea914f252915f4f/diff,workdir=/var/lib/docker/overlay2/e1ea6ffa09ee8a2dd61b862f7a0f7c627e1a9e59b863e6736ea914f252915f4f/work\n581 579 0:111 / /proc rw,nosuid,nodev,noexec,relatime - proc proc rw\n582 579 0:112 / /dev rw,nosuid - tmpfs tmpfs rw,size=65536k,mode=755\n583 582 0:113 / /dev/pts rw,nosuid,noexec,relatime - devpts devpts rw,gid=5,mode=620,ptmxmode=666\n584 579 0:114 / /sys ro,nosuid,nodev,noexec,relatime - sysfs sysfs ro\n585 584 0:115 / /sys/fs/cgroup rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,mode=755\n586 585 0:59 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/cpuset ro,nosuid,nodev,noexec,relatime master:31 - cgroup cgroup rw,cpuset\n587 585 0:60 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/cpu ro,nosuid,nodev,noexec,relatime master:32 - cgroup cgroup rw,cpu\n588 585 0:61 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/cpuacct ro,nosuid,nodev,noexec,relatime master:33 - cgroup cgroup rw,cpuacct\n589 585 0:69 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/blkio ro,nosuid,nodev,noexec,relatime master:35 - cgroup cgroup rw,blkio\n590 585 0:70 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/memory ro,nosuid,nodev,noexec,relatime master:36 - cgroup cgroup rw,memory\n591 585 0:71 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/devices ro,nosuid,nodev,noexec,relatime master:38 - cgroup cgroup rw,devices\n592 585 0:72 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/freezer ro,nosuid,nodev,noexec,relatime master:39 - cgroup cgroup rw,freezer\n593 585 0:73 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/net_cls ro,nosuid,nodev,noexec,relatime master:40 - cgroup cgroup rw,net_cls\n594 585 0:74 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/perf_event ro,nosuid,nodev,noexec,relatime master:41 - cgroup cgroup rw,perf_event\n595 585 0:75 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/net_prio ro,nosuid,nodev,noexec,relatime master:42 - cgroup cgroup rw,net_prio\n596 585 0:76 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/hugetlb ro,nosuid,nodev,noexec,relatime master:45 - cgroup cgroup rw,hugetlb\n597 585 0:77 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/pids ro,nosuid,nodev,noexec,relatime master:48 - cgroup cgroup rw,pids\n598 585 0:78 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/rdma ro,nosuid,nodev,noexec,relatime master:50 - cgroup cgroup rw,rdma\n599 585 0:79 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/misc ro,nosuid,nodev,noexec,relatime master:52 - cgroup cgroup rw,misc\n600 585 0:100 /docker/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3 /sys/fs/cgroup/systemd ro,nosuid,nodev,noexec,relatime - cgroup cgroup rw,name=systemd\n601 582 0:109 / /dev/mqueue rw,nosuid,nodev,noexec,relatime - mqueue mqueue rw\n602 582 0:116 / /dev/shm rw,nosuid,nodev,noexec,relatime - tmpfs shm rw,size=65536k\n603 579 0:85 /Projects/docker/targetMOL/offline_sets/stageb_20260621_submit1 /saisdata ro,noatime - 9p D:\\134 rw,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n604 579 0:85 /Projects/docker/targetMOL/tmp/agent-os-isolation-smoke-output /saisresult rw,noatime - 9p D:\\134 rw,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n605 579 0:85 /Projects/docker/targetMOL/tmp/agent-os-isolation-smoke-work /work rw,noatime - 9p D:\\134 rw,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n606 579 0:85 /Projects/x69z /mnt/x69z-reference ro,noatime - 9p D:\\134 rw,dirsync,aname=drvfs;path=D:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n607 579 8:48 /data/docker/containers/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3/resolv.conf /etc/resolv.conf rw,relatime - ext4 /dev/sdd rw\n608 579 8:48 /data/docker/containers/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3/hostname /etc/hostname rw,relatime - ext4 /dev/sdd rw\n609 579 8:48 /data/docker/containers/aa8e7870d641fb00ad62695024818fe85dfef71c00de13be12cda0a01e727fc3/hosts /etc/hosts rw,relatime - ext4 /dev/sdd rw\n610 579 0:84 /Users/lenovo/.ssh/id_ed25519 /run/secrets/targetmol_github_ssh_key ro,noatime - 9p C:\\134 rw,dirsync,aname=drvfs;path=C:\\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4\n441 581 0:111 /bus /proc/bus ro,nosuid,nodev,noexec,relatime - proc proc rw\n442 581 0:111 /fs /proc/fs ro,nosuid,nodev,noexec,relatime - proc proc rw\n443 581 0:111 /irq /proc/irq ro,nosuid,nodev,noexec,relatime - proc proc rw\n444 581 0:111 /sys /proc/sys ro,nosuid,nodev,noexec,relatime - proc proc rw\n445 581 0:117 / /proc/acpi ro,relatime - tmpfs tmpfs ro\n446 581 0:112 /null /proc/interrupts rw,nosuid - tmpfs tmpfs rw,size=65536k,mode=755\n447 581 0:112 /null /proc/kcore rw,nosuid - tmpfs tmpfs rw,size=65536k,mode=755\n448 581 0:112 /null /proc/keys rw,nosuid - tmpfs tmpfs rw,size=65536k,mode=755\n449 581 0:112 /null /proc/timer_list rw,nosuid - tmpfs tmpfs rw,size=65536k,mode=755\n450 584 0:118 / /sys/firmware ro,relatime - tmpfs tmpfs ro\n",
+  "namespaces": {
+    "cgroup": "cgroup:[4026531835]",
+    "ipc": "ipc:[4026532486]",
+    "mnt": "mnt:[4026532484]",
+    "net": "net:[4026532488]",
+    "pid": "pid:[4026532487]",
+    "pid_for_children": "pid:[4026532487]",
+    "time": "time:[4026531834]",
+    "time_for_children": "time:[4026531834]",
+    "user": "user:[4026531837]",
+    "uts": "uts:[4026532485]"
+  },
+  "platform": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.11.15",
+  "rlimits": {
+    "as": [
+      -1,
+      -1
+    ],
+    "cpu": [
+      -1,
+      -1
+    ],
+    "nofile": [
+      1048576,
+      1048576
+    ],
+    "nproc": [
+      -1,
+      -1
+    ]
+  },
+  "targets": [
+    {
+      "mode": "0o777",
+      "path": "/saisdata/target1.pdb",
+      "sha256": "486885c61dfe4785eb0a731819ea151d42dd42650cac736b8e16bebb0ee92104",
+      "size": 197869
+    },
+    {
+      "mode": "0o777",
+      "path": "/saisdata/target2.pdb",
+      "sha256": "f8d47b8075839051d7a9c57d4db7c4b438ad394b142700867da085c874b9978f",
+      "size": 162117
+    },
+    {
+      "mode": "0o777",
+      "path": "/saisdata/target3.pdb",
+      "sha256": "66ae8d942b808f55a4aec4eb3ddaf1c532e174329ea2abfaf581aadd74f28213",
+      "size": 378023
+    }
+  ],
+  "ts": "2026-06-22T08:35:17Z",
+  "writable": {
+    "/app": true,
+    "/root": true,
+    "/saisdata": false,
+    "/saisresult": true,
+    "/tmp": true,
+    "/work": true
+  }
+}

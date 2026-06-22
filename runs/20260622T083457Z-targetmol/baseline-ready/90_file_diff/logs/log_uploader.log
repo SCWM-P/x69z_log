@@ -1,0 +1,1 @@
+{"checkpoint": "started", "event": "upload_attempt", "returncode": 0, "stderr": "", "stdout": "{\"event\": \"log_upload_complete\", \"results\": [{\"ok\": true, \"remote\": \"gitlab\", \"run_id\": \"20260622T083457Z-targetmol\"}, {\"ok\": true, \"remote\": \"github\", \"run_id\": \"20260622T083457Z-targetmol\"}]}\n", "ts": "2026-06-22T08:35:17Z"}

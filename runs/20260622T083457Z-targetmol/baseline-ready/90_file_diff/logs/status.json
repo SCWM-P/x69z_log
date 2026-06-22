@@ -1,0 +1,107 @@
+{
+  "baseline_impl": "targetmol_v2",
+  "baseline_offline_eval": {
+    "elapsed_seconds": 13.663,
+    "failure_count": 0,
+    "label": "baseline",
+    "molecule_count": 3,
+    "official_weighted_proxy_score_mean": 76.103,
+    "official_weighted_proxy_score_min": 74.4616,
+    "ok_count": 3,
+    "outputs": {
+      "failures_jsonl": "/work/targetmol/run/offline_eval/baseline/failures.jsonl",
+      "metrics_jsonl": "/work/targetmol/run/offline_eval/baseline/metrics.jsonl",
+      "per_molecule_csv": "/work/targetmol/run/offline_eval/baseline/per_molecule.csv"
+    },
+    "pdb_dir": "/saisdata",
+    "proxy_score_mean": 65.9624,
+    "proxy_score_min": 62.8373,
+    "result_zip": "/work/targetmol/run/baseline/result.zip",
+    "scale_note": "Local scores are transparent 0-100 proxy/ranking signals using official field names and the semifinal 0.6 molecule / 0.4 synthesis-route top-level weighting; they are not on the hidden leaderboard 0.x scale and should not be subtracted from official scores.",
+    "slowest": [
+      {
+        "prep_ms": 123,
+        "row": 1,
+        "smiles": "O=C(O)c1c(-c2ccc(Cl)cc2)[nH]c2ccc(Oc3ccccc3)cc12",
+        "target": "result1.csv",
+        "vina_ms": 4812
+      },
+      {
+        "prep_ms": 89,
+        "row": 1,
+        "smiles": "CS(=O)(=O)c1ccc(OC2CCN(c3ncccn3)CC2)cc1",
+        "target": "result3.csv",
+        "vina_ms": 3756
+      },
+      {
+        "prep_ms": 49,
+        "row": 1,
+        "smiles": "CC(C)(C)NC(=O)c1ccc(Nc2ncc(C#N)cc2F)cn1",
+        "target": "result2.csv",
+        "vina_ms": 3717
+      }
+    ],
+    "tier": 2,
+    "ts": "2026-06-22T08:36:08Z"
+  },
+  "baseline_search_pool_per_target": 96,
+  "baseline_status": 0,
+  "budgets": {
+    "agent": 90,
+    "baseline": 240,
+    "finalization_reserve": 120,
+    "total": 330
+  },
+  "completed_at": null,
+  "input_targets": {
+    "copied_bytes": 738009,
+    "copied_metadata_bytes": 5122,
+    "count": 3,
+    "discovered_file_count": 5,
+    "discovered_pdb_count": 3,
+    "input_dir": "/saisdata",
+    "metadata_count": 2,
+    "metadata_files": [
+      {
+        "copied_path": "input_targets/metadata/README.md",
+        "relative_path": "README.md",
+        "sha256": "b20ad53f2f0d042c3aa846080eed07b63036265988ccc0316350f42b14c23ce9",
+        "size": 4195
+      },
+      {
+        "copied_path": "input_targets/metadata/source_manifest.json",
+        "relative_path": "source_manifest.json",
+        "sha256": "784ed9ba0c52953989bf706accfd708cc4184c400548a429a9b664e72347fa75",
+        "size": 927
+      }
+    ],
+    "targets": [
+      {
+        "copied_path": "input_targets/raw/target1.pdb",
+        "relative_path": "target1.pdb",
+        "sha256": "486885c61dfe4785eb0a731819ea151d42dd42650cac736b8e16bebb0ee92104",
+        "size": 197869
+      },
+      {
+        "copied_path": "input_targets/raw/target2.pdb",
+        "relative_path": "target2.pdb",
+        "sha256": "f8d47b8075839051d7a9c57d4db7c4b438ad394b142700867da085c874b9978f",
+        "size": 162117
+      },
+      {
+        "copied_path": "input_targets/raw/target3.pdb",
+        "relative_path": "target3.pdb",
+        "sha256": "66ae8d942b808f55a4aec4eb3ddaf1c532e174329ea2abfaf581aadd74f28213",
+        "size": 378023
+      }
+    ],
+    "truncated": false
+  },
+  "max_replacements_per_target": 1,
+  "rows_per_target": 1,
+  "run_id": "20260622T083457Z-targetmol",
+  "runtime_secret_names_loaded": [],
+  "started_at": "2026-06-22T08:34:57Z",
+  "success": false,
+  "updated_at": "2026-06-22T08:36:08Z"
+}
